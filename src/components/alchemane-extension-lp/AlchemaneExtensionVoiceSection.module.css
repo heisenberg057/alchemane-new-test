@@ -1,0 +1,18 @@
+.grid { display: grid; gap: var(--stack); }
+.media { max-width: 420px; }
+.body :global(.cta) { margin-inline: 0; }
+
+.frame { position: relative; display: block; width: 100%; aspect-ratio: 4 / 5; border-radius: var(--radius-sm); overflow: hidden; box-shadow: var(--shadow-media); cursor: pointer; background: var(--ink); transform: translateY(-12px); }
+.frame :global(img) { position: absolute; inset: 0; width: 100% !important; height: 100% !important; object-fit: cover; }
+.videoEl { width: 100%; height: 100%; object-fit: cover; }
+.playButton { position: absolute; inset: 0; display: grid; place-items: center; color: transparent; font-size: 0; }
+.playButton svg { width: 64px; height: 64px; padding: 18px; border-radius: 50%; background: rgba(246, 244, 239, 0.94); color: var(--ink); box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.5); }
+
+.quotes { display: grid; gap: var(--s-4); margin: var(--s-6) 0 var(--s-8); }
+.quotes li { position: relative; padding-left: 26px; font-family: var(--font-serif); font-size: clamp(1.2rem, 1.05rem + 0.6vw, 1.5rem); line-height: 1.4; color: var(--ink-soft); text-wrap: pretty; }
+.quotes li::before { content: ''; position: absolute; left: 0; top: 0.72em; width: 14px; height: 1.5px; background: var(--champagne); }
+.quotes strong { font-weight: 500; color: var(--teal-deep); }
+
+@media (min-width: 900px) {
+  .grid { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); align-items: center; column-gap: clamp(32px, 6vw, 96px); }
+}

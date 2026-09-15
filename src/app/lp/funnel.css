@@ -1,0 +1,284 @@
+/**
+ * Funnel LP base styles (all viewports).
+ * Desktop/tablet responsive system: funnel-desktop.css
+ */
+.funnel-page {
+  --funnel-header-height: 78px;
+  font-family: var(--font-funnel-montserrat), Montserrat, sans-serif;
+  color: #191919;
+  background: #fff;
+}
+
+.funnel-html-section {
+  width: 100%;
+}
+
+.funnel-section-inner {
+  width: 100%;
+}
+
+.funnel-html-section img,
+.funnel-html-section iframe,
+.funnel-html-section video {
+  max-width: 100%;
+}
+
+.funnel-html-section [style*='max-width:450px'],
+.funnel-html-section [style*='max-width: 450px'] {
+  width: 100%;
+}
+
+/* Customization / First Choice cards — desktop labels hidden on mobile */
+.funnel-customization__card-label,
+.funnel-first-choice__card-label {
+  display: none;
+}
+
+.funnel-customization__checklist-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Sticky marquee ticker — full-bleed at top of page (mobile + desktop) */
+.funnel-page .funnel-html-section[data-funnel-section='sticky-marquee'],
+.funnel-page .funnel-html-section[data-funnel-section='block-02'],
+.funnel-page .funnel-html-section[data-funnel-section*='sticky'] {
+  padding: 0;
+  margin: 0;
+}
+
+.funnel-page .funnel-html-section[data-funnel-section='sticky-marquee'] .funnel-section-inner,
+.funnel-page .funnel-html-section[data-funnel-section='block-02'] .funnel-section-inner,
+.funnel-page .funnel-html-section[data-funnel-section*='sticky'] .funnel-section-inner {
+  padding: 0;
+  margin: 0;
+}
+
+.funnel-page [id^='ah-marquee-sentinel-'],
+.funnel-page [id^='ah-marquee-spacer-'] {
+  display: none !important;
+}
+
+/* Marquee bar scrolls with the page — never pins/fixed on scroll */
+.funnel-page [id^='ah-sticky-marquee-'],
+.funnel-page [id^='ah-sticky-marquee-'][class*='ah-is-sticky-'] {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  width: 100% !important;
+  box-shadow: none !important;
+  z-index: auto !important;
+  transform: none !important;
+}
+
+/* Unified LP header — logo from footer, always first at top */
+.funnel-page .funnel-header {
+  position: sticky;
+  top: 0;
+  z-index: 100000;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.funnel-page .funnel-header__inner {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  box-sizing: border-box;
+}
+
+.funnel-page .funnel-header__brand {
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.funnel-page .funnel-header__logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Hide legacy embedded headers replaced by FunnelHeader */
+.funnel-page:has(.funnel-header) .ah-header-main,
+.funnel-page:has(.funnel-header) #ah-transplant-header,
+.funnel-page:has(.funnel-header) #hero-consultation-header > div:first-of-type,
+.funnel-page:has(.funnel-header) #ah-new-hero > div:first-of-type {
+  display: none !important;
+}
+
+/* Mobile / tablet carousels — native touch swipe + arrow taps */
+@media (max-width: 1023px) {
+  .funnel-page .hero-image-container-main,
+  .funnel-page .testi-container-new,
+  .funnel-page .why-container-main,
+  .funnel-page #video-slider-new,
+  .funnel-page [id='video-slider'] {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    touch-action: pan-x pan-y !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+
+  .funnel-page .hero-image-container-main::-webkit-scrollbar,
+  .funnel-page .testi-container-new::-webkit-scrollbar,
+  .funnel-page .why-container-main::-webkit-scrollbar,
+  .funnel-page #video-slider-new::-webkit-scrollbar,
+  .funnel-page [id='video-slider']::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  /* Our Location — viewport clips, track scrolls (swipe + arrows) */
+  .funnel-page .location-carousel-wrapper,
+  .funnel-page .funnel-location__viewport,
+  .funnel-page .location-carousel-wrapper-main {
+    overflow: hidden !important;
+    position: relative !important;
+  }
+
+  .funnel-page .location-carousel-track,
+  .funnel-page .funnel-location__track,
+  .funnel-page .location-container-main {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    touch-action: pan-x pan-y !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+    transform: none !important;
+  }
+
+  .funnel-page .location-carousel-track::-webkit-scrollbar,
+  .funnel-page .funnel-location__track::-webkit-scrollbar,
+  .funnel-page .location-container-main::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .funnel-page .location-arrow-left svg,
+  .funnel-page .funnel-location__arrow--prev svg,
+  .funnel-page .location-arrow-left-main svg {
+    transform: none !important;
+  }
+
+  .funnel-page .location-arrow-right svg,
+  .funnel-page .funnel-location__arrow--next svg,
+  .funnel-page .location-arrow-right-main svg {
+    transform: rotate(180deg) !important;
+  }
+
+  .funnel-page .location-arrow-left,
+  .funnel-page .location-arrow-right,
+  .funnel-page .location-arrow-left-main,
+  .funnel-page .location-arrow-right-main,
+  .funnel-page .funnel-location__arrow {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 20 !important;
+  }
+
+  .funnel-page .location-arrow-left,
+  .funnel-page .location-arrow-left-main,
+  .funnel-page .funnel-location__arrow--prev {
+    left: 10px !important;
+    right: auto !important;
+  }
+
+  .funnel-page .location-arrow-right,
+  .funnel-page .location-arrow-right-main,
+  .funnel-page .funnel-location__arrow--next {
+    right: 10px !important;
+    left: auto !important;
+  }
+
+  .funnel-page .hero-image-slide-main,
+  .funnel-page .testimonial-card-new,
+  .funnel-page .why-card-main,
+  .funnel-page .video-slide,
+  .funnel-page .video-slide-new,
+  .funnel-page .location-carousel-slide,
+  .funnel-page .funnel-location__slide,
+  .funnel-page .location-slide-main {
+    scroll-snap-align: center !important;
+  }
+
+  .funnel-page [id*='prev-arrow'],
+  .funnel-page [id*='next-arrow'],
+  .funnel-page .funnel-location__arrow,
+  .funnel-page .location-arrow-left,
+  .funnel-page .location-arrow-right,
+  .funnel-page .location-arrow-left-main,
+  .funnel-page .location-arrow-right-main {
+    pointer-events: auto !important;
+    touch-action: manipulation !important;
+    z-index: 20 !important;
+  }
+
+  /* When Hair Loss Starts — heading above video on mobile */
+  .funnel-page .funnel-who-is-for__grid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 24px !important;
+  }
+
+  .funnel-page .funnel-who-is-for__content {
+    display: contents !important;
+  }
+
+  .funnel-page .funnel-who-is-for__heading {
+    order: 1 !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .funnel-page .funnel-who-is-for__video {
+    order: 2 !important;
+    width: 100% !important;
+  }
+
+  .funnel-page .funnel-who-is-for__list {
+    order: 3 !important;
+    width: 100% !important;
+  }
+
+  .funnel-page .funnel-who-is-for__closing {
+    order: 4 !important;
+    width: 100% !important;
+  }
+
+  .funnel-page .funnel-who-is-for__cta {
+    order: 5 !important;
+  }
+}
+
+/* FAQ plus icons — lock size; flex rows must not shrink SVG on mobile */
+.funnel-page .faq-item > div:first-child {
+  gap: 12px;
+}
+
+.funnel-page .faq-item h3 {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.funnel-page .faq-icon {
+  flex: 0 0 30px;
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
+  display: block;
+  overflow: visible;
+}

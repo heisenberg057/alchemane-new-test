@@ -1,0 +1,148 @@
+.root {
+  --clp-ink: #191919;
+  --clp-blue-light: #4686fe;
+  --clp-paper: #fafafa;
+  --clp-pale: #f0f4ff;
+  --clp-dot: #d9d9d9;
+  --clp-black-15: rgba(0, 0, 0, 0.15);
+  --clp-panel-dark: #181e25;
+  --clp-gutter: 16px;
+  --clp-space-4: 16px;
+  --clp-space-6: 24px;
+  --clp-space-7: 28px;
+  --clp-space-11: 44px;
+  --clp-fs-section-title: 28px;
+  --clp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+  --clp-roboto: var(--font-clip-on-roboto), "Roboto", Arial, sans-serif;
+
+  position: relative;
+  padding: var(--clp-space-11) var(--clp-gutter);
+  overflow: hidden;
+  background: var(--clp-paper);
+  color: var(--clp-ink);
+  font-family: var(--clp-roboto);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--clp-montserrat);
+  font-size: var(--clp-fs-section-title);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.032em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.titleAccent {
+  color: var(--clp-blue-light);
+}
+
+.carousel {
+  position: relative;
+  width: calc(100% + 16px);
+  height: 400px;
+  margin-top: var(--clp-space-6);
+}
+
+.track {
+  display: flex;
+  height: 400px;
+  gap: 12px;
+  padding-left: 0;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.track::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  position: relative;
+  flex: 0 0 320px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--clp-panel-dark);
+  scroll-snap-align: start;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.control {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--clp-pale);
+  color: #1769ff;
+  box-shadow: 0 2px 12px var(--clp-black-15);
+  cursor: pointer;
+  transform: translateY(-50%);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.control svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.controlPrev {
+  left: 12px;
+}
+
+.controlNext {
+  right: 12px;
+}
+
+.control:disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin: var(--clp-space-4) 0 0;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--clp-dot);
+  cursor: pointer;
+}
+
+.dotActive {
+  width: 8px;
+  height: 8px;
+  margin-top: -1px;
+  background: var(--clp-ink);
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 26px;
+  }
+}

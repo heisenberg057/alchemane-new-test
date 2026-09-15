@@ -1,0 +1,45 @@
+# Local dev only — Postgres (+ optional Redis). Matches DATABASE_URL in .env.local:
+# postgresql://admin:***@localhost:5432/americanhairline
+#
+# IMPORTANT: uses the existing named volume that already has CMS data
+# (media/pages/posts/forms). Do not wipe americanhairline-unified_postgres_data.
+#
+# Usage:
+#   docker compose -f docker-compose.dev.yml up -d
+#   npm run payload:migrate   # first time / after schema changes
+#   npm run dev:stable
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: ahl_postgres_dev
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    # Env only matters on first init of an empty volume. Existing volume already
+    # has role `admin` — keep DATABASE_URL in .env.local aligned with that.
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-americanhairline}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-admin} -d ${POSTGRES_DB:-americanhairline}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: ahl_redis_dev
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    profiles:
+      - redis
+
+volumes:
+  postgres_data:
+    external: true
+    name: americanhairline-unified_postgres_data

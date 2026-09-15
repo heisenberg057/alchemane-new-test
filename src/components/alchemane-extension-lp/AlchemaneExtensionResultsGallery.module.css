@@ -1,0 +1,27 @@
+.head { display: flex; flex-direction: column; gap: var(--s-2); margin-bottom: var(--stack); }
+.carousel { position: relative; }
+
+.track {
+  display: flex;
+  gap: var(--s-3);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-inline: var(--gutter);
+  margin-inline: calc(var(--gutter) * -1);
+  padding-bottom: 4px;
+}
+.track::-webkit-scrollbar { display: none; }
+.track > * { scroll-snap-align: start; flex: none; }
+
+.card { width: 232px; position: relative; padding: 10px 10px 12px; border: 1px solid var(--line); background: var(--ivory); }
+@media (min-width: 768px) { .card { width: 256px; } }
+
+.index { display: block; margin-bottom: 8px; font-size: var(--fs-micro); font-weight: 600; letter-spacing: 0.12em; color: var(--muted); }
+
+.frame { position: relative; display: block; width: 100%; aspect-ratio: 9 / 16; overflow: hidden; cursor: pointer; background: var(--ink); }
+.frame :global(img) { position: absolute; inset: 0; width: 100% !important; height: 100% !important; object-fit: cover; }
+.videoEl { width: 100%; height: 100%; object-fit: cover; }
+.playButton { position: absolute; inset: 0; display: grid; place-items: center; color: transparent; font-size: 0; }
+.playButton svg { width: 64px; height: 64px; padding: 18px; border-radius: 50%; background: rgba(246, 244, 239, 0.94); color: var(--ink); box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.5); }

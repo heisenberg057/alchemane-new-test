@@ -1,0 +1,3476 @@
+{
+  "generatedAt": "2026-04-16T04:43:32.101Z",
+  "updatedAt": "2026-09-06T09:32:55.815Z",
+  "mode": "live",
+  "options": {
+    "dryRun": false,
+    "force": false,
+    "limit": null,
+    "offset": 0,
+    "batchSize": 20,
+    "retryDownloads": 3,
+    "syncMetaImage": true,
+    "sourceAuditReport": "/Users/ketan/Desktop/AHL Website/New Website/ahl-new-website/AmericanHairline-Unified/reports/featured-image-audit.json"
+  },
+  "preflight": {
+    "totalRowsSelected": 40,
+    "alreadyLinkedRows": 0,
+    "rowsToUpload": 40,
+    "rowsToReuse": 0,
+    "rowsSkipped": 0,
+    "rowsWithBrokenAttachmentUrl": 0,
+    "rowsWithMissingLocalPost": 0
+  },
+  "summary": {
+    "candidateRows": 40,
+    "attemptedRows": 184,
+    "successfulUploads": 175,
+    "successfulPostLinks": 184,
+    "duplicateImagesReused": 9,
+    "skippedAlreadyLinkedPosts": 0,
+    "skippedMissingUrls": 0,
+    "skippedFromResume": 0,
+    "missingLocalPosts": 0,
+    "brokenWordPressUrls": 0,
+    "uploadFailures": 0,
+    "dbUpdateFailures": 0
+  },
+  "attachmentUrlToPayloadMediaId": {
+    "https://americanhairline.com/wp-content/uploads/2022/12/choosing-right-hair-systems-1.png": 12,
+    "https://americanhairline.com/wp-content/uploads/2022/12/blog-ahl-deep-conditioning-1.jpg": 13,
+    "https://americanhairline.com/wp-content/uploads/2022/12/blog-ahl-Is-Your-Hair-System-Free-From-Corona-Virus-1.jpg": 14,
+    "https://americanhairline.com/wp-content/uploads/2022/12/caring-for-your-hair-syatem-in-the-summer-1.jpg": 15,
+    "https://americanhairline.com/wp-content/uploads/2022/12/wigs-for-cancer-patients-1.png": 16,
+    "https://americanhairline.com/wp-content/uploads/2025/01/preparing-yourself-for-hair-replacement.webp": 17,
+    "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-Systems-1.png": 18,
+    "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-Systems-in-Mumbai-1.png": 19,
+    "https://americanhairline.com/wp-content/uploads/2023/01/hair-replacement-center-1.png": 20,
+    "https://americanhairline.com/wp-content/uploads/2023/01/hair-patch-wigs-1.png": 21,
+    "https://americanhairline.com/wp-content/uploads/2023/01/Difference-Between-Hair-Systems-And-Hair-Wigs-1.png": 22,
+    "https://americanhairline.com/wp-content/uploads/2023/01/Human-Hair-Systems-1.png": 23,
+    "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-1.png": 24,
+    "https://americanhairline.com/wp-content/uploads/2025/01/common-challenges-in-hair-replacement-systems.webp": 25,
+    "https://americanhairline.com/wp-content/uploads/2023/01/Wigs-for-Cancer-Patients-in-Mumbai-1.png": 26,
+    "https://americanhairline.com/wp-content/uploads/2023/02/Non-Surgical-Hair-Replacement-Systems-1.jpg": 27,
+    "https://americanhairline.com/wp-content/uploads/2023/02/Hair-Replacement-in-Mumbai-1.png": 28,
+    "https://americanhairline.com/wp-content/uploads/2023/02/hair-replacement-system-1.png": 29,
+    "https://americanhairline.com/wp-content/uploads/2023/02/Untitled-1-5-1.jpg": 30,
+    "https://americanhairline.com/wp-content/uploads/2023/01/Scalp-micro-pigmentation-in-india-1.webp": 31,
+    "https://americanhairline.com/wp-content/uploads/2023/03/hair-systems-for-crown-area-1.webp": 32,
+    "https://americanhairline.com/wp-content/uploads/2023/03/myths-about-non-surgical-1.webp": 33,
+    "https://americanhairline.com/wp-content/uploads/2023/04/human-hair-replacement-1-1.png": 34,
+    "https://americanhairline.com/wp-content/uploads/2023/04/Hair-Replacement-System-1-1.png": 35,
+    "https://americanhairline.com/wp-content/uploads/2023/05/SMP-1.png": 36,
+    "https://americanhairline.com/wp-content/uploads/2023/06/Avoid-mistakes-in-SMP-Thumbnail-2-1-1.png": 37,
+    "https://americanhairline.com/wp-content/uploads/2023/06/bLOG-tHUMBNAIL-3-1.jpg": 38,
+    "https://americanhairline.com/wp-content/uploads/2023/06/Most-Natural-looking3-1-1.jpg": 39,
+    "https://americanhairline.com/wp-content/uploads/2023/07/aRE-HAIR-SYSTEMS-SAFE-2-1.jpg": 40,
+    "https://americanhairline.com/wp-content/uploads/2023/02/cta-1.webp": 41,
+    "https://americanhairline.com/wp-content/uploads/2023/07/Poly-skin-hair-systemh-1.jpg": 42,
+    "https://americanhairline.com/wp-content/uploads/2023/09/After-care-for-clip-on-hair-system-1.webp": 43,
+    "https://americanhairline.com/wp-content/uploads/2023/09/ezgif.com-webp-maker-1.webp": 44,
+    "https://americanhairline.com/wp-content/uploads/2023/09/Everything-You-Need-to-Know-About-Maintaining-Your-Hair-System-1.webp": 45,
+    "https://americanhairline.com/wp-content/uploads/2023/10/all-about-hair-systems-in-india-1.webp": 46,
+    "https://americanhairline.com/wp-content/uploads/2023/10/Hair-Systems-1.webp": 47,
+    "https://americanhairline.com/wp-content/uploads/2023/10/SMP-Look-Natural-Real-1.webp": 48,
+    "https://americanhairline.com/wp-content/uploads/2023/10/dos-and-dont-1.webp": 49,
+    "https://americanhairline.com/wp-content/uploads/2023/11/Blog-thumbnail-1.jpg": 50,
+    "https://americanhairline.com/wp-content/uploads/2023/11/Blog-thumbnail-6-aspects-1.jpg": 51,
+    "https://americanhairline.com/wp-content/uploads/2023/11/Blog25_CanIShowerNormallywithMyHairSysteminIndia-ezgif.com-jpg-to-webp-converter-1.webp": 52,
+    "https://americanhairline.com/wp-content/uploads/2023/12/Blog22_FailedHairTransplantinIndiaHowtoAvoidorFixIt-ezgif.com-jpg-to-webp-converter-1.webp": 53,
+    "https://americanhairline.com/wp-content/uploads/2023/12/How-to-Deal-With-Hair-System-Wearers-With-Different-Skin-Conditions-1.webp": 54,
+    "https://americanhairline.com/wp-content/uploads/2023/12/How-to-Create-a-Natural-Front-Hairline-for-a-Hair-System-1.webp": 55,
+    "https://americanhairline.com/wp-content/uploads/2024/01/Is-a-Hair-Patch-a-Good-Option-to-opt-for-1.webp": 56,
+    "https://americanhairline.com/wp-content/uploads/2024/01/Scalp-Micro-Pigmentation-Safe-in-India-1.webp": 57,
+    "https://americanhairline.com/wp-content/uploads/2024/02/If-you-sweat-a-lot-Which-base-to-choose-1.webp": 58,
+    "https://americanhairline.com/wp-content/uploads/2024/02/Why-Scalp-micropigmentation-goes-wrong-1.webp": 59,
+    "https://americanhairline.com/wp-content/uploads/2024/03/HAIR-PUTCH-1.jpg": 60,
+    "https://americanhairline.com/wp-content/uploads/2024/03/HAIR-PUTCH-option-1.jpg": 61,
+    "https://americanhairline.com/wp-content/uploads/2024/05/How-to-Pick-the-Perfect-Hair-Patch-for-Your-Needs-1.webp": 62,
+    "https://americanhairline.com/wp-content/uploads/2024/07/Understanding-Hair-Systems_-A-Comprehensive-Guide-1.png": 63,
+    "https://americanhairline.com/wp-content/uploads/2024/08/How-to-Achieve-an-Natural-Front-Hairline-with-Your-Hair-Systems-1.png": 64,
+    "https://americanhairline.com/wp-content/uploads/2024/08/How-to-Achieve-the-Perfect-Hair-Density-for-a-Natural-Looking-Hair-Systems-1.png": 65,
+    "https://americanhairline.com/wp-content/uploads/2024/08/How-to-Choose-the-Right-Base-Size-for-Your-Hair-Patch-1.png": 66,
+    "https://americanhairline.com/wp-content/uploads/2024/09/TRANSPLANT-OR-SMP-1.png": 67,
+    "https://americanhairline.com/wp-content/uploads/2024/09/Why-PU-Skin-Hair-Systems-not-suitable-for-Indian-weather.webp": 68,
+    "https://americanhairline.com/wp-content/uploads/2024/09/How-Hair-Direction-Affects-Your-Look.webp": 69,
+    "https://americanhairline.com/wp-content/uploads/2024/10/What-is-a-PU-Skin-Hair-System.webp": 70,
+    "https://americanhairline.com/wp-content/uploads/2024/09/Scalp-Micropigmentation-Side-Effects.webp": 71,
+    "https://americanhairline.com/wp-content/uploads/2024/10/Hair-Systems-for-Men-in-Pune.webp": 72,
+    "https://americanhairline.com/wp-content/uploads/2024/10/why-people-choose-hair-system-over-hair-transplant.jpg": 73,
+    "https://americanhairline.com/wp-content/uploads/2024/10/Best-Hair-Patches-for-Punes-Hot-and-Humid-Weather-2.jpg": 74,
+    "https://americanhairline.com/wp-content/uploads/2024/12/Hair-Systems-for-Corporate-Men-in-Pune-v1.png": 75,
+    "https://americanhairline.com/wp-content/uploads/2024/12/How-Bangalores-Weather-Influences-Hair-Loss.png": 76,
+    "https://americanhairline.com/wp-content/uploads/2024/12/Hair-Systems-for-Married-Men-in-Pune.png": 77,
+    "https://americanhairline.com/wp-content/uploads/2024/12/hairline-looks-fake-2.jpg": 78,
+    "https://americanhairline.com/wp-content/uploads/2024/12/married-men.jpg": 79,
+    "https://americanhairline.com/wp-content/uploads/2024/12/ahl-blog-1.jpg": 80,
+    "https://americanhairline.com/wp-content/uploads/2025/01/Wedding-Worries-How-to-Fix-Hair-Loss.jpg": 81,
+    "https://americanhairline.com/wp-content/uploads/2025/01/Scalp-Micropigmentation.jpg": 82,
+    "https://americanhairline.com/wp-content/uploads/2025/01/How-Indian-Men-in-Their-40s-Are-Fighting-Hair-Loss-Successfully.jpg": 83,
+    "https://americanhairline.com/wp-content/uploads/2024/12/A-Group-of-Diverse-Happy-Clients-v1.webp": 84,
+    "https://americanhairline.com/wp-content/uploads/2025/01/Hair-Loss-Solutions-for-Men-With-Busy-Lives-2.jpg": 85,
+    "https://americanhairline.com/wp-content/uploads/2025/01/Is-Stress-Making-You-Bald3.jpg": 86,
+    "https://americanhairline.com/wp-content/uploads/2025/01/Seven-sign-your-hair-loss-is-making-you-older-1.jpg": 87,
+    "https://americanhairline.com/wp-content/uploads/2025/01/NO-SURGERY-BETTER-HAIR.jpg": 88,
+    "https://americanhairline.com/wp-content/uploads/2024/10/BA-4.png": 89,
+    "https://americanhairline.com/wp-content/uploads/2024/09/A-Group-of-Diverse-Happy-Clients-v1-1.png": 90,
+    "https://americanhairline.com/wp-content/uploads/2025/02/Why-80-of-Young-Men-Regret-Ignoring-Early-Hair-Loss.jpg": 91,
+    "https://americanhairline.com/wp-content/uploads/2025/02/How-Indian-College-Students-Are-Secretly-Beating-Hair-Loss2.jpg": 92,
+    "https://americanhairline.com/wp-content/uploads/2025/02/This-Viral-Hair-Hack-will-change-how-you-style-your-hair-forever.jpg": 93,
+    "https://americanhairline.com/wp-content/uploads/2025/02/Balding-at-22-The-Surprising-Science-Behind-Early-Hair-Loss.jpg": 94,
+    "https://americanhairline.com/wp-content/uploads/2025/02/Are-You-Wedding-Photo-Ready-The-Ultimate-Hair-Fix-for-Grooms.jpg": 95,
+    "https://americanhairline.com/wp-content/uploads/2024/10/BA-2.png": 96,
+    "https://americanhairline.com/wp-content/uploads/2025/03/Seven-Hair-Mistakes-That-Make-You-Look-Older-in-Selfies.jpg": 97,
+    "https://americanhairline.com/wp-content/uploads/2025/03/The-Ultimate-Guide-to-Looking-More-Attractive-in-Selfies.jpg": 98,
+    "https://americanhairline.com/wp-content/uploads/2025/03/The-_1-Hair-Fix-Every-Influencer-Swears-By—And-Its-Not-a-Transplant.jpg": 99,
+    "https://americanhairline.com/wp-content/uploads/2025/03/The-Silent-Career-Killer-How-Hair-Loss-Affects-Workplace-Confidence.jpg": 100,
+    "https://americanhairline.com/wp-content/uploads/2025/03/transplant.jpg": 101,
+    "https://americanhairline.com/wp-content/uploads/2025/03/The-Hair-Confidence-Blueprint-How-to-Look-More-Powerful-at-Work.jpg": 102,
+    "https://americanhairline.com/wp-content/uploads/2025/03/Your-Wife-Wont-Say-It-But-She-Notices-This-About-Your-Hair.jpg": 103,
+    "https://americanhairline.com/wp-content/uploads/2025/03/Why-Your-Hairline-Might-Be-Killing-Your-Confidence-And-How-to-Fix-It.jpg": 104,
+    "https://americanhairline.com/wp-content/uploads/2025/03/Why-Corporate-India-Is-Secretly-Embracing-Hair-Patches.jpg": 105,
+    "https://americanhairline.com/wp-content/uploads/2025/04/Balding-in-Your-30s-The-Indian-CEO-Approved-Solution-You-Need.jpg": 106,
+    "https://americanhairline.com/wp-content/uploads/2025/04/Are-You-Aging-Faster-Than-Your-Friends-The-Secret-to-a-Youthful-Hairline-1.jpg": 107,
+    "https://americanhairline.com/wp-content/uploads/2025/04/looking-older-than-her.jpg": 108,
+    "https://americanhairline.com/wp-content/uploads/2025/04/From-Zoom-Calls-to-Boardrooms-How-to-Maintain-a-Strong-Hairline-Under-Pressure.jpg": 109,
+    "https://americanhairline.com/wp-content/uploads/2025/04/This-Indian-Hair-Secret-Is-Helping-Husbands-Look-Younger-Instantly.jpg": 110,
+    "https://americanhairline.com/wp-content/uploads/2025/04/Bald-Spots-and-Marriage-The-Unspoken-Fear-No-One-Talks-About.jpg": 111,
+    "https://americanhairline.com/wp-content/uploads/2025/04/90-of-Men-Regret-This-Hair-Loss-Mistake-Are-You-Making-It.jpg": 112,
+    "https://americanhairline.com/wp-content/uploads/2025/04/How-to-Look-10-Years-Younger-Without-Changing-Your-Hairstyle-_________________--scaled.jpg": 113,
+    "https://americanhairline.com/wp-content/uploads/2025/04/She-Swiped-Right-for-Your-Hair-Heres-How-to-Keep-It.jpg": 114,
+    "https://americanhairline.com/wp-content/uploads/2025/05/Hair-Hacks-for-Busy-Professionals-Fix-Thinning-Hair-Without-Extra.jpg": 115,
+    "https://americanhairline.com/wp-content/uploads/2024/12/Thumbnail-1.webp": 116,
+    "https://americanhairline.com/wp-content/uploads/2022/11/bw.jpg": 117,
+    "https://americanhairline.com/wp-content/uploads/2024/10/BA-3.png": 118,
+    "https://americanhairline.com/wp-content/uploads/2025/03/How-to-Instantly-Boost-Confidence-with-a-Natural-Looking-Hair-Patch.jpg": 119,
+    "https://americanhairline.com/wp-content/uploads/2025/08/Why-Most-Hair-Loss-Solutions-Fail-Working-Professionals-2nd-JPG-scaled.jpg": 120,
+    "https://americanhairline.com/wp-content/uploads/2025/08/Hair-Patches-vs-Hair-Growth-Oils-What-Actually-Works-for-Married-Men-JPG-scaled.jpg": 121,
+    "https://americanhairline.com/wp-content/uploads/2025/09/ChatGPT-Image-Sep-4-2025-12_03_36-PM.png": 122,
+    "https://americanhairline.com/wp-content/uploads/2025/09/resized_image.png": 123,
+    "https://americanhairline.com/wp-content/uploads/2025/09/resized_thumbnail_3000x2143.png": 124,
+    "https://americanhairline.com/wp-content/uploads/2025/10/ChatGPT-Image-Oct-2-2025-12_19_18-PM.png": 125,
+    "https://americanhairline.com/wp-content/uploads/2025/10/Generated-Image-October-09-2025-11_00AM.png": 126,
+    "https://americanhairline.com/wp-content/uploads/2025/10/Generated-Image-October-16-2025-4_04PM.png": 127,
+    "https://americanhairline.com/wp-content/uploads/2025/10/ChatGPT-Image-Oct-23-2025-04_08_46-PM.png": 128,
+    "https://americanhairline.com/wp-content/uploads/2025/11/ChatGPT-Image-Nov-6-2025-02_14_26-PM.png": 129,
+    "https://americanhairline.com/wp-content/uploads/2025/11/Generated-Image-November-13-2025-10_52AM.png": 130,
+    "https://americanhairline.com/wp-content/uploads/2025/11/ChatGPT-Image-Nov-27-2025-11_23_28-AM.png": 131,
+    "https://americanhairline.com/wp-content/uploads/2024/08/hair-transformation_-1.png": 132,
+    "https://americanhairline.com/wp-content/uploads/2023/09/Transplant-or-Patch1-1.jpg": 133,
+    "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-01_18_27-PM.png": 134,
+    "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-16-2026-01_28_33-PM.png": 135,
+    "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-22-2026-01_11_15-PM.png": 136,
+    "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-28-2026-04_39_09-PM.png": 137,
+    "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-5-2026-04_28_59-PM.png": 138,
+    "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-10-2026-04_56_31-PM.png": 139,
+    "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-17-2026-03_22_27-PM.png": 140,
+    "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-23-2026-01_16_33-PM.png": 141,
+    "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-2-2026-05_31_26-PM.png": 142,
+    "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-12-2026-03_40_23-PM.png": 143,
+    "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-17-2026-02_58_34-PM.png": 144,
+    "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_48_00-PM.png": 145,
+    "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-25-2026-04_57_08-PM.png": 146,
+    "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Mar-31-2026-03_03_00-PM.png": 384,
+    "https://americanhairline.com/wp-content/uploads/2026/04/Who-will-get-the-promotion_.png": 385,
+    "https://americanhairline.com/wp-content/uploads/2026/04/Before-and-after-hair-transformation-1.png": 386,
+    "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-16-2026-08_37_41-PM.png": 387,
+    "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-18-2026-07_14_39-PM.png": 388,
+    "https://americanhairline.com/wp-content/uploads/2026/04/hair_thumbnail_1356x1024.png": 389,
+    "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-25-2026-12_46_19-PM.png": 390,
+    "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-29-2026-02_15_32-PM.png": 391,
+    "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-3-2026-11_15_35-AM-1.png": 392,
+    "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-9-2026-06_52_04-PM.png": 393,
+    "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-13-2026-11_40_53-AM.png": 394,
+    "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-21-2026-05_32_59-PM.png": 395,
+    "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-25-2026-03_51_09-PM.png": 396,
+    "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-3-2026-03_15_23-PM.png": 397,
+    "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-6-2026-01_20_08-PM.png": 398,
+    "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-9-2026-05_57_13-PM.png": 399,
+    "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-18-2026-04_38_58-PM.png": 400,
+    "https://americanhairline.com/wp-content/uploads/2026/06/hair_white_bg_v3.png": 401,
+    "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-22-2026-06_17_09-PM.png": 402,
+    "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-23-2026-04_23_38-PM.png": 403,
+    "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jun-30-2026-08_44_08-PM.png": 404,
+    "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-4-2026-04_37_03-PM.png": 405,
+    "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-9-2026-01_04_25-PM.png": 406,
+    "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-9-2026-08_53_33-PM.png": 407,
+    "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-16-2026-03_45_46-PM.png": 408,
+    "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-16-2026-04_57_40-PM.png": 409,
+    "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-20-2026-03_40_15-PM.png": 410,
+    "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-23-2026-02_15_32-PM.png": 411,
+    "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-30-2026-03_16_12-PM.png": 412,
+    "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-29-2026-02_49_40-PM.png": 413,
+    "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-3-2026-05_08_09-PM.png": 414,
+    "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-6-2026-02_21_00-PM.png": 415,
+    "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-11-2026-03_43_17-PM.png": 416,
+    "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-9-2026-04_42_04-PM.png": 417,
+    "https://americanhairline.com/wp-content/uploads/2026/08/Are-You-Making-Hair-Loss-Worse_.png": 418,
+    "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-19-2026-05_26_27-PM-1.png": 419,
+    "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-23-2026-04_36_31-PM.png": 420,
+    "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-25-2026-12_02_14-PM.png": 421,
+    "https://americanhairline.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-3-2026-03_31_34-PM.png": 422,
+    "https://americanhairline.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-6-2026-12_52_09-PM.png": 423
+  },
+  "successfulUploads": [
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/choosing-right-hair-systems-1.png",
+      "payloadMediaId": 12,
+      "filename": "choosing-right-hair-systems-1.png",
+      "mimeType": "image/png",
+      "title": "How To Choose The Right Attachment Method For You",
+      "alt": "How To Choose The Right Attachment Method For You",
+      "createdAt": "2026-04-16T04:43:34.151Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/blog-ahl-deep-conditioning-1.jpg",
+      "payloadMediaId": 13,
+      "filename": "blog-ahl-deep-conditioning-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Deep Conditioning Tips For Your Hair System",
+      "alt": "Deep Conditioning Tips For Your Hair System",
+      "createdAt": "2026-04-16T04:43:34.569Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/blog-ahl-Is-Your-Hair-System-Free-From-Corona-Virus-1.jpg",
+      "payloadMediaId": 14,
+      "filename": "blog-ahl-Is-Your-Hair-System-Free-From-Corona-Virus-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Is Your Hair Replacement System Free From Corona Virus",
+      "alt": "Is Your Hair Replacement System Free From Corona Virus",
+      "createdAt": "2026-04-16T04:43:34.962Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/caring-for-your-hair-syatem-in-the-summer-1.jpg",
+      "payloadMediaId": 15,
+      "filename": "caring-for-your-hair-syatem-in-the-summer-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Caring For Your Hair System in the Summer",
+      "alt": "Caring For Your Hair System in the Summer",
+      "createdAt": "2026-04-16T04:43:35.415Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/wigs-for-cancer-patients-1.png",
+      "payloadMediaId": 16,
+      "filename": "wigs-for-cancer-patients-1.png",
+      "mimeType": "image/png",
+      "title": "Hair Replacement for Alopecia Areata",
+      "alt": "Hair Replacement for Alopecia Areata",
+      "createdAt": "2026-04-16T04:43:35.879Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/preparing-yourself-for-hair-replacement.webp",
+      "payloadMediaId": 17,
+      "filename": "preparing-yourself-for-hair-replacement.webp",
+      "mimeType": "image/webp",
+      "title": "How To Prepare Yourself For Non- Surgical Hair Replacement",
+      "alt": "How To Prepare Yourself For Non- Surgical Hair Replacement",
+      "createdAt": "2026-04-16T04:43:36.373Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-Systems-1.png",
+      "payloadMediaId": 18,
+      "filename": "Hair-Replacement-Systems-1.png",
+      "mimeType": "image/png",
+      "title": "Tips To Take Care Of Your Hair Systems",
+      "alt": "Tips To Take Care Of Your Hair Systems",
+      "createdAt": "2026-04-16T04:43:36.892Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-Systems-in-Mumbai-1.png",
+      "payloadMediaId": 19,
+      "filename": "Hair-Replacement-Systems-in-Mumbai-1.png",
+      "mimeType": "image/png",
+      "title": "Attachment Issues With Hair Replacement Systems",
+      "alt": "Attachment Issues With Hair Replacement Systems",
+      "createdAt": "2026-04-16T04:43:37.467Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/hair-replacement-center-1.png",
+      "payloadMediaId": 20,
+      "filename": "hair-replacement-center-1.png",
+      "mimeType": "image/png",
+      "title": "Choosing a Bonding Method For Hair Replacement",
+      "alt": "Choosing a Bonding Method For Hair Replacement",
+      "createdAt": "2026-04-16T04:43:38.009Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/hair-patch-wigs-1.png",
+      "payloadMediaId": 21,
+      "filename": "hair-patch-wigs-1.png",
+      "mimeType": "image/png",
+      "title": "Benefits of Non-Surgical Hair Replacement Systems",
+      "alt": "Benefits of Non-Surgical Hair Replacement Systems",
+      "createdAt": "2026-04-16T04:43:38.455Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Difference-Between-Hair-Systems-And-Hair-Wigs-1.png",
+      "payloadMediaId": 22,
+      "filename": "Difference-Between-Hair-Systems-And-Hair-Wigs-1.png",
+      "mimeType": "image/png",
+      "title": "Difference Between Hair Systems And Hair Wigs",
+      "alt": "Difference Between Hair Systems And Hair Wigs",
+      "createdAt": "2026-04-16T04:43:39.079Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Human-Hair-Systems-1.png",
+      "payloadMediaId": 23,
+      "filename": "Human-Hair-Systems-1.png",
+      "mimeType": "image/png",
+      "title": "Human Hair Systems Or Synthetic Hair Systems: Which One’s The Best?",
+      "alt": "Human Hair Systems Or Synthetic Hair Systems: Which One’s The Best?",
+      "createdAt": "2026-04-16T04:43:39.731Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-1.png",
+      "payloadMediaId": 24,
+      "filename": "Hair-Replacement-1.png",
+      "mimeType": "image/png",
+      "title": "What Causes Itchiness or Irritation In Hair Systems?",
+      "alt": "What Causes Itchiness or Irritation In Hair Systems?",
+      "createdAt": "2026-04-16T04:43:40.360Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/common-challenges-in-hair-replacement-systems.webp",
+      "payloadMediaId": 25,
+      "filename": "common-challenges-in-hair-replacement-systems.webp",
+      "mimeType": "image/webp",
+      "title": "Common Challenges of Non- Surgical Hair Replacement",
+      "alt": "Common Challenges of Non- Surgical Hair Replacement",
+      "createdAt": "2026-04-16T04:43:40.881Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Wigs-for-Cancer-Patients-in-Mumbai-1.png",
+      "payloadMediaId": 26,
+      "filename": "Wigs-for-Cancer-Patients-in-Mumbai-1.png",
+      "mimeType": "image/png",
+      "title": "Human Hair Wigs For Cancer Or Alopecia",
+      "alt": "Human Hair Wigs For Cancer Or Alopecia",
+      "createdAt": "2026-04-16T04:43:41.287Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/Non-Surgical-Hair-Replacement-Systems-1.jpg",
+      "payloadMediaId": 27,
+      "filename": "Non-Surgical-Hair-Replacement-Systems-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Reasons For Hair Shedding In Non- Surgical Hair Replacement Systems",
+      "alt": "Reasons For Hair Shedding In Non- Surgical Hair Replacement Systems",
+      "createdAt": "2026-04-16T04:43:41.864Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/Hair-Replacement-in-Mumbai-1.png",
+      "payloadMediaId": 28,
+      "filename": "Hair-Replacement-in-Mumbai-1.png",
+      "mimeType": "image/png",
+      "title": "Is Non- Surgical Hair Replacement Meant For you?",
+      "alt": "Is Non- Surgical Hair Replacement Meant For you?",
+      "createdAt": "2026-04-16T04:43:42.599Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/hair-replacement-system-1.png",
+      "payloadMediaId": 29,
+      "filename": "hair-replacement-system-1.png",
+      "mimeType": "image/png",
+      "title": "Selecting The Correct Hair Density For Your Hair System",
+      "alt": "Selecting The Correct Hair Density For Your Hair System",
+      "createdAt": "2026-04-16T04:43:43.699Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/Untitled-1-5-1.jpg",
+      "payloadMediaId": 30,
+      "filename": "Untitled-1-5-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Is Hair Patch A Better Solution Then Hair Transplant",
+      "alt": "Is Hair Patch A Better Solution Then Hair Transplant",
+      "createdAt": "2026-04-16T04:43:44.408Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Scalp-micro-pigmentation-in-india-1.webp",
+      "payloadMediaId": 31,
+      "filename": "Scalp-micro-pigmentation-in-india-1.webp",
+      "mimeType": "image/webp",
+      "title": "Scalp Micropigmentation Aftercare -  SMP Do's and Don'ts",
+      "alt": "Scalp Micropigmentation Aftercare -  SMP Do's and Don'ts",
+      "createdAt": "2026-04-16T04:43:44.981Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/03/hair-systems-for-crown-area-1.webp",
+      "payloadMediaId": 32,
+      "filename": "hair-systems-for-crown-area-1.webp",
+      "mimeType": "image/webp",
+      "title": "Get a Natural Look With Non-Surgical Hair Replacement for the Crown Area",
+      "alt": "Get a Natural Look With Non-Surgical Hair Replacement for the Crown Area",
+      "createdAt": "2026-04-16T04:49:15.588Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/03/myths-about-non-surgical-1.webp",
+      "payloadMediaId": 33,
+      "filename": "myths-about-non-surgical-1.webp",
+      "mimeType": "image/webp",
+      "title": "Myths About Non- Surgical Hair Replacement",
+      "alt": "Myths About Non- Surgical Hair Replacement",
+      "createdAt": "2026-04-16T04:49:16.038Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/04/human-hair-replacement-1-1.png",
+      "payloadMediaId": 34,
+      "filename": "human-hair-replacement-1-1.png",
+      "mimeType": "image/png",
+      "title": "How to Choose The Right Hairstyle For Hair Systems",
+      "alt": "How to Choose The Right Hairstyle For Hair Systems",
+      "createdAt": "2026-04-16T04:49:16.478Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/04/Hair-Replacement-System-1-1.png",
+      "payloadMediaId": 35,
+      "filename": "Hair-Replacement-System-1-1.png",
+      "mimeType": "image/png",
+      "title": "Travel Tips for Hair System Wearers",
+      "alt": "Travel Tips for Hair System Wearers",
+      "createdAt": "2026-04-16T04:49:17.427Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/05/SMP-1.png",
+      "payloadMediaId": 36,
+      "filename": "SMP-1.png",
+      "mimeType": "image/png",
+      "title": "Is Scalp Micro Pigmentation Common in India ?",
+      "alt": "Is Scalp Micro Pigmentation Common in India ?",
+      "createdAt": "2026-04-16T04:49:18.195Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/06/Avoid-mistakes-in-SMP-Thumbnail-2-1-1.png",
+      "payloadMediaId": 37,
+      "filename": "Avoid-mistakes-in-SMP-Thumbnail-2-1-1.png",
+      "mimeType": "image/png",
+      "title": "Avoid these Mistakes in Scalp Micro Pigmentation",
+      "alt": "Avoid these Mistakes in Scalp Micro Pigmentation",
+      "createdAt": "2026-04-16T04:49:19.088Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/06/bLOG-tHUMBNAIL-3-1.jpg",
+      "payloadMediaId": 38,
+      "filename": "bLOG-tHUMBNAIL-3-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "The Truth About Swiss Lace Hair Patches in India",
+      "alt": "The Truth About Swiss Lace Hair Patches in India",
+      "createdAt": "2026-04-16T04:49:19.497Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/06/Most-Natural-looking3-1-1.jpg",
+      "payloadMediaId": 39,
+      "filename": "Most-Natural-looking3-1-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Most Natural Looking Hairline Patches in India",
+      "alt": "Most Natural Looking Hairline Patches in India",
+      "createdAt": "2026-04-16T04:49:19.940Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/07/aRE-HAIR-SYSTEMS-SAFE-2-1.jpg",
+      "payloadMediaId": 40,
+      "filename": "aRE-HAIR-SYSTEMS-SAFE-2-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Are Hair Patches Safe?",
+      "alt": "Are Hair Patches Safe?",
+      "createdAt": "2026-04-16T04:49:20.315Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/cta-1.webp",
+      "payloadMediaId": 41,
+      "filename": "cta-1.webp",
+      "mimeType": "image/webp",
+      "title": "Does a Hair System Damage the Hair Underneath/Scalp?",
+      "alt": "Does a Hair System Damage the Hair Underneath/Scalp?",
+      "createdAt": "2026-04-16T04:49:20.695Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/07/Poly-skin-hair-systemh-1.jpg",
+      "payloadMediaId": 42,
+      "filename": "Poly-skin-hair-systemh-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Are Poly Skin Base Hair Systems Suitable for Indian Weather?",
+      "alt": "Are Poly Skin Base Hair Systems Suitable for Indian Weather?",
+      "createdAt": "2026-04-16T04:49:21.314Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/09/After-care-for-clip-on-hair-system-1.webp",
+      "payloadMediaId": 43,
+      "filename": "After-care-for-clip-on-hair-system-1.webp",
+      "mimeType": "image/webp",
+      "title": "What precautions should take, to use clip on hair system?",
+      "alt": "What precautions should take, to use clip on hair system?",
+      "createdAt": "2026-04-16T04:49:21.788Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/09/ezgif.com-webp-maker-1.webp",
+      "payloadMediaId": 44,
+      "filename": "ezgif.com-webp-maker-1.webp",
+      "mimeType": "image/webp",
+      "title": "Hair Patch For Men or Hair Transplant in India: What's Right for You?",
+      "alt": "Hair Patch For Men or Hair Transplant in India: What's Right for You?",
+      "createdAt": "2026-04-16T04:49:23.071Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/09/Everything-You-Need-to-Know-About-Maintaining-Your-Hair-System-1.webp",
+      "payloadMediaId": 45,
+      "filename": "Everything-You-Need-to-Know-About-Maintaining-Your-Hair-System-1.webp",
+      "mimeType": "image/webp",
+      "title": "Everything You Need to Know About Maintaining Your Hair System in India",
+      "alt": "Everything You Need to Know About Maintaining Your Hair System in India",
+      "createdAt": "2026-04-16T04:49:23.587Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/10/all-about-hair-systems-in-india-1.webp",
+      "payloadMediaId": 46,
+      "filename": "all-about-hair-systems-in-india-1.webp",
+      "mimeType": "image/webp",
+      "title": "Everything You Need to Know About Hair Systems for Men",
+      "alt": "Everything You Need to Know About Hair Systems for Men",
+      "createdAt": "2026-04-16T04:49:24.116Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/10/Hair-Systems-1.webp",
+      "payloadMediaId": 47,
+      "filename": "Hair-Systems-1.webp",
+      "mimeType": "image/webp",
+      "title": "Should I Consider Getting a Hair System?",
+      "alt": "Should I Consider Getting a Hair System?",
+      "createdAt": "2026-04-16T04:49:24.616Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/10/SMP-Look-Natural-Real-1.webp",
+      "payloadMediaId": 48,
+      "filename": "SMP-Look-Natural-Real-1.webp",
+      "mimeType": "image/webp",
+      "title": "Does Scalp Micropigmentation Look Natural and Real?",
+      "alt": "Does Scalp Micropigmentation Look Natural and Real?",
+      "createdAt": "2026-04-16T04:49:25.058Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/10/dos-and-dont-1.webp",
+      "payloadMediaId": 49,
+      "filename": "dos-and-dont-1.webp",
+      "mimeType": "image/webp",
+      "title": "Setting up a Basic Hair Care System in India: Do's and Don'ts",
+      "alt": "Setting up a Basic Hair Care System in India: Do's and Don'ts",
+      "createdAt": "2026-04-16T04:49:25.622Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/11/Blog-thumbnail-1.jpg",
+      "payloadMediaId": 50,
+      "filename": "Blog-thumbnail-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "How to Choose a Base Type? Skin Base or Lace Base Hair Systems?",
+      "alt": "How to Choose a Base Type? Skin Base or Lace Base Hair Systems?",
+      "createdAt": "2026-04-16T04:49:26.024Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/11/Blog-thumbnail-6-aspects-1.jpg",
+      "payloadMediaId": 51,
+      "filename": "Blog-thumbnail-6-aspects-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "The Ultimate Guide to Non-Surgical Hair Replacement for Men in India",
+      "alt": "The Ultimate Guide to Non-Surgical Hair Replacement for Men in India",
+      "createdAt": "2026-04-16T04:49:26.739Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/11/Blog25_CanIShowerNormallywithMyHairSysteminIndia-ezgif.com-jpg-to-webp-converter-1.webp",
+      "payloadMediaId": 52,
+      "filename": "Blog25_CanIShowerNormallywithMyHairSysteminIndia-ezgif.com-jpg-to-webp-converter-1.webp",
+      "mimeType": "image/webp",
+      "title": "Can I Shower Normally with My Hair System in India?",
+      "alt": "Can I Shower Normally with My Hair System in India?",
+      "createdAt": "2026-04-16T04:49:27.987Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/12/Blog22_FailedHairTransplantinIndiaHowtoAvoidorFixIt-ezgif.com-jpg-to-webp-converter-1.webp",
+      "payloadMediaId": 53,
+      "filename": "Blog22_FailedHairTransplantinIndiaHowtoAvoidorFixIt-ezgif.com-jpg-to-webp-converter-1.webp",
+      "mimeType": "image/webp",
+      "title": "Failed Hair Transplant in India: How to Avoid or Fix It?",
+      "alt": "Failed Hair Transplant in India: How to Avoid or Fix It?",
+      "createdAt": "2026-04-16T04:49:29.249Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/12/How-to-Deal-With-Hair-System-Wearers-With-Different-Skin-Conditions-1.webp",
+      "payloadMediaId": 54,
+      "filename": "How-to-Deal-With-Hair-System-Wearers-With-Different-Skin-Conditions-1.webp",
+      "mimeType": "image/webp",
+      "title": "How to Deal With Hair System Wearers With Different Skin Conditions",
+      "alt": "How to Deal With Hair System Wearers With Different Skin Conditions",
+      "createdAt": "2026-04-16T04:49:29.888Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/12/How-to-Create-a-Natural-Front-Hairline-for-a-Hair-System-1.webp",
+      "payloadMediaId": 55,
+      "filename": "How-to-Create-a-Natural-Front-Hairline-for-a-Hair-System-1.webp",
+      "mimeType": "image/webp",
+      "title": "How to Create a Natural Front Hairline for a Hair System?",
+      "alt": "How to Create a Natural Front Hairline for a Hair System?",
+      "createdAt": "2026-04-16T04:49:30.609Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/01/Is-a-Hair-Patch-a-Good-Option-to-opt-for-1.webp",
+      "payloadMediaId": 56,
+      "filename": "Is-a-Hair-Patch-a-Good-Option-to-opt-for-1.webp",
+      "mimeType": "image/webp",
+      "title": "Is a Hair Patch a Good Option to opt for?",
+      "alt": "Is a Hair Patch a Good Option to opt for?",
+      "createdAt": "2026-04-16T04:49:31.364Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/01/Scalp-Micro-Pigmentation-Safe-in-India-1.webp",
+      "payloadMediaId": 57,
+      "filename": "Scalp-Micro-Pigmentation-Safe-in-India-1.webp",
+      "mimeType": "image/webp",
+      "title": "Scalp Micro Pigmentation Safe in India?",
+      "alt": "Scalp Micro Pigmentation Safe in India?",
+      "createdAt": "2026-04-16T04:49:32.330Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/02/If-you-sweat-a-lot-Which-base-to-choose-1.webp",
+      "payloadMediaId": 58,
+      "filename": "If-you-sweat-a-lot-Which-base-to-choose-1.webp",
+      "mimeType": "image/webp",
+      "title": "If you sweat a lot, Which base to choose for Hair System?",
+      "alt": "If you sweat a lot, Which base to choose for Hair System?",
+      "createdAt": "2026-04-16T04:49:33.038Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/02/Why-Scalp-micropigmentation-goes-wrong-1.webp",
+      "payloadMediaId": 59,
+      "filename": "Why-Scalp-micropigmentation-goes-wrong-1.webp",
+      "mimeType": "image/webp",
+      "title": "Why Scalp Micropigmentation Goes Wrong?",
+      "alt": "Why Scalp Micropigmentation Goes Wrong?",
+      "createdAt": "2026-04-16T04:49:33.862Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/03/HAIR-PUTCH-1.jpg",
+      "payloadMediaId": 60,
+      "filename": "HAIR-PUTCH-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Why Should Men Consider Using Hair Patches?",
+      "alt": "Why Should Men Consider Using Hair Patches?",
+      "createdAt": "2026-04-16T04:49:34.398Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/03/HAIR-PUTCH-option-1.jpg",
+      "payloadMediaId": 61,
+      "filename": "HAIR-PUTCH-option-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "What's the Difference Between a Hair Patch and a Hair Wig?",
+      "alt": "What's the Difference Between a Hair Patch and a Hair Wig?",
+      "createdAt": "2026-04-16T04:49:35.751Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/05/How-to-Pick-the-Perfect-Hair-Patch-for-Your-Needs-1.webp",
+      "payloadMediaId": 62,
+      "filename": "How-to-Pick-the-Perfect-Hair-Patch-for-Your-Needs-1.webp",
+      "mimeType": "image/webp",
+      "title": "How Can You Select the Best Hair Patch for Your Needs?",
+      "alt": "How Can You Select the Best Hair Patch for Your Needs?",
+      "createdAt": "2026-04-16T04:49:36.150Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/07/Understanding-Hair-Systems_-A-Comprehensive-Guide-1.png",
+      "payloadMediaId": 63,
+      "filename": "Understanding-Hair-Systems_-A-Comprehensive-Guide-1.png",
+      "mimeType": "image/png",
+      "title": "Understanding Hair Systems: A Comprehensive Guide",
+      "alt": "Understanding Hair Systems: A Comprehensive Guide",
+      "createdAt": "2026-04-16T04:49:36.758Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/08/How-to-Achieve-an-Natural-Front-Hairline-with-Your-Hair-Systems-1.png",
+      "payloadMediaId": 64,
+      "filename": "How-to-Achieve-an-Natural-Front-Hairline-with-Your-Hair-Systems-1.png",
+      "mimeType": "image/png",
+      "title": "How to Achieve an Natural Front Hairline with Your Hair Systems",
+      "alt": "How to Achieve an Natural Front Hairline with Your Hair Systems",
+      "createdAt": "2026-04-16T04:49:37.289Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/08/How-to-Achieve-the-Perfect-Hair-Density-for-a-Natural-Looking-Hair-Systems-1.png",
+      "payloadMediaId": 65,
+      "filename": "How-to-Achieve-the-Perfect-Hair-Density-for-a-Natural-Looking-Hair-Systems-1.png",
+      "mimeType": "image/png",
+      "title": "How to Achieve the Perfect Hair Density for a Natural Looking Hair Systems",
+      "alt": "How to Achieve the Perfect Hair Density for a Natural Looking Hair Systems",
+      "createdAt": "2026-04-16T04:49:38.093Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/08/How-to-Choose-the-Right-Base-Size-for-Your-Hair-Patch-1.png",
+      "payloadMediaId": 66,
+      "filename": "How-to-Choose-the-Right-Base-Size-for-Your-Hair-Patch-1.png",
+      "mimeType": "image/png",
+      "title": "How to Choose the Right Base Size for Your Hair Patch",
+      "alt": "How to Choose the Right Base Size for Your Hair Patch",
+      "createdAt": "2026-04-16T04:49:38.805Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/09/TRANSPLANT-OR-SMP-1.png",
+      "payloadMediaId": 67,
+      "filename": "TRANSPLANT-OR-SMP-1.png",
+      "mimeType": "image/png",
+      "title": "Scalp Micropigmentation vs. Hair Transplant: Which is the Better Option?",
+      "alt": "Scalp Micropigmentation vs. Hair Transplant: Which is the Better Option?",
+      "createdAt": "2026-04-16T04:49:39.331Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/09/Why-PU-Skin-Hair-Systems-not-suitable-for-Indian-weather.webp",
+      "payloadMediaId": 68,
+      "filename": "Why-PU-Skin-Hair-Systems-not-suitable-for-Indian-weather.webp",
+      "mimeType": "image/webp",
+      "title": "Why PU Skin Hair Systems Are Not Suitable for Indian Weather?",
+      "alt": "Why PU Skin Hair Systems Are Not Suitable for Indian Weather?",
+      "createdAt": "2026-04-16T04:49:39.800Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/09/How-Hair-Direction-Affects-Your-Look.webp",
+      "payloadMediaId": 69,
+      "filename": "How-Hair-Direction-Affects-Your-Look.webp",
+      "mimeType": "image/webp",
+      "title": "Hair Systems Styling: How Hair Direction Affects Your Look",
+      "alt": "Hair Systems Styling: How Hair Direction Affects Your Look",
+      "createdAt": "2026-04-16T04:49:40.418Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/What-is-a-PU-Skin-Hair-System.webp",
+      "payloadMediaId": 70,
+      "filename": "What-is-a-PU-Skin-Hair-System.webp",
+      "mimeType": "image/webp",
+      "title": "What is a PU Skin Hair System? A Complete Guide for Beginners",
+      "alt": "What is a PU Skin Hair System? A Complete Guide for Beginners",
+      "createdAt": "2026-04-16T04:49:40.925Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/09/Scalp-Micropigmentation-Side-Effects.webp",
+      "payloadMediaId": 71,
+      "filename": "Scalp-Micropigmentation-Side-Effects.webp",
+      "mimeType": "image/webp",
+      "title": "Scalp Micropigmentation Side Effects: What to Know Before Treatment",
+      "alt": "Scalp Micropigmentation Side Effects: What to Know Before Treatment",
+      "createdAt": "2026-04-16T04:49:41.843Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/Hair-Systems-for-Men-in-Pune.webp",
+      "payloadMediaId": 72,
+      "filename": "Hair-Systems-for-Men-in-Pune.webp",
+      "mimeType": "image/webp",
+      "title": "How Made-to-Order Hair Systems Help Pune Residents Regain Confidence Without Surgery",
+      "alt": "How Made-to-Order Hair Systems Help Pune Residents Regain Confidence Without Surgery",
+      "createdAt": "2026-04-16T04:49:42.369Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/why-people-choose-hair-system-over-hair-transplant.jpg",
+      "payloadMediaId": 73,
+      "filename": "why-people-choose-hair-system-over-hair-transplant.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Why Bangalore Men Prefer Hair Systems Over Hair Transplants",
+      "alt": "Why Bangalore Men Prefer Hair Systems Over Hair Transplants",
+      "createdAt": "2026-04-16T04:49:43.027Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/Best-Hair-Patches-for-Punes-Hot-and-Humid-Weather-2.jpg",
+      "payloadMediaId": 74,
+      "filename": "Best-Hair-Patches-for-Punes-Hot-and-Humid-Weather-2.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Best Hair Patches for Pune's Hot and Humid Weather",
+      "alt": "Best Hair Patches for Pune's Hot and Humid Weather",
+      "createdAt": "2026-04-16T04:49:44.328Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/Hair-Systems-for-Corporate-Men-in-Pune-v1.png",
+      "payloadMediaId": 75,
+      "filename": "Hair-Systems-for-Corporate-Men-in-Pune-v1.png",
+      "mimeType": "image/png",
+      "title": "Hair Systems for Corporate Men in Pune",
+      "alt": "Hair Systems for Corporate Men in Pune",
+      "createdAt": "2026-04-16T04:49:45.223Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/How-Bangalores-Weather-Influences-Hair-Loss.png",
+      "payloadMediaId": 76,
+      "filename": "How-Bangalores-Weather-Influences-Hair-Loss.png",
+      "mimeType": "image/png",
+      "title": "How Bangalore’s Weather Influences Hair Loss and What You Can Do",
+      "alt": "How Bangalore’s Weather Influences Hair Loss and What You Can Do",
+      "createdAt": "2026-04-16T04:49:46.012Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/Hair-Systems-for-Married-Men-in-Pune.png",
+      "payloadMediaId": 77,
+      "filename": "Hair-Systems-for-Married-Men-in-Pune.png",
+      "mimeType": "image/png",
+      "title": "Hair Systems for Married Men in Pune",
+      "alt": "Hair Systems for Married Men in Pune",
+      "createdAt": "2026-04-16T04:49:47.380Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/hairline-looks-fake-2.jpg",
+      "payloadMediaId": 78,
+      "filename": "hairline-looks-fake-2.jpg",
+      "mimeType": "image/jpeg",
+      "title": "The Real Reason Most Hair Replacement Systems Don’t Look Natural (And How to Avoid It)",
+      "alt": "The Real Reason Most Hair Replacement Systems Don’t Look Natural (And How to Avoid It)",
+      "createdAt": "2026-04-16T04:49:48.015Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/married-men.jpg",
+      "payloadMediaId": 79,
+      "filename": "married-men.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Is Your Hair Loss Affecting Your Married Life? How Non-Surgical Hair Replacement Can Help",
+      "alt": "Is Your Hair Loss Affecting Your Married Life? How Non-Surgical Hair Replacement Can Help",
+      "createdAt": "2026-04-16T04:49:48.931Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/ahl-blog-1.jpg",
+      "payloadMediaId": 80,
+      "filename": "ahl-blog-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Why Most Hair Transplants Fail to Satisfy and the Non-Surgical Solution to Consider",
+      "alt": "Why Most Hair Transplants Fail to Satisfy and the Non-Surgical Solution to Consider",
+      "createdAt": "2026-04-16T04:49:49.961Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Wedding-Worries-How-to-Fix-Hair-Loss.jpg",
+      "payloadMediaId": 81,
+      "filename": "Wedding-Worries-How-to-Fix-Hair-Loss.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Wedding Worries? How to Fix Hair Loss Before the Big Day",
+      "alt": "Wedding Worries? How to Fix Hair Loss Before the Big Day",
+      "createdAt": "2026-04-16T04:49:50.630Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Scalp-Micropigmentation.jpg",
+      "payloadMediaId": 82,
+      "filename": "Scalp-Micropigmentation.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Top Reasons Why Scalp Micropigmentation is the Best Choice for Thinning Hair",
+      "alt": "Top Reasons Why Scalp Micropigmentation is the Best Choice for Thinning Hair",
+      "createdAt": "2026-04-16T04:49:51.165Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/How-Indian-Men-in-Their-40s-Are-Fighting-Hair-Loss-Successfully.jpg",
+      "payloadMediaId": 83,
+      "filename": "How-Indian-Men-in-Their-40s-Are-Fighting-Hair-Loss-Successfully.jpg",
+      "mimeType": "image/jpeg",
+      "title": "How Indian Men in Their 40s Are Fighting Hair Loss Successfully",
+      "alt": "How Indian Men in Their 40s Are Fighting Hair Loss Successfully",
+      "createdAt": "2026-04-16T04:49:51.723Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/A-Group-of-Diverse-Happy-Clients-v1.webp",
+      "payloadMediaId": 84,
+      "filename": "A-Group-of-Diverse-Happy-Clients-v1.webp",
+      "mimeType": "image/webp",
+      "title": "Hair Replacement in Mumbai: The Perfect Solution for Busy Professionals",
+      "alt": "Hair Replacement in Mumbai: The Perfect Solution for Busy Professionals",
+      "createdAt": "2026-04-16T04:49:52.266Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Hair-Loss-Solutions-for-Men-With-Busy-Lives-2.jpg",
+      "payloadMediaId": 85,
+      "filename": "Hair-Loss-Solutions-for-Men-With-Busy-Lives-2.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Quick Fix: Hair Loss Solutions for Men With Busy Lives",
+      "alt": "Quick Fix: Hair Loss Solutions for Men With Busy Lives",
+      "createdAt": "2026-04-16T04:49:52.784Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Is-Stress-Making-You-Bald3.jpg",
+      "payloadMediaId": 86,
+      "filename": "Is-Stress-Making-You-Bald3.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Is Stress Making You Bald? The Ultimate Fix for Corporate Men",
+      "alt": "Is Stress Making You Bald? The Ultimate Fix for Corporate Men",
+      "createdAt": "2026-04-16T04:49:53.905Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Seven-sign-your-hair-loss-is-making-you-older-1.jpg",
+      "payloadMediaId": 87,
+      "filename": "Seven-sign-your-hair-loss-is-making-you-older-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Seven Signs Your Hair Loss Is Making You Look Older",
+      "alt": "Seven Signs Your Hair Loss Is Making You Look Older",
+      "createdAt": "2026-04-16T04:49:54.550Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/NO-SURGERY-BETTER-HAIR.jpg",
+      "payloadMediaId": 88,
+      "filename": "NO-SURGERY-BETTER-HAIR.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Top 5 Reasons Why Non-Surgical Hair Replacement Is the Secret Weapon of Confident Men",
+      "alt": "Top 5 Reasons Why Non-Surgical Hair Replacement Is the Secret Weapon of Confident Men",
+      "createdAt": "2026-04-16T04:49:55.310Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-4.png",
+      "payloadMediaId": 89,
+      "filename": "BA-4.png",
+      "mimeType": "image/png",
+      "title": "Boost Your Career &amp; Confidence with a Non Surgical Hair System",
+      "alt": "Boost Your Career &amp; Confidence with a Non Surgical Hair System",
+      "createdAt": "2026-04-16T04:49:56.743Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/09/A-Group-of-Diverse-Happy-Clients-v1-1.png",
+      "payloadMediaId": 90,
+      "filename": "A-Group-of-Diverse-Happy-Clients-v1-1.png",
+      "mimeType": "image/png",
+      "title": "Is Your Hairline Secretly Aging You? Find Out Now!",
+      "alt": "Is Your Hairline Secretly Aging You? Find Out Now!",
+      "createdAt": "2026-04-16T04:49:57.710Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/Why-80-of-Young-Men-Regret-Ignoring-Early-Hair-Loss.jpg",
+      "payloadMediaId": 91,
+      "filename": "Why-80-of-Young-Men-Regret-Ignoring-Early-Hair-Loss.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Why 80% of Young Men Regret Ignoring Early Hair Loss",
+      "alt": "Why 80% of Young Men Regret Ignoring Early Hair Loss",
+      "createdAt": "2026-04-16T04:49:58.247Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/How-Indian-College-Students-Are-Secretly-Beating-Hair-Loss2.jpg",
+      "payloadMediaId": 92,
+      "filename": "How-Indian-College-Students-Are-Secretly-Beating-Hair-Loss2.jpg",
+      "mimeType": "image/jpeg",
+      "title": "How Indian College Students Are Secretly Beating Hair Loss",
+      "alt": "How Indian College Students Are Secretly Beating Hair Loss",
+      "createdAt": "2026-04-16T04:49:58.864Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/This-Viral-Hair-Hack-will-change-how-you-style-your-hair-forever.jpg",
+      "payloadMediaId": 93,
+      "filename": "This-Viral-Hair-Hack-will-change-how-you-style-your-hair-forever.jpg",
+      "mimeType": "image/jpeg",
+      "title": "This Viral Hair Hack Will Change How You Style Your Hair Forever",
+      "alt": "This Viral Hair Hack Will Change How You Style Your Hair Forever",
+      "createdAt": "2026-04-16T04:49:59.981Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/Balding-at-22-The-Surprising-Science-Behind-Early-Hair-Loss.jpg",
+      "payloadMediaId": 94,
+      "filename": "Balding-at-22-The-Surprising-Science-Behind-Early-Hair-Loss.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Balding at Twenty-Two? The Surprising Science Behind Early Hair Loss",
+      "alt": "Balding at Twenty-Two? The Surprising Science Behind Early Hair Loss",
+      "createdAt": "2026-04-16T04:50:00.679Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/Are-You-Wedding-Photo-Ready-The-Ultimate-Hair-Fix-for-Grooms.jpg",
+      "payloadMediaId": 95,
+      "filename": "Are-You-Wedding-Photo-Ready-The-Ultimate-Hair-Fix-for-Grooms.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Are You Wedding-Photo Ready? The Ultimate Hair Fix for Grooms",
+      "alt": "Are You Wedding-Photo Ready? The Ultimate Hair Fix for Grooms",
+      "createdAt": "2026-04-16T04:50:01.325Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-2.png",
+      "payloadMediaId": 96,
+      "filename": "BA-2.png",
+      "mimeType": "image/png",
+      "title": "Hair Patches vs. Transplants: Which One Will Get You More Right Swipes?",
+      "alt": "Hair Patches vs. Transplants: Which One Will Get You More Right Swipes?",
+      "createdAt": "2026-04-16T04:50:03.096Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/Seven-Hair-Mistakes-That-Make-You-Look-Older-in-Selfies.jpg",
+      "payloadMediaId": 97,
+      "filename": "Seven-Hair-Mistakes-That-Make-You-Look-Older-in-Selfies.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Seven Hair Mistakes That Make You Look Older in Selfies",
+      "alt": "Seven Hair Mistakes That Make You Look Older in Selfies",
+      "createdAt": "2026-04-16T04:50:03.784Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/The-Ultimate-Guide-to-Looking-More-Attractive-in-Selfies.jpg",
+      "payloadMediaId": 98,
+      "filename": "The-Ultimate-Guide-to-Looking-More-Attractive-in-Selfies.jpg",
+      "mimeType": "image/jpeg",
+      "title": "The Ultimate Guide to Looking More Attractive in Selfies",
+      "alt": "The Ultimate Guide to Looking More Attractive in Selfies",
+      "createdAt": "2026-04-16T04:50:04.442Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/The-_1-Hair-Fix-Every-Influencer-Swears-By—And-Its-Not-a-Transplant.jpg",
+      "payloadMediaId": 99,
+      "filename": "The-_1-Hair-Fix-Every-Influencer-Swears-By-And-Its-Not-a-Transplant.jpg",
+      "mimeType": "image/jpeg",
+      "title": "The #1 Hair Fix Every Influencer Swears By—And It’s Not a Transplant",
+      "alt": "The #1 Hair Fix Every Influencer Swears By—And It’s Not a Transplant",
+      "createdAt": "2026-04-16T04:50:05.593Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/The-Silent-Career-Killer-How-Hair-Loss-Affects-Workplace-Confidence.jpg",
+      "payloadMediaId": 100,
+      "filename": "The-Silent-Career-Killer-How-Hair-Loss-Affects-Workplace-Confidence.jpg",
+      "mimeType": "image/jpeg",
+      "title": "The Silent Career Killer: How Hair Loss Affects Workplace Confidence",
+      "alt": "The Silent Career Killer: How Hair Loss Affects Workplace Confidence",
+      "createdAt": "2026-04-16T04:50:06.694Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/transplant.jpg",
+      "payloadMediaId": 101,
+      "filename": "transplant.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Hair Transplants Are a Trap? What No One Tells Indian Men About Regrowth",
+      "alt": "Hair Transplants Are a Trap? What No One Tells Indian Men About Regrowth",
+      "createdAt": "2026-04-16T04:50:07.460Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/The-Hair-Confidence-Blueprint-How-to-Look-More-Powerful-at-Work.jpg",
+      "payloadMediaId": 102,
+      "filename": "The-Hair-Confidence-Blueprint-How-to-Look-More-Powerful-at-Work.jpg",
+      "mimeType": "image/jpeg",
+      "title": "The Hair Confidence Blueprint: How to Look More Powerful at Work",
+      "alt": "The Hair Confidence Blueprint: How to Look More Powerful at Work",
+      "createdAt": "2026-04-16T04:50:08.022Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/Your-Wife-Wont-Say-It-But-She-Notices-This-About-Your-Hair.jpg",
+      "payloadMediaId": 103,
+      "filename": "Your-Wife-Wont-Say-It-But-She-Notices-This-About-Your-Hair.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Your Wife Won’t Say It, But She Notices This About Your Hair",
+      "alt": "Your Wife Won’t Say It, But She Notices This About Your Hair",
+      "createdAt": "2026-04-16T04:50:09.448Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/Why-Your-Hairline-Might-Be-Killing-Your-Confidence-And-How-to-Fix-It.jpg",
+      "payloadMediaId": 104,
+      "filename": "Why-Your-Hairline-Might-Be-Killing-Your-Confidence-And-How-to-Fix-It.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Why Your Hairline Might Be Killing Your Confidence (And How to Fix It)",
+      "alt": "Why Your Hairline Might Be Killing Your Confidence (And How to Fix It)",
+      "createdAt": "2026-04-16T04:50:10.074Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/Why-Corporate-India-Is-Secretly-Embracing-Hair-Patches.jpg",
+      "payloadMediaId": 105,
+      "filename": "Why-Corporate-India-Is-Secretly-Embracing-Hair-Patches.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Why Corporate India Is Secretly Embracing Hair Patches Over Transplants",
+      "alt": "Why Corporate India Is Secretly Embracing Hair Patches Over Transplants",
+      "createdAt": "2026-04-16T04:50:10.812Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/Balding-in-Your-30s-The-Indian-CEO-Approved-Solution-You-Need.jpg",
+      "payloadMediaId": 106,
+      "filename": "Balding-in-Your-30s-The-Indian-CEO-Approved-Solution-You-Need.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Balding in Your 30s? The Indian CEO-Approved Solution You Need",
+      "alt": "Balding in Your 30s? The Indian CEO-Approved Solution You Need",
+      "createdAt": "2026-04-16T04:50:11.595Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/Are-You-Aging-Faster-Than-Your-Friends-The-Secret-to-a-Youthful-Hairline-1.jpg",
+      "payloadMediaId": 107,
+      "filename": "Are-You-Aging-Faster-Than-Your-Friends-The-Secret-to-a-Youthful-Hairline-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Are You Aging Faster Than Your Friends? The Secret to a Youthful Hairline",
+      "alt": "Are You Aging Faster Than Your Friends? The Secret to a Youthful Hairline",
+      "createdAt": "2026-04-16T04:50:12.161Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/looking-older-than-her.jpg",
+      "payloadMediaId": 108,
+      "filename": "looking-older-than-her.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Is Hair Loss Making You Look Older Than Your Wife? Here’s What to Do",
+      "alt": "Is Hair Loss Making You Look Older Than Your Wife? Here’s What to Do",
+      "createdAt": "2026-04-16T04:50:12.709Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/From-Zoom-Calls-to-Boardrooms-How-to-Maintain-a-Strong-Hairline-Under-Pressure.jpg",
+      "payloadMediaId": 109,
+      "filename": "From-Zoom-Calls-to-Boardrooms-How-to-Maintain-a-Strong-Hairline-Under-Pressure.jpg",
+      "mimeType": "image/jpeg",
+      "title": "From Zoom Calls to Boardrooms: How to Maintain a Strong Hairline Under Pressure",
+      "alt": "From Zoom Calls to Boardrooms: How to Maintain a Strong Hairline Under Pressure",
+      "createdAt": "2026-04-16T04:50:13.440Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/This-Indian-Hair-Secret-Is-Helping-Husbands-Look-Younger-Instantly.jpg",
+      "payloadMediaId": 110,
+      "filename": "This-Indian-Hair-Secret-Is-Helping-Husbands-Look-Younger-Instantly.jpg",
+      "mimeType": "image/jpeg",
+      "title": "This Indian Hair Secret Is Helping Husbands Look Younger Instantly",
+      "alt": "This Indian Hair Secret Is Helping Husbands Look Younger Instantly",
+      "createdAt": "2026-04-16T04:50:14.007Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/Bald-Spots-and-Marriage-The-Unspoken-Fear-No-One-Talks-About.jpg",
+      "payloadMediaId": 111,
+      "filename": "Bald-Spots-and-Marriage-The-Unspoken-Fear-No-One-Talks-About.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Bald Spots and Marriage: The Unspoken Fear No One Talks About",
+      "alt": "Bald Spots and Marriage: The Unspoken Fear No One Talks About",
+      "createdAt": "2026-04-16T04:50:14.587Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/90-of-Men-Regret-This-Hair-Loss-Mistake-Are-You-Making-It.jpg",
+      "payloadMediaId": 112,
+      "filename": "90-of-Men-Regret-This-Hair-Loss-Mistake-Are-You-Making-It.jpg",
+      "mimeType": "image/jpeg",
+      "title": "90% of Men Regret This Hair Loss Mistake Are You Making It?",
+      "alt": "90% of Men Regret This Hair Loss Mistake Are You Making It?",
+      "createdAt": "2026-04-16T04:50:15.365Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/How-to-Look-10-Years-Younger-Without-Changing-Your-Hairstyle-_________________--scaled.jpg",
+      "payloadMediaId": 113,
+      "filename": "How-to-Look-10-Years-Younger-Without-Changing-Your-Hairstyle-_________________-scaled.jpg",
+      "mimeType": "image/jpeg",
+      "title": "How to Look 10 Years Younger Without Changing Your Hairstyle",
+      "alt": "How to Look 10 Years Younger Without Changing Your Hairstyle",
+      "createdAt": "2026-04-16T04:50:16.208Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/She-Swiped-Right-for-Your-Hair-Heres-How-to-Keep-It.jpg",
+      "payloadMediaId": 114,
+      "filename": "She-Swiped-Right-for-Your-Hair-Heres-How-to-Keep-It.jpg",
+      "mimeType": "image/jpeg",
+      "title": "She Swiped Right for Your Hair Here’s How to Keep It That Way",
+      "alt": "She Swiped Right for Your Hair Here’s How to Keep It That Way",
+      "createdAt": "2026-04-16T04:50:16.775Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/05/Hair-Hacks-for-Busy-Professionals-Fix-Thinning-Hair-Without-Extra.jpg",
+      "payloadMediaId": 115,
+      "filename": "Hair-Hacks-for-Busy-Professionals-Fix-Thinning-Hair-Without-Extra.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Hair Hacks for Busy Professionals: Fix Thinning Hair Without Extra Effort",
+      "alt": "Hair Hacks for Busy Professionals: Fix Thinning Hair Without Extra Effort",
+      "createdAt": "2026-04-16T04:50:17.544Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/Thumbnail-1.webp",
+      "payloadMediaId": 116,
+      "filename": "Thumbnail-1.webp",
+      "mimeType": "image/webp",
+      "title": "Grooming Tricks That Make You Look Younger Instantly",
+      "alt": "Grooming Tricks That Make You Look Younger Instantly",
+      "createdAt": "2026-04-16T04:50:18.431Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/11/bw.jpg",
+      "payloadMediaId": 117,
+      "filename": "bw.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Hair Transplants vs. Hair Patches: What’s Best for Wedding Season?",
+      "alt": "Hair Transplants vs. Hair Patches: What’s Best for Wedding Season?",
+      "createdAt": "2026-04-16T04:50:19.253Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-3.png",
+      "payloadMediaId": 118,
+      "filename": "BA-3.png",
+      "mimeType": "image/png",
+      "title": "This Hair Solution Is Helping Indian Men Look Their Best Without Surgery",
+      "alt": "This Hair Solution Is Helping Indian Men Look Their Best Without Surgery",
+      "createdAt": "2026-04-16T04:50:21.115Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/How-to-Instantly-Boost-Confidence-with-a-Natural-Looking-Hair-Patch.jpg",
+      "payloadMediaId": 119,
+      "filename": "How-to-Instantly-Boost-Confidence-with-a-Natural-Looking-Hair-Patch.jpg",
+      "mimeType": "image/jpeg",
+      "title": "How Your Hairline Can Impact Promotions",
+      "alt": "How Your Hairline Can Impact Promotions",
+      "createdAt": "2026-04-16T04:50:21.702Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/08/Why-Most-Hair-Loss-Solutions-Fail-Working-Professionals-2nd-JPG-scaled.jpg",
+      "payloadMediaId": 120,
+      "filename": "Why-Most-Hair-Loss-Solutions-Fail-Working-Professionals-2nd-JPG-scaled.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Why Most Hair Loss Solutions Fail Working Professionals",
+      "alt": "Why Most Hair Loss Solutions Fail Working Professionals",
+      "createdAt": "2026-04-16T04:50:22.249Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/08/Hair-Patches-vs-Hair-Growth-Oils-What-Actually-Works-for-Married-Men-JPG-scaled.jpg",
+      "payloadMediaId": 121,
+      "filename": "Hair-Patches-vs-Hair-Growth-Oils-What-Actually-Works-for-Married-Men-JPG-scaled.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Hair Patches vs. Hair Growth Oils: What Actually Works for Married Men?",
+      "alt": "Hair Patches vs. Hair Growth Oils: What Actually Works for Married Men?",
+      "createdAt": "2026-04-16T04:50:22.710Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/09/ChatGPT-Image-Sep-4-2025-12_03_36-PM.png",
+      "payloadMediaId": 122,
+      "filename": "ChatGPT-Image-Sep-4-2025-12_03_36-PM.png",
+      "mimeType": "image/png",
+      "title": "Shocking Ways Hair Loss Changes How Your Partner Sees You",
+      "alt": "Shocking Ways Hair Loss Changes How Your Partner Sees You",
+      "createdAt": "2026-04-16T04:50:24.586Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/09/resized_image.png",
+      "payloadMediaId": 123,
+      "filename": "resized_image.png",
+      "mimeType": "image/png",
+      "title": "Why Hair Patches Are the Most Practical Fix for Corporate India",
+      "alt": "Why Hair Patches Are the Most Practical Fix for Corporate India",
+      "createdAt": "2026-04-16T04:50:26.717Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/09/resized_thumbnail_3000x2143.png",
+      "payloadMediaId": 124,
+      "filename": "resized_thumbnail_3000x2143.png",
+      "mimeType": "image/png",
+      "title": "Clip On Hair Systems: A Quick Style Advantage for Gen Z",
+      "alt": "Clip On Hair Systems: A Quick Style Advantage for Gen Z",
+      "createdAt": "2026-04-16T04:50:28.584Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/10/ChatGPT-Image-Oct-2-2025-12_19_18-PM.png",
+      "payloadMediaId": 125,
+      "filename": "ChatGPT-Image-Oct-2-2025-12_19_18-PM.png",
+      "mimeType": "image/png",
+      "title": "Bald Spot Horror: Why Grooms Are Choosing This Over Hair Transplants",
+      "alt": "Bald Spot Horror: Why Grooms Are Choosing This Over Hair Transplants",
+      "createdAt": "2026-04-16T04:50:31.359Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/10/Generated-Image-October-09-2025-11_00AM.png",
+      "payloadMediaId": 126,
+      "filename": "Generated-Image-October-09-2025-11_00AM.png",
+      "mimeType": "image/png",
+      "title": "Why Hair Transplants Before Your Wedding Might Be a Bad Idea",
+      "alt": "Why Hair Transplants Before Your Wedding Might Be a Bad Idea",
+      "createdAt": "2026-04-16T04:50:32.498Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/10/Generated-Image-October-16-2025-4_04PM.png",
+      "payloadMediaId": 127,
+      "filename": "Generated-Image-October-16-2025-4_04PM.png",
+      "mimeType": "image/png",
+      "title": "Clip On vs. Stick On: Which Hair Patch Is Right for You?",
+      "alt": "Clip On vs. Stick On: Which Hair Patch Is Right for You?",
+      "createdAt": "2026-04-16T04:50:33.958Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/10/ChatGPT-Image-Oct-23-2025-04_08_46-PM.png",
+      "payloadMediaId": 128,
+      "filename": "ChatGPT-Image-Oct-23-2025-04_08_46-PM.png",
+      "mimeType": "image/png",
+      "title": "No Time for Transplants? Smart Professionals Are Choosing This",
+      "alt": "No Time for Transplants? Smart Professionals Are Choosing This",
+      "createdAt": "2026-04-16T04:50:34.668Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/11/ChatGPT-Image-Nov-6-2025-02_14_26-PM.png",
+      "payloadMediaId": 129,
+      "filename": "ChatGPT-Image-Nov-6-2025-02_14_26-PM.png",
+      "mimeType": "image/png",
+      "title": "Looking 45 at 35? The Hairline Confession Every Husband Needs to Hear",
+      "alt": "Looking 45 at 35? The Hairline Confession Every Husband Needs to Hear",
+      "createdAt": "2026-04-16T04:50:36.707Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/11/Generated-Image-November-13-2025-10_52AM.png",
+      "payloadMediaId": 130,
+      "filename": "Generated-Image-November-13-2025-10_52AM.png",
+      "mimeType": "image/png",
+      "title": "Hairline Anxiety? Why Gen Z Men Choose Clip-On Systems",
+      "alt": "Hairline Anxiety? Why Gen Z Men Choose Clip-On Systems",
+      "createdAt": "2026-04-16T04:50:38.322Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/11/ChatGPT-Image-Nov-27-2025-11_23_28-AM.png",
+      "payloadMediaId": 131,
+      "filename": "ChatGPT-Image-Nov-27-2025-11_23_28-AM.png",
+      "mimeType": "image/png",
+      "title": "Can Clip-On Systems Survive a Night Out? We Tested It",
+      "alt": "Can Clip-On Systems Survive a Night Out? We Tested It",
+      "createdAt": "2026-04-16T04:50:39.975Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/08/hair-transformation_-1.png",
+      "payloadMediaId": 132,
+      "filename": "hair-transformation_-1.png",
+      "mimeType": "image/png",
+      "title": "First Time Stick On Hair System Buyer: Should You Book a Trial First?",
+      "alt": "First Time Stick On Hair System Buyer: Should You Book a Trial First?",
+      "createdAt": "2026-04-16T04:50:41.479Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/09/Transplant-or-Patch1-1.jpg",
+      "payloadMediaId": 133,
+      "filename": "Transplant-or-Patch1-1.jpg",
+      "mimeType": "image/jpeg",
+      "title": "Why CEOs Secretly Prefer Stick On Hair Systems Over Transplants",
+      "alt": "Why CEOs Secretly Prefer Stick On Hair Systems Over Transplants",
+      "createdAt": "2026-04-16T04:50:41.920Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-01_18_27-PM.png",
+      "payloadMediaId": 134,
+      "filename": "ChatGPT-Image-Jan-7-2026-01_18_27-PM.png",
+      "mimeType": "image/png",
+      "title": "The “Patch Panic” Myth: Why Modern Hair Systems Look Nothing Like Wigs",
+      "alt": "The “Patch Panic” Myth: Why Modern Hair Systems Look Nothing Like Wigs",
+      "createdAt": "2026-04-16T04:50:43.894Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-16-2026-01_28_33-PM.png",
+      "payloadMediaId": 135,
+      "filename": "ChatGPT-Image-Jan-16-2026-01_28_33-PM.png",
+      "mimeType": "image/png",
+      "title": "Why Stick On Hair Systems Outperform Transplants in Real Life",
+      "alt": "Why Stick On Hair Systems Outperform Transplants in Real Life",
+      "createdAt": "2026-04-16T04:50:45.546Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-22-2026-01_11_15-PM.png",
+      "payloadMediaId": 136,
+      "filename": "ChatGPT-Image-Jan-22-2026-01_11_15-PM.png",
+      "mimeType": "image/png",
+      "title": "Are You Shortening Your Hair Patch Lifespan With Poor Aftercare Practices?",
+      "alt": "Are You Shortening Your Hair Patch Lifespan With Poor Aftercare Practices?",
+      "createdAt": "2026-04-16T04:50:46.835Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-28-2026-04_39_09-PM.png",
+      "payloadMediaId": 137,
+      "filename": "ChatGPT-Image-Jan-28-2026-04_39_09-PM.png",
+      "mimeType": "image/png",
+      "title": "Can Breathable Hair System Bases Reduce Sweat in Humid Weather?",
+      "alt": "Can Breathable Hair System Bases Reduce Sweat in Humid Weather?",
+      "createdAt": "2026-04-16T04:50:49.400Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-5-2026-04_28_59-PM.png",
+      "payloadMediaId": 138,
+      "filename": "ChatGPT-Image-Feb-5-2026-04_28_59-PM.png",
+      "mimeType": "image/png",
+      "title": "9 Reasons Smart Professionals Are Switching to Modern Hair Systems",
+      "alt": "9 Reasons Smart Professionals Are Switching to Modern Hair Systems",
+      "createdAt": "2026-04-16T04:50:51.349Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-10-2026-04_56_31-PM.png",
+      "payloadMediaId": 139,
+      "filename": "ChatGPT-Image-Feb-10-2026-04_56_31-PM.png",
+      "mimeType": "image/png",
+      "title": "Can You Really Shower, Swim, and Sleep With a Stick On System?",
+      "alt": "Can You Really Shower, Swim, and Sleep With a Stick On System?",
+      "createdAt": "2026-04-16T04:50:52.719Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-17-2026-03_22_27-PM.png",
+      "payloadMediaId": 140,
+      "filename": "ChatGPT-Image-Feb-17-2026-03_22_27-PM.png",
+      "mimeType": "image/png",
+      "title": "Bollywood’s Silent Trend: The Rise of Non Surgical Hair Systems",
+      "alt": "Bollywood’s Silent Trend: The Rise of Non Surgical Hair Systems",
+      "createdAt": "2026-04-16T04:50:54.285Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-23-2026-01_16_33-PM.png",
+      "payloadMediaId": 141,
+      "filename": "ChatGPT-Image-Feb-23-2026-01_16_33-PM.png",
+      "mimeType": "image/png",
+      "title": "Hair Transplants in Your 20s: Smart Move or Lifetime Regret?",
+      "alt": "Hair Transplants in Your 20s: Smart Move or Lifetime Regret?",
+      "createdAt": "2026-04-16T04:50:55.919Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-2-2026-05_31_26-PM.png",
+      "payloadMediaId": 142,
+      "filename": "ChatGPT-Image-Mar-2-2026-05_31_26-PM.png",
+      "mimeType": "image/png",
+      "title": "From Bald Spot to Bollywood Look: How Clip-On Systems Create Instant Volume",
+      "alt": "From Bald Spot to Bollywood Look: How Clip-On Systems Create Instant Volume",
+      "createdAt": "2026-04-16T04:50:57.317Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-12-2026-03_40_23-PM.png",
+      "payloadMediaId": 143,
+      "filename": "ChatGPT-Image-Mar-12-2026-03_40_23-PM.png",
+      "mimeType": "image/png",
+      "title": "Can Modern Hair Systems Really Survive Gym Workouts and Running?",
+      "alt": "Can Modern Hair Systems Really Survive Gym Workouts and Running?",
+      "createdAt": "2026-04-16T04:50:58.927Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-17-2026-02_58_34-PM.png",
+      "payloadMediaId": 144,
+      "filename": "ChatGPT-Image-Mar-17-2026-02_58_34-PM.png",
+      "mimeType": "image/png",
+      "title": "Your Friends Are Balding Too… But You Don’t Have to Join Them",
+      "alt": "Your Friends Are Balding Too… But You Don’t Have to Join Them",
+      "createdAt": "2026-04-16T04:51:00.133Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_48_00-PM.png",
+      "payloadMediaId": 145,
+      "filename": "ChatGPT-Image-Mar-20-2026-12_48_00-PM.png",
+      "mimeType": "image/png",
+      "title": "Client-Facing Role? This Hair Hack Boosts Visual Credibility",
+      "alt": "Client-Facing Role? This Hair Hack Boosts Visual Credibility",
+      "createdAt": "2026-04-16T04:51:02.129Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-25-2026-04_57_08-PM.png",
+      "payloadMediaId": 146,
+      "filename": "ChatGPT-Image-Mar-25-2026-04_57_08-PM.png",
+      "mimeType": "image/png",
+      "title": "Hairline Jealousy Is Real! Here’s How to Beat It Without Surgery",
+      "alt": "Hairline Jealousy Is Real! Here’s How to Beat It Without Surgery",
+      "createdAt": "2026-04-16T04:51:03.318Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Mar-31-2026-03_03_00-PM.png",
+      "payloadMediaId": 384,
+      "filename": "ChatGPT-Image-Mar-31-2026-03_03_00-PM.png",
+      "mimeType": "image/png",
+      "title": "The New Trend: Hair Confidence Is the Real Status Symbol",
+      "alt": "The New Trend: Hair Confidence Is the Real Status Symbol",
+      "createdAt": "2026-09-06T09:31:51.834Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/Who-will-get-the-promotion_.png",
+      "payloadMediaId": 385,
+      "filename": "Who-will-get-the-promotion_.png",
+      "mimeType": "image/png",
+      "title": "Why Your Hairline Is Quietly Affecting Your Promotions - And How Hair Systems Fix It Instantly",
+      "alt": "Why Your Hairline Is Quietly Affecting Your Promotions - And How Hair Systems Fix It Instantly",
+      "createdAt": "2026-09-06T09:31:54.447Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/Before-and-after-hair-transformation-1.png",
+      "payloadMediaId": 386,
+      "filename": "Before-and-after-hair-transformation-1.png",
+      "mimeType": "image/png",
+      "title": "Tired of Hat-Hiding Your Hairline? Here’s the Real Solution",
+      "alt": "Tired of Hat-Hiding Your Hairline? Here’s the Real Solution",
+      "createdAt": "2026-09-06T09:31:56.062Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-16-2026-08_37_41-PM.png",
+      "payloadMediaId": 387,
+      "filename": "ChatGPT-Image-Apr-16-2026-08_37_41-PM.png",
+      "mimeType": "image/png",
+      "title": "Why Are Hair Systems Still Misunderstood As Wigs?",
+      "alt": "Why Are Hair Systems Still Misunderstood As Wigs?",
+      "createdAt": "2026-09-06T09:31:57.950Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-18-2026-07_14_39-PM.png",
+      "payloadMediaId": 388,
+      "filename": "ChatGPT-Image-Apr-18-2026-07_14_39-PM.png",
+      "mimeType": "image/png",
+      "title": "Hairline Restoration Without Surgery? Married Men Are Doing This",
+      "alt": "Hairline Restoration Without Surgery? Married Men Are Doing This",
+      "createdAt": "2026-09-06T09:31:59.699Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/hair_thumbnail_1356x1024.png",
+      "payloadMediaId": 389,
+      "filename": "hair_thumbnail_1356x1024.png",
+      "mimeType": "image/png",
+      "title": "Corporate Grooming Secrets: Why Your Hair Needs to Catch Up With Your Career",
+      "alt": "Corporate Grooming Secrets: Why Your Hair Needs to Catch Up With Your Career",
+      "createdAt": "2026-09-06T09:32:01.296Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-25-2026-12_46_19-PM.png",
+      "payloadMediaId": 390,
+      "filename": "ChatGPT-Image-Apr-25-2026-12_46_19-PM.png",
+      "mimeType": "image/png",
+      "title": "This Smart Hair Upgrade Saves Time for Busy Professionals",
+      "alt": "This Smart Hair Upgrade Saves Time for Busy Professionals",
+      "createdAt": "2026-09-06T09:32:02.726Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-29-2026-02_15_32-PM.png",
+      "payloadMediaId": 391,
+      "filename": "ChatGPT-Image-Apr-29-2026-02_15_32-PM.png",
+      "mimeType": "image/png",
+      "title": "Why a Customized Hair System Looks More Natural Than Ready Made Hair Patches",
+      "alt": "Why a Customized Hair System Looks More Natural Than Ready Made Hair Patches",
+      "createdAt": "2026-09-06T09:32:04.793Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-3-2026-11_15_35-AM-1.png",
+      "payloadMediaId": 392,
+      "filename": "ChatGPT-Image-May-3-2026-11_15_35-AM-1.png",
+      "mimeType": "image/png",
+      "title": "What No One Tells You About Your First Hair System Experience",
+      "alt": "What No One Tells You About Your First Hair System Experience",
+      "createdAt": "2026-09-06T09:32:06.303Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-9-2026-06_52_04-PM.png",
+      "payloadMediaId": 393,
+      "filename": "ChatGPT-Image-May-9-2026-06_52_04-PM.png",
+      "mimeType": "image/png",
+      "title": "Read This Before Budget Clip-Ons Ruin Your Weekend Party Photos",
+      "alt": "Read This Before Budget Clip-Ons Ruin Your Weekend Party Photos",
+      "createdAt": "2026-09-06T09:32:08.096Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-13-2026-11_40_53-AM.png",
+      "payloadMediaId": 394,
+      "filename": "ChatGPT-Image-May-13-2026-11_40_53-AM.png",
+      "mimeType": "image/png",
+      "title": "The Low Maintenance Hair System for High Performance Men",
+      "alt": "The Low Maintenance Hair System for High Performance Men",
+      "createdAt": "2026-09-06T09:32:09.671Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-21-2026-05_32_59-PM.png",
+      "payloadMediaId": 395,
+      "filename": "ChatGPT-Image-May-21-2026-05_32_59-PM.png",
+      "mimeType": "image/png",
+      "title": "Hair Loss Myths Every Young Man Needs to Stop Believing (And What Actually Helps)",
+      "alt": "Hair Loss Myths Every Young Man Needs to Stop Believing (And What Actually Helps)",
+      "createdAt": "2026-09-06T09:32:11.213Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-25-2026-03_51_09-PM.png",
+      "payloadMediaId": 396,
+      "filename": "ChatGPT-Image-May-25-2026-03_51_09-PM.png",
+      "mimeType": "image/png",
+      "title": "Don’t Let Hair Loss Hold You Back: Proven Solutions for Working Men",
+      "alt": "Don’t Let Hair Loss Hold You Back: Proven Solutions for Working Men",
+      "createdAt": "2026-09-06T09:32:12.493Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-3-2026-03_15_23-PM.png",
+      "payloadMediaId": 397,
+      "filename": "ChatGPT-Image-Jun-3-2026-03_15_23-PM.png",
+      "mimeType": "image/png",
+      "title": "The Truth About Thinning Hair in Your 20s: What You Need to Know",
+      "alt": "The Truth About Thinning Hair in Your 20s: What You Need to Know",
+      "createdAt": "2026-09-06T09:32:14.791Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-6-2026-01_20_08-PM.png",
+      "payloadMediaId": 398,
+      "filename": "ChatGPT-Image-Jun-6-2026-01_20_08-PM.png",
+      "mimeType": "image/png",
+      "title": "The New Trend in Corporate Grooming: Why Hair Systems Are the Future",
+      "alt": "The New Trend in Corporate Grooming: Why Hair Systems Are the Future",
+      "createdAt": "2026-09-06T09:32:16.523Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-9-2026-05_57_13-PM.png",
+      "payloadMediaId": 399,
+      "filename": "ChatGPT-Image-Jun-9-2026-05_57_13-PM.png",
+      "mimeType": "image/png",
+      "title": "Work Stress and Hair Loss: Is There a Connection? Find Out Here",
+      "alt": "Work Stress and Hair Loss: Is There a Connection? Find Out Here",
+      "createdAt": "2026-09-06T09:32:17.817Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-18-2026-04_38_58-PM.png",
+      "payloadMediaId": 400,
+      "filename": "ChatGPT-Image-Jun-18-2026-04_38_58-PM.png",
+      "mimeType": "image/png",
+      "title": "What’s Better for Young Men: Clip-On or Stick-On Hair Systems? Here’s the Truth",
+      "alt": "What’s Better for Young Men: Clip-On or Stick-On Hair Systems? Here’s the Truth",
+      "createdAt": "2026-09-06T09:32:19.130Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/hair_white_bg_v3.png",
+      "payloadMediaId": 401,
+      "filename": "hair_white_bg_v3.png",
+      "mimeType": "image/png",
+      "title": "How to Maintain Your Hair System While Managing a Busy Work Schedule",
+      "alt": "How to Maintain Your Hair System While Managing a Busy Work Schedule",
+      "createdAt": "2026-09-06T09:32:20.405Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-22-2026-06_17_09-PM.png",
+      "payloadMediaId": 402,
+      "filename": "ChatGPT-Image-Jun-22-2026-06_17_09-PM.png",
+      "mimeType": "image/png",
+      "title": "Why Are Indian Men Under 25 Losing Their Hair Faster Than Ever? Here's What You Need to Know!",
+      "alt": "Why Are Indian Men Under 25 Losing Their Hair Faster Than Ever? Here's What You Need to Know!",
+      "createdAt": "2026-09-06T09:32:22.066Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-23-2026-04_23_38-PM.png",
+      "payloadMediaId": 403,
+      "filename": "ChatGPT-Image-Jun-23-2026-04_23_38-PM.png",
+      "mimeType": "image/png",
+      "title": "The Best Hair Systems for Professionals Who Don’t Have Time for Surgery",
+      "alt": "The Best Hair Systems for Professionals Who Don’t Have Time for Surgery",
+      "createdAt": "2026-09-06T09:32:23.269Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jun-30-2026-08_44_08-PM.png",
+      "payloadMediaId": 404,
+      "filename": "ChatGPT-Image-Jun-30-2026-08_44_08-PM.png",
+      "mimeType": "image/png",
+      "title": "The Real Reason Young Men Prefer Clip-On Hair Systems Over Transplants",
+      "alt": "The Real Reason Young Men Prefer Clip-On Hair Systems Over Transplants",
+      "createdAt": "2026-09-06T09:32:24.717Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-4-2026-04_37_03-PM.png",
+      "payloadMediaId": 405,
+      "filename": "ChatGPT-Image-Jul-4-2026-04_37_03-PM.png",
+      "mimeType": "image/png",
+      "title": "Are Stick-On Hair Systems Better for Active Men? Here's the Truth",
+      "alt": "Are Stick-On Hair Systems Better for Active Men? Here's the Truth",
+      "createdAt": "2026-09-06T09:32:26.028Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-9-2026-01_04_25-PM.png",
+      "payloadMediaId": 406,
+      "filename": "ChatGPT-Image-Jul-9-2026-01_04_25-PM.png",
+      "mimeType": "image/png",
+      "title": "7 Signs You Need a Customized Hair System in Your 25s",
+      "alt": "7 Signs You Need a Customized Hair System in Your 25s",
+      "createdAt": "2026-09-06T09:32:27.758Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-9-2026-08_53_33-PM.png",
+      "payloadMediaId": 407,
+      "filename": "ChatGPT-Image-Jul-9-2026-08_53_33-PM.png",
+      "mimeType": "image/png",
+      "title": "The New Trend: Why Gen Z Boys Love Low-Maintenance Hair Systems",
+      "alt": "The New Trend: Why Gen Z Boys Love Low-Maintenance Hair Systems",
+      "createdAt": "2026-09-06T09:32:29.258Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-16-2026-03_45_46-PM.png",
+      "payloadMediaId": 408,
+      "filename": "ChatGPT-Image-Jul-16-2026-03_45_46-PM.png",
+      "mimeType": "image/png",
+      "title": "Non-Surgical Systems vs Hair Transplants: What Works for Busy Men?",
+      "alt": "Non-Surgical Systems vs Hair Transplants: What Works for Busy Men?",
+      "createdAt": "2026-09-06T09:32:30.516Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-16-2026-04_57_40-PM.png",
+      "payloadMediaId": 409,
+      "filename": "ChatGPT-Image-Jul-16-2026-04_57_40-PM.png",
+      "mimeType": "image/png",
+      "title": "The Psychology of Hair Loss: Why Fixing Hair Fixes Confidence",
+      "alt": "The Psychology of Hair Loss: Why Fixing Hair Fixes Confidence",
+      "createdAt": "2026-09-06T09:32:31.931Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-20-2026-03_40_15-PM.png",
+      "payloadMediaId": 410,
+      "filename": "ChatGPT-Image-Jul-20-2026-03_40_15-PM.png",
+      "mimeType": "image/png",
+      "title": "Stop Premature Balding Before Your Partner Notices the Change",
+      "alt": "Stop Premature Balding Before Your Partner Notices the Change",
+      "createdAt": "2026-09-06T09:32:33.522Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-23-2026-02_15_32-PM.png",
+      "payloadMediaId": 411,
+      "filename": "ChatGPT-Image-Jul-23-2026-02_15_32-PM.png",
+      "mimeType": "image/png",
+      "title": "Why Do Most Hair Loss Treatments Fail Busy Indian Professionals?",
+      "alt": "Why Do Most Hair Loss Treatments Fail Busy Indian Professionals?",
+      "createdAt": "2026-09-06T09:32:34.772Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-30-2026-03_16_12-PM.png",
+      "payloadMediaId": 412,
+      "filename": "ChatGPT-Image-Jul-30-2026-03_16_12-PM.png",
+      "mimeType": "image/png",
+      "title": "How Hair Systems Help Working Men Feel More Confident in Meetings",
+      "alt": "How Hair Systems Help Working Men Feel More Confident in Meetings",
+      "createdAt": "2026-09-06T09:32:36.321Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-29-2026-02_49_40-PM.png",
+      "payloadMediaId": 413,
+      "filename": "ChatGPT-Image-Jul-29-2026-02_49_40-PM.png",
+      "mimeType": "image/png",
+      "title": "How to Keep Your Hairline Looking Fresh and Youthful Without Surgery",
+      "alt": "How to Keep Your Hairline Looking Fresh and Youthful Without Surgery",
+      "createdAt": "2026-09-06T09:32:37.844Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-3-2026-05_08_09-PM.png",
+      "payloadMediaId": 414,
+      "filename": "ChatGPT-Image-Aug-3-2026-05_08_09-PM.png",
+      "mimeType": "image/png",
+      "title": "The Evolution of Hair Systems: From Obvious to Undetectable",
+      "alt": "The Evolution of Hair Systems: From Obvious to Undetectable",
+      "createdAt": "2026-09-06T09:32:39.745Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-6-2026-02_21_00-PM.png",
+      "payloadMediaId": 415,
+      "filename": "ChatGPT-Image-Aug-6-2026-02_21_00-PM.png",
+      "mimeType": "image/png",
+      "title": "The Smart Professional's Guide to Non-Surgical Hair Solutions",
+      "alt": "The Smart Professional's Guide to Non-Surgical Hair Solutions",
+      "createdAt": "2026-09-06T09:32:41.535Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-11-2026-03_43_17-PM.png",
+      "payloadMediaId": 416,
+      "filename": "ChatGPT-Image-Aug-11-2026-03_43_17-PM.png",
+      "mimeType": "image/png",
+      "title": "The 30-Minute Hair System Routine Every Corporate Man Should Follow",
+      "alt": "The 30-Minute Hair System Routine Every Corporate Man Should Follow",
+      "createdAt": "2026-09-06T09:32:43.225Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-9-2026-04_42_04-PM.png",
+      "payloadMediaId": 417,
+      "filename": "ChatGPT-Image-Aug-9-2026-04_42_04-PM.png",
+      "mimeType": "image/png",
+      "title": "Clip-On Systems for Work: Are They Secure Enough for Daily Use?",
+      "alt": "Clip-On Systems for Work: Are They Secure Enough for Daily Use?",
+      "createdAt": "2026-09-06T09:32:45.010Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/Are-You-Making-Hair-Loss-Worse_.png",
+      "payloadMediaId": 418,
+      "filename": "Are-You-Making-Hair-Loss-Worse_.png",
+      "mimeType": "image/png",
+      "title": "Heat, Stress &amp; Screen Time: Are They Speeding Up Hair Loss in Busy Men?",
+      "alt": "Heat, Stress &amp; Screen Time: Are They Speeding Up Hair Loss in Busy Men?",
+      "createdAt": "2026-09-06T09:32:47.206Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-19-2026-05_26_27-PM-1.png",
+      "payloadMediaId": 419,
+      "filename": "ChatGPT-Image-Aug-19-2026-05_26_27-PM-1.png",
+      "mimeType": "image/png",
+      "title": "Why Customized Systems Feel More Natural Than Ready-Made Options",
+      "alt": "Why Customized Systems Feel More Natural Than Ready-Made Options",
+      "createdAt": "2026-09-06T09:32:48.795Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-23-2026-04_36_31-PM.png",
+      "payloadMediaId": 420,
+      "filename": "ChatGPT-Image-Aug-23-2026-04_36_31-PM.png",
+      "mimeType": "image/png",
+      "title": "The Hair System Upgrade Every Corporate Leader Is Quietly Choosing Now",
+      "alt": "The Hair System Upgrade Every Corporate Leader Is Quietly Choosing Now",
+      "createdAt": "2026-09-06T09:32:50.116Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-25-2026-12_02_14-PM.png",
+      "payloadMediaId": 421,
+      "filename": "ChatGPT-Image-Aug-25-2026-12_02_14-PM.png",
+      "mimeType": "image/png",
+      "title": "From Meetings to Weekends: One Hair System That Adapts to Your Lifestyle",
+      "alt": "From Meetings to Weekends: One Hair System That Adapts to Your Lifestyle",
+      "createdAt": "2026-09-06T09:32:51.613Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-3-2026-03_31_34-PM.png",
+      "payloadMediaId": 422,
+      "filename": "ChatGPT-Image-Sep-3-2026-03_31_34-PM.png",
+      "mimeType": "image/png",
+      "title": "The Hairline Fix You Need Before Your College Reunion",
+      "alt": "The Hairline Fix You Need Before Your College Reunion",
+      "createdAt": "2026-09-06T09:32:52.490Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-6-2026-12_52_09-PM.png",
+      "payloadMediaId": 423,
+      "filename": "ChatGPT-Image-Sep-6-2026-12_52_09-PM.png",
+      "mimeType": "image/png",
+      "title": "Why Are Indian Men Under 25 Losing Their Hair Faster Than Ever",
+      "alt": "Why Are Indian Men Under 25 Losing Their Hair Faster Than Ever",
+      "createdAt": "2026-09-06T09:32:54.553Z"
+    }
+  ],
+  "successfulPostLinks": [
+    {
+      "localPostId": 1,
+      "localSlug": "how-to-choose-the-right-attachment-method-for-you",
+      "payloadMediaId": 12,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/choosing-right-hair-systems-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:34.227Z"
+    },
+    {
+      "localPostId": 2,
+      "localSlug": "deep-conditioning-tips-for-your-hair-system",
+      "payloadMediaId": 13,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/blog-ahl-deep-conditioning-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:34.614Z"
+    },
+    {
+      "localPostId": 3,
+      "localSlug": "is-your-hair-replacement-system-free-from-corona-virus",
+      "payloadMediaId": 14,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/blog-ahl-Is-Your-Hair-System-Free-From-Corona-Virus-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:35.005Z"
+    },
+    {
+      "localPostId": 4,
+      "localSlug": "caring-for-your-hair-system-in-the-summer",
+      "payloadMediaId": 15,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/caring-for-your-hair-syatem-in-the-summer-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:35.462Z"
+    },
+    {
+      "localPostId": 6,
+      "localSlug": "hair-replacement-for-alopecia-areata",
+      "payloadMediaId": 16,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/wigs-for-cancer-patients-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:35.931Z"
+    },
+    {
+      "localPostId": 7,
+      "localSlug": "how-to-prepare-yourself-for-non-surgical-hair-replacement",
+      "payloadMediaId": 17,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/preparing-yourself-for-hair-replacement.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:36.409Z"
+    },
+    {
+      "localPostId": 8,
+      "localSlug": "tips-to-take-care-of-your-hair-systems",
+      "payloadMediaId": 18,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-Systems-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:36.935Z"
+    },
+    {
+      "localPostId": 9,
+      "localSlug": "attachment-issues-with-hair-replacement-systems",
+      "payloadMediaId": 19,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-Systems-in-Mumbai-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:37.528Z"
+    },
+    {
+      "localPostId": 10,
+      "localSlug": "choosing-a-bonding-method-for-hair-replacement",
+      "payloadMediaId": 20,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/hair-replacement-center-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:38.051Z"
+    },
+    {
+      "localPostId": 11,
+      "localSlug": "benefits-of-non-surgical-hair-replacement-systems",
+      "payloadMediaId": 21,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/hair-patch-wigs-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:38.496Z"
+    },
+    {
+      "localPostId": 12,
+      "localSlug": "difference-between-hair-systems-and-hair-wigs",
+      "payloadMediaId": 22,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Difference-Between-Hair-Systems-And-Hair-Wigs-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:39.137Z"
+    },
+    {
+      "localPostId": 13,
+      "localSlug": "human-hair-systems-or-synthetic-hair-systems-which-ones-the-best",
+      "payloadMediaId": 23,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Human-Hair-Systems-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:39.772Z"
+    },
+    {
+      "localPostId": 14,
+      "localSlug": "what-causes-itchiness-or-irritation-in-hair-systems",
+      "payloadMediaId": 24,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:40.406Z"
+    },
+    {
+      "localPostId": 15,
+      "localSlug": "common-challenges-of-non-surgical-hair-replacement",
+      "payloadMediaId": 25,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/common-challenges-in-hair-replacement-systems.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:40.924Z"
+    },
+    {
+      "localPostId": 16,
+      "localSlug": "human-hair-wigs-for-cancer-or-alopecia",
+      "payloadMediaId": 26,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Wigs-for-Cancer-Patients-in-Mumbai-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:41.342Z"
+    },
+    {
+      "localPostId": 17,
+      "localSlug": "reasons-for-hair-shedding-in-non-surgical-hair-replacement-systems",
+      "payloadMediaId": 27,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/Non-Surgical-Hair-Replacement-Systems-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:41.904Z"
+    },
+    {
+      "localPostId": 18,
+      "localSlug": "is-non-surgical-hair-replacement-meant-for-you",
+      "payloadMediaId": 28,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/Hair-Replacement-in-Mumbai-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:42.650Z"
+    },
+    {
+      "localPostId": 20,
+      "localSlug": "selecting-the-correct-hair-density-for-your-hair-system",
+      "payloadMediaId": 29,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/hair-replacement-system-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:43.760Z"
+    },
+    {
+      "localPostId": 21,
+      "localSlug": "is-hair-patch-a-better-solution-than-a-hair-transplant",
+      "payloadMediaId": 30,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/Untitled-1-5-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:44.450Z"
+    },
+    {
+      "localPostId": 22,
+      "localSlug": "smp-aftercare-dos-and-donts",
+      "payloadMediaId": 31,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Scalp-micro-pigmentation-in-india-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:43:45.028Z"
+    },
+    {
+      "localPostId": 23,
+      "localSlug": "get-a-natural-look-with-non-surgical-hair-replacement-for-the-crown-area",
+      "payloadMediaId": 32,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/03/hair-systems-for-crown-area-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:15.657Z"
+    },
+    {
+      "localPostId": 24,
+      "localSlug": "myths-about-non-surgical-hair-replacement",
+      "payloadMediaId": 33,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/03/myths-about-non-surgical-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:16.080Z"
+    },
+    {
+      "localPostId": 25,
+      "localSlug": "how-to-choose-the-right-hairstyle-for-hair-systems",
+      "payloadMediaId": 34,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/04/human-hair-replacement-1-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:16.520Z"
+    },
+    {
+      "localPostId": 26,
+      "localSlug": "travel-tips-for-hair-system-wearers",
+      "payloadMediaId": 35,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/04/Hair-Replacement-System-1-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:17.484Z"
+    },
+    {
+      "localPostId": 27,
+      "localSlug": "is-scalp-micro-pigmentation-common-in-india",
+      "payloadMediaId": 36,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/05/SMP-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:18.242Z"
+    },
+    {
+      "localPostId": 28,
+      "localSlug": "avoid-these-mistakes-in-scalp-micro-pigmentation",
+      "payloadMediaId": 37,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/06/Avoid-mistakes-in-SMP-Thumbnail-2-1-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:19.150Z"
+    },
+    {
+      "localPostId": 29,
+      "localSlug": "the-truth-about-swiss-lace-hair-patches-in-india",
+      "payloadMediaId": 38,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/06/bLOG-tHUMBNAIL-3-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:19.544Z"
+    },
+    {
+      "localPostId": 30,
+      "localSlug": "most-natural-looking-hairline-patches-in-india",
+      "payloadMediaId": 39,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/06/Most-Natural-looking3-1-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:19.968Z"
+    },
+    {
+      "localPostId": 31,
+      "localSlug": "are-hair-patches-safe",
+      "payloadMediaId": 40,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/07/aRE-HAIR-SYSTEMS-SAFE-2-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:20.359Z"
+    },
+    {
+      "localPostId": 32,
+      "localSlug": "does-a-hair-system-damage-the-hair-underneath-scalp",
+      "payloadMediaId": 41,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/cta-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:20.743Z"
+    },
+    {
+      "localPostId": 33,
+      "localSlug": "are-poly-skin-base-hair-systems-suitable-for-indian-weather",
+      "payloadMediaId": 42,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/07/Poly-skin-hair-systemh-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:21.353Z"
+    },
+    {
+      "localPostId": 34,
+      "localSlug": "what-precautions-should-take-to-use-clip-on-hair-system",
+      "payloadMediaId": 43,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/09/After-care-for-clip-on-hair-system-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:21.848Z"
+    },
+    {
+      "localPostId": 35,
+      "localSlug": "hair-patch-for-men-or-hair-transplant-in-india-whats-right-for-you",
+      "payloadMediaId": 44,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/09/ezgif.com-webp-maker-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:23.116Z"
+    },
+    {
+      "localPostId": 36,
+      "localSlug": "everything-you-need-to-know-about-maintaining-your-hair-system-in-india",
+      "payloadMediaId": 45,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/09/Everything-You-Need-to-Know-About-Maintaining-Your-Hair-System-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:23.632Z"
+    },
+    {
+      "localPostId": 37,
+      "localSlug": "everything-you-need-to-know-about-hair-systems-for-men",
+      "payloadMediaId": 46,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/10/all-about-hair-systems-in-india-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:24.156Z"
+    },
+    {
+      "localPostId": 38,
+      "localSlug": "should-i-consider-getting-a-hair-system",
+      "payloadMediaId": 47,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/10/Hair-Systems-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:24.678Z"
+    },
+    {
+      "localPostId": 39,
+      "localSlug": "does-scalp-micropigmentation-look-natural-and-real",
+      "payloadMediaId": 48,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/10/SMP-Look-Natural-Real-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:25.098Z"
+    },
+    {
+      "localPostId": 40,
+      "localSlug": "setting-up-a-basic-hair-care-system-in-india-dos-and-donts",
+      "payloadMediaId": 49,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/10/dos-and-dont-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:25.658Z"
+    },
+    {
+      "localPostId": 41,
+      "localSlug": "how-to-choose-a-base-type-skin-base-or-lace-base-hair-systems",
+      "payloadMediaId": 50,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/11/Blog-thumbnail-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:26.078Z"
+    },
+    {
+      "localPostId": 42,
+      "localSlug": "the-ultimate-guide-to-non-surgical-hair-replacement-for-men-in-india",
+      "payloadMediaId": 51,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/11/Blog-thumbnail-6-aspects-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:26.782Z"
+    },
+    {
+      "localPostId": 43,
+      "localSlug": "can-i-shower-normally-with-my-hair-system-in-india",
+      "payloadMediaId": 52,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/11/Blog25_CanIShowerNormallywithMyHairSysteminIndia-ezgif.com-jpg-to-webp-converter-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:28.034Z"
+    },
+    {
+      "localPostId": 44,
+      "localSlug": "failed-hair-transplant-in-india-how-to-avoid-or-fix-it",
+      "payloadMediaId": 53,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/12/Blog22_FailedHairTransplantinIndiaHowtoAvoidorFixIt-ezgif.com-jpg-to-webp-converter-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:29.295Z"
+    },
+    {
+      "localPostId": 45,
+      "localSlug": "how-to-deal-with-hair-system-wearers-with-different-skin-conditions",
+      "payloadMediaId": 54,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/12/How-to-Deal-With-Hair-System-Wearers-With-Different-Skin-Conditions-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:29.934Z"
+    },
+    {
+      "localPostId": 46,
+      "localSlug": "how-to-create-a-natural-front-hairline-for-a-hair-system",
+      "payloadMediaId": 55,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/12/How-to-Create-a-Natural-Front-Hairline-for-a-Hair-System-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:30.664Z"
+    },
+    {
+      "localPostId": 47,
+      "localSlug": "is-a-hair-patch-a-good-option-to-opt-for",
+      "payloadMediaId": 56,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/01/Is-a-Hair-Patch-a-Good-Option-to-opt-for-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:31.415Z"
+    },
+    {
+      "localPostId": 48,
+      "localSlug": "scalp-micro-pigmentation-safe-in-india",
+      "payloadMediaId": 57,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/01/Scalp-Micro-Pigmentation-Safe-in-India-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:32.382Z"
+    },
+    {
+      "localPostId": 49,
+      "localSlug": "if-you-sweat-a-lot-which-base-to-choose-hair-system",
+      "payloadMediaId": 58,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/02/If-you-sweat-a-lot-Which-base-to-choose-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:33.084Z"
+    },
+    {
+      "localPostId": 50,
+      "localSlug": "why-scalp-micropigmentation-goes-wrong",
+      "payloadMediaId": 59,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/02/Why-Scalp-micropigmentation-goes-wrong-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:33.916Z"
+    },
+    {
+      "localPostId": 51,
+      "localSlug": "why-should-men-consider-using-hair-patches",
+      "payloadMediaId": 60,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/03/HAIR-PUTCH-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:34.444Z"
+    },
+    {
+      "localPostId": 52,
+      "localSlug": "whats-the-difference-between-a-hair-patch-and-a-hair-wig",
+      "payloadMediaId": 61,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/03/HAIR-PUTCH-option-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:35.809Z"
+    },
+    {
+      "localPostId": 53,
+      "localSlug": "how-can-you-select-the-best-hair-patch-for-your-needs",
+      "payloadMediaId": 62,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/05/How-to-Pick-the-Perfect-Hair-Patch-for-Your-Needs-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:36.191Z"
+    },
+    {
+      "localPostId": 54,
+      "localSlug": "understanding-hair-systems-a-comprehensive-guide",
+      "payloadMediaId": 63,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/07/Understanding-Hair-Systems_-A-Comprehensive-Guide-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:36.804Z"
+    },
+    {
+      "localPostId": 55,
+      "localSlug": "how-to-achieve-an-undetectable-front-hairline-with-your-hair-system",
+      "payloadMediaId": 64,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/08/How-to-Achieve-an-Natural-Front-Hairline-with-Your-Hair-Systems-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:37.337Z"
+    },
+    {
+      "localPostId": 56,
+      "localSlug": "how-to-achieve-the-perfect-hair-density-for-a-natural-looking-hair-systems",
+      "payloadMediaId": 65,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/08/How-to-Achieve-the-Perfect-Hair-Density-for-a-Natural-Looking-Hair-Systems-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:38.137Z"
+    },
+    {
+      "localPostId": 57,
+      "localSlug": "how-to-choose-the-right-base-size-for-your-hair-patch",
+      "payloadMediaId": 66,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/08/How-to-Choose-the-Right-Base-Size-for-Your-Hair-Patch-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:38.853Z"
+    },
+    {
+      "localPostId": 58,
+      "localSlug": "scalp-micropigmentation-vs-hair-transplant-which-is-the-better-option",
+      "payloadMediaId": 67,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/09/TRANSPLANT-OR-SMP-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:39.378Z"
+    },
+    {
+      "localPostId": 59,
+      "localSlug": "why-pu-skin-hair-systems-are-not-suitable-for-indian-weather",
+      "payloadMediaId": 68,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/09/Why-PU-Skin-Hair-Systems-not-suitable-for-Indian-weather.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:39.903Z"
+    },
+    {
+      "localPostId": 60,
+      "localSlug": "hair-systems-styling-how-hair-direction-affects-your-look",
+      "payloadMediaId": 69,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/09/How-Hair-Direction-Affects-Your-Look.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:40.475Z"
+    },
+    {
+      "localPostId": 61,
+      "localSlug": "what-is-a-pu-skin-hair-system-a-complete-guide-for-beginners",
+      "payloadMediaId": 70,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/What-is-a-PU-Skin-Hair-System.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:40.964Z"
+    },
+    {
+      "localPostId": 62,
+      "localSlug": "scalp-micropigmentation-side-effects-what-to-know-before-treatment",
+      "payloadMediaId": 71,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/09/Scalp-Micropigmentation-Side-Effects.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:41.889Z"
+    },
+    {
+      "localPostId": 63,
+      "localSlug": "how-made-to-order-hair-systems-help-pune-residents-regain-confidence-without-surgery",
+      "payloadMediaId": 72,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/Hair-Systems-for-Men-in-Pune.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:42.409Z"
+    },
+    {
+      "localPostId": 64,
+      "localSlug": "why-bangalore-men-prefer-hair-systems-over-hair-transplants",
+      "payloadMediaId": 73,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/why-people-choose-hair-system-over-hair-transplant.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:43.066Z"
+    },
+    {
+      "localPostId": 65,
+      "localSlug": "best-hair-patches-for-punes-hot-and-humid-weather",
+      "payloadMediaId": 74,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/Best-Hair-Patches-for-Punes-Hot-and-Humid-Weather-2.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:44.397Z"
+    },
+    {
+      "localPostId": 66,
+      "localSlug": "common-issues-with-pu-skin-hair-systems-and-how-to-fix-them",
+      "payloadMediaId": 70,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/What-is-a-PU-Skin-Hair-System.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:44.434Z"
+    },
+    {
+      "localPostId": 67,
+      "localSlug": "hair-systems-for-corporate-men-in-pune",
+      "payloadMediaId": 75,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/Hair-Systems-for-Corporate-Men-in-Pune-v1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:45.267Z"
+    },
+    {
+      "localPostId": 68,
+      "localSlug": "how-bangalores-weather-influences-hair-loss-and-what-you-can-do",
+      "payloadMediaId": 76,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/How-Bangalores-Weather-Influences-Hair-Loss.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:46.065Z"
+    },
+    {
+      "localPostId": 69,
+      "localSlug": "hair-systems-for-married-men-in-pune",
+      "payloadMediaId": 77,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/Hair-Systems-for-Married-Men-in-Pune.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:47.438Z"
+    },
+    {
+      "localPostId": 70,
+      "localSlug": "the-real-reason-most-hair-replacement-systems-dont-look-natural-and-how-to-avoid-it",
+      "payloadMediaId": 78,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/hairline-looks-fake-2.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:48.058Z"
+    },
+    {
+      "localPostId": 71,
+      "localSlug": "is-your-hair-loss-affecting-your-married-life-how-non-surgical-hair-replacement-can-help",
+      "payloadMediaId": 79,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/married-men.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:48.978Z"
+    },
+    {
+      "localPostId": 72,
+      "localSlug": "why-most-hair-transplants-fail-to-satisfy-and-the-non-surgical-solution-to-consider",
+      "payloadMediaId": 80,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/ahl-blog-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:50.001Z"
+    },
+    {
+      "localPostId": 73,
+      "localSlug": "wedding-worries-how-to-fix-hair-loss-before-the-big-day",
+      "payloadMediaId": 81,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Wedding-Worries-How-to-Fix-Hair-Loss.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:50.692Z"
+    },
+    {
+      "localPostId": 74,
+      "localSlug": "top-reasons-why-scalp-micropigmentation-is-the-best-choice-for-thinning-hair",
+      "payloadMediaId": 82,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Scalp-Micropigmentation.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:51.209Z"
+    },
+    {
+      "localPostId": 75,
+      "localSlug": "how-indian-men-in-their-40s-are-fighting-hair-loss-successfully",
+      "payloadMediaId": 83,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/How-Indian-Men-in-Their-40s-Are-Fighting-Hair-Loss-Successfully.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:51.772Z"
+    },
+    {
+      "localPostId": 76,
+      "localSlug": "hair-replacement-in-mumbai-the-perfect-solution-for-busy-professionals",
+      "payloadMediaId": 84,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/A-Group-of-Diverse-Happy-Clients-v1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:52.321Z"
+    },
+    {
+      "localPostId": 77,
+      "localSlug": "quick-fix-hair-loss-solutions-for-men-with-busy-lives",
+      "payloadMediaId": 85,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Hair-Loss-Solutions-for-Men-With-Busy-Lives-2.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:52.829Z"
+    },
+    {
+      "localPostId": 78,
+      "localSlug": "is-stress-making-you-bald-the-ultimate-fix-for-corporate-men",
+      "payloadMediaId": 86,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Is-Stress-Making-You-Bald3.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:53.955Z"
+    },
+    {
+      "localPostId": 79,
+      "localSlug": "can-scalp-micropigmentation-be-removed-understanding-the-reversal-process",
+      "payloadMediaId": 82,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Scalp-Micropigmentation.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:53.994Z"
+    },
+    {
+      "localPostId": 80,
+      "localSlug": "7-signs-your-hair-loss-is-making-you-look-older",
+      "payloadMediaId": 87,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Seven-sign-your-hair-loss-is-making-you-older-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:54.591Z"
+    },
+    {
+      "localPostId": 81,
+      "localSlug": "top-5-reasons-why-non-surgical-hair-replacement-is-the-secret-weapon-of-confident-men",
+      "payloadMediaId": 88,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/NO-SURGERY-BETTER-HAIR.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:55.354Z"
+    },
+    {
+      "localPostId": 82,
+      "localSlug": "scalp-micropigmentation-can-it-really-help-you-look-younger-and-feel-more-confident",
+      "payloadMediaId": 57,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/01/Scalp-Micro-Pigmentation-Safe-in-India-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:55.393Z"
+    },
+    {
+      "localPostId": 83,
+      "localSlug": "boost-your-career-confidence-with-a-non-surgical-hair-system",
+      "payloadMediaId": 89,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-4.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:56.792Z"
+    },
+    {
+      "localPostId": 84,
+      "localSlug": "is-your-hairline-secretly-aging-you-find-out-now",
+      "payloadMediaId": 90,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/09/A-Group-of-Diverse-Happy-Clients-v1-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:57.750Z"
+    },
+    {
+      "localPostId": 85,
+      "localSlug": "why-80-of-young-men-regret-ignoring-early-hair-loss",
+      "payloadMediaId": 91,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/Why-80-of-Young-Men-Regret-Ignoring-Early-Hair-Loss.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:58.308Z"
+    },
+    {
+      "localPostId": 86,
+      "localSlug": "how-indian-college-students-are-secretly-beating-hair-loss",
+      "payloadMediaId": 92,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/How-Indian-College-Students-Are-Secretly-Beating-Hair-Loss2.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:49:58.905Z"
+    },
+    {
+      "localPostId": 87,
+      "localSlug": "this-viral-hair-hack-will-change-how-you-style-your-hair-forever",
+      "payloadMediaId": 93,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/This-Viral-Hair-Hack-will-change-how-you-style-your-hair-forever.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:00.042Z"
+    },
+    {
+      "localPostId": 88,
+      "localSlug": "balding-at-22-the-surprising-science-behind-early-hair-loss",
+      "payloadMediaId": 94,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/Balding-at-22-The-Surprising-Science-Behind-Early-Hair-Loss.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:00.730Z"
+    },
+    {
+      "localPostId": 89,
+      "localSlug": "are-you-wedding-photo-ready-the-ultimate-hair-fix-for-grooms",
+      "payloadMediaId": 95,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/Are-You-Wedding-Photo-Ready-The-Ultimate-Hair-Fix-for-Grooms.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:01.374Z"
+    },
+    {
+      "localPostId": 90,
+      "localSlug": "hair-patches-vs-transplants-which-one-will-get-you-more-right-swipes",
+      "payloadMediaId": 96,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-2.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:03.152Z"
+    },
+    {
+      "localPostId": 91,
+      "localSlug": "seven-hair-mistakes-that-make-you-look-older-in-selfies",
+      "payloadMediaId": 97,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/Seven-Hair-Mistakes-That-Make-You-Look-Older-in-Selfies.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:03.829Z"
+    },
+    {
+      "localPostId": 92,
+      "localSlug": "the-ultimate-guide-to-looking-more-attractive-in-selfies",
+      "payloadMediaId": 98,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/The-Ultimate-Guide-to-Looking-More-Attractive-in-Selfies.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:04.498Z"
+    },
+    {
+      "localPostId": 93,
+      "localSlug": "the-1-hair-fix-every-influencer-swears-by-and-its-not-a-transplant",
+      "payloadMediaId": 99,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/The-_1-Hair-Fix-Every-Influencer-Swears-By—And-Its-Not-a-Transplant.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:05.639Z"
+    },
+    {
+      "localPostId": 94,
+      "localSlug": "the-silent-career-killer-how-hair-loss-affects-workplace-confidence",
+      "payloadMediaId": 100,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/The-Silent-Career-Killer-How-Hair-Loss-Affects-Workplace-Confidence.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:06.749Z"
+    },
+    {
+      "localPostId": 95,
+      "localSlug": "hair-transplants-are-a-trap-what-no-one-tells-indian-men-about-regrowth",
+      "payloadMediaId": 101,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/transplant.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:07.503Z"
+    },
+    {
+      "localPostId": 96,
+      "localSlug": "the-hair-confidence-blueprint-how-to-look-more-powerful-at-work",
+      "payloadMediaId": 102,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/The-Hair-Confidence-Blueprint-How-to-Look-More-Powerful-at-Work.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:08.074Z"
+    },
+    {
+      "localPostId": 97,
+      "localSlug": "7-hair-hacks-for-busy-professionals-fix-thinning-hair-without-extra-effort",
+      "payloadMediaId": 89,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-4.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:08.118Z"
+    },
+    {
+      "localPostId": 98,
+      "localSlug": "your-wife-wont-say-it-but-she-notices-this-about-your-hair",
+      "payloadMediaId": 103,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/Your-Wife-Wont-Say-It-But-She-Notices-This-About-Your-Hair.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:09.504Z"
+    },
+    {
+      "localPostId": 99,
+      "localSlug": "why-your-hairline-might-be-killing-your-confidence-and-how-to-fix-it",
+      "payloadMediaId": 104,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/Why-Your-Hairline-Might-Be-Killing-Your-Confidence-And-How-to-Fix-It.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:10.113Z"
+    },
+    {
+      "localPostId": 100,
+      "localSlug": "why-corporate-india-is-secretly-embracing-hair-patches-over-transplants",
+      "payloadMediaId": 105,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/Why-Corporate-India-Is-Secretly-Embracing-Hair-Patches.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:10.857Z"
+    },
+    {
+      "localPostId": 101,
+      "localSlug": "balding-in-your-30s-the-indian-ceo-approved-solution-you-need",
+      "payloadMediaId": 106,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/Balding-in-Your-30s-The-Indian-CEO-Approved-Solution-You-Need.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:11.633Z"
+    },
+    {
+      "localPostId": 102,
+      "localSlug": "are-you-aging-faster-than-your-friends-the-secret-to-a-youthful-hairline",
+      "payloadMediaId": 107,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/Are-You-Aging-Faster-Than-Your-Friends-The-Secret-to-a-Youthful-Hairline-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:12.208Z"
+    },
+    {
+      "localPostId": 103,
+      "localSlug": "is-hair-loss-making-you-look-older-than-your-wife-heres-what-to-do",
+      "payloadMediaId": 108,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/looking-older-than-her.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:12.748Z"
+    },
+    {
+      "localPostId": 104,
+      "localSlug": "from-zoom-calls-to-boardrooms-how-to-maintain-a-strong-hairline-under-pressure",
+      "payloadMediaId": 109,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/From-Zoom-Calls-to-Boardrooms-How-to-Maintain-a-Strong-Hairline-Under-Pressure.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:13.486Z"
+    },
+    {
+      "localPostId": 105,
+      "localSlug": "this-indian-hair-secret-is-helping-husbands-look-younger-instantly",
+      "payloadMediaId": 110,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/This-Indian-Hair-Secret-Is-Helping-Husbands-Look-Younger-Instantly.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:14.051Z"
+    },
+    {
+      "localPostId": 106,
+      "localSlug": "bald-spots-and-marriage-the-unspoken-fear-no-one-talks-about",
+      "payloadMediaId": 111,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/Bald-Spots-and-Marriage-The-Unspoken-Fear-No-One-Talks-About.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:14.630Z"
+    },
+    {
+      "localPostId": 107,
+      "localSlug": "90-of-men-regret-this-hair-loss-mistake-are-you-making-it",
+      "payloadMediaId": 112,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/90-of-Men-Regret-This-Hair-Loss-Mistake-Are-You-Making-It.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:15.412Z"
+    },
+    {
+      "localPostId": 108,
+      "localSlug": "how-to-look-10-years-younger-without-changing-your-hairstyle",
+      "payloadMediaId": 113,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/How-to-Look-10-Years-Younger-Without-Changing-Your-Hairstyle-_________________--scaled.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:16.264Z"
+    },
+    {
+      "localPostId": 109,
+      "localSlug": "she-swiped-right-for-your-hair-heres-how-to-keep-it-that-way",
+      "payloadMediaId": 114,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/She-Swiped-Right-for-Your-Hair-Heres-How-to-Keep-It.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:16.816Z"
+    },
+    {
+      "localPostId": 110,
+      "localSlug": "hair-hacks-for-busy-professionals-fix-thinning-hair-without-extra-effort",
+      "payloadMediaId": 115,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/05/Hair-Hacks-for-Busy-Professionals-Fix-Thinning-Hair-Without-Extra.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:17.590Z"
+    },
+    {
+      "localPostId": 111,
+      "localSlug": "grooming-tricks-that-make-you-look-younger-instantly",
+      "payloadMediaId": 116,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/12/Thumbnail-1.webp",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:18.468Z"
+    },
+    {
+      "localPostId": 112,
+      "localSlug": "how-to-keep-your-hair-looking-perfect-in-every-event",
+      "payloadMediaId": 89,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-4.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:18.507Z"
+    },
+    {
+      "localPostId": 113,
+      "localSlug": "hair-transplants-vs-hair-patches-whats-best-for-wedding-season",
+      "payloadMediaId": 117,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/11/bw.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:19.303Z"
+    },
+    {
+      "localPostId": 114,
+      "localSlug": "this-hair-solution-is-helping-indian-men-look-their-best-without-surgery",
+      "payloadMediaId": 118,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-3.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:21.159Z"
+    },
+    {
+      "localPostId": 115,
+      "localSlug": "how-your-hairline-can-impact-promotions",
+      "payloadMediaId": 119,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/How-to-Instantly-Boost-Confidence-with-a-Natural-Looking-Hair-Patch.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:21.743Z"
+    },
+    {
+      "localPostId": 116,
+      "localSlug": "why-most-hair-loss-solutions-fail-working-professionals",
+      "payloadMediaId": 120,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/08/Why-Most-Hair-Loss-Solutions-Fail-Working-Professionals-2nd-JPG-scaled.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:22.289Z"
+    },
+    {
+      "localPostId": 117,
+      "localSlug": "hair-patches-vs-hair-growth-oils-what-actually-works-for-married-men",
+      "payloadMediaId": 121,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/08/Hair-Patches-vs-Hair-Growth-Oils-What-Actually-Works-for-Married-Men-JPG-scaled.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:22.755Z"
+    },
+    {
+      "localPostId": 118,
+      "localSlug": "shocking-ways-hair-loss-changes-how-your-partner-sees-you",
+      "payloadMediaId": 122,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/09/ChatGPT-Image-Sep-4-2025-12_03_36-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:24.649Z"
+    },
+    {
+      "localPostId": 119,
+      "localSlug": "why-hair-patches-are-the-most-practical-fix-for-corporate-india",
+      "payloadMediaId": 123,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/09/resized_image.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:26.770Z"
+    },
+    {
+      "localPostId": 120,
+      "localSlug": "clip-on-hair-systems-a-quick-style-advantage-for-gen-z",
+      "payloadMediaId": 124,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/09/resized_thumbnail_3000x2143.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:28.634Z"
+    },
+    {
+      "localPostId": 121,
+      "localSlug": "bald-spot-horror-why-grooms-are-choosing-this-over-hair-transplants",
+      "payloadMediaId": 125,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/10/ChatGPT-Image-Oct-2-2025-12_19_18-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:31.406Z"
+    },
+    {
+      "localPostId": 122,
+      "localSlug": "why-hair-transplants-before-your-wedding-might-be-a-bad-idea",
+      "payloadMediaId": 126,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/10/Generated-Image-October-09-2025-11_00AM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:32.544Z"
+    },
+    {
+      "localPostId": 123,
+      "localSlug": "clip-on-vs-stick-on-which-hair-patch-is-right-for-you",
+      "payloadMediaId": 127,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/10/Generated-Image-October-16-2025-4_04PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:34.005Z"
+    },
+    {
+      "localPostId": 124,
+      "localSlug": "no-time-for-transplants-smart-professionals-are-choosing-this",
+      "payloadMediaId": 128,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/10/ChatGPT-Image-Oct-23-2025-04_08_46-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:34.715Z"
+    },
+    {
+      "localPostId": 125,
+      "localSlug": "why-do-most-men-fear-stick-on-hair-systems-look-fake",
+      "payloadMediaId": 97,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/Seven-Hair-Mistakes-That-Make-You-Look-Older-in-Selfies.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:34.756Z"
+    },
+    {
+      "localPostId": 126,
+      "localSlug": "looking-45-at-35-the-hairline-confession-every-husband-needs-to-hear",
+      "payloadMediaId": 129,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/11/ChatGPT-Image-Nov-6-2025-02_14_26-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:36.753Z"
+    },
+    {
+      "localPostId": 127,
+      "localSlug": "hairline-anxiety-why-gen-z-men-choose-clip-on-systems",
+      "payloadMediaId": 130,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/11/Generated-Image-November-13-2025-10_52AM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:38.386Z"
+    },
+    {
+      "localPostId": 128,
+      "localSlug": "why-are-stick-on-hair-systems-outsmarting-hair-transplants-in-india",
+      "payloadMediaId": 88,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/NO-SURGERY-BETTER-HAIR.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:38.421Z"
+    },
+    {
+      "localPostId": 129,
+      "localSlug": "can-clip-on-systems-survive-a-night-out-we-tested-it",
+      "payloadMediaId": 131,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/11/ChatGPT-Image-Nov-27-2025-11_23_28-AM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:40.024Z"
+    },
+    {
+      "localPostId": 130,
+      "localSlug": "first-time-stick-on-hair-system-buyer-should-you-book-a-trial-first",
+      "payloadMediaId": 132,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/08/hair-transformation_-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:41.540Z"
+    },
+    {
+      "localPostId": 131,
+      "localSlug": "can-you-really-pull-off-a-clip-on-system-at-the-gym",
+      "payloadMediaId": 93,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/This-Viral-Hair-Hack-will-change-how-you-style-your-hair-forever.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:41.578Z"
+    },
+    {
+      "localPostId": 132,
+      "localSlug": "why-ceos-secretly-prefer-stick-on-hair-systems-over-transplants",
+      "payloadMediaId": 133,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/09/Transplant-or-Patch1-1.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:41.961Z"
+    },
+    {
+      "localPostId": 133,
+      "localSlug": "secret-grooming-tricks-that-make-you-look-younger-instantly",
+      "payloadMediaId": 113,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/How-to-Look-10-Years-Younger-Without-Changing-Your-Hairstyle-_________________--scaled.jpg",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:42.001Z"
+    },
+    {
+      "localPostId": 134,
+      "localSlug": "the-patch-panic-myth-why-modern-hair-systems-look-nothing-like-wigs",
+      "payloadMediaId": 134,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-01_18_27-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:43.954Z"
+    },
+    {
+      "localPostId": 135,
+      "localSlug": "why-stick-on-hair-systems-outperform-transplants-in-real-life",
+      "payloadMediaId": 135,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-16-2026-01_28_33-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:45.598Z"
+    },
+    {
+      "localPostId": 136,
+      "localSlug": "are-you-shortening-your-hair-patch-lifespan-with-poor-aftercare-practices",
+      "payloadMediaId": 136,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-22-2026-01_11_15-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:46.883Z"
+    },
+    {
+      "localPostId": 137,
+      "localSlug": "can-breathable-hair-system-bases-reduce-sweat-in-humid-weather",
+      "payloadMediaId": 137,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-28-2026-04_39_09-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:49.458Z"
+    },
+    {
+      "localPostId": 138,
+      "localSlug": "9-reasons-smart-professionals-are-switching-to-modern-hair-systems",
+      "payloadMediaId": 138,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-5-2026-04_28_59-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:51.403Z"
+    },
+    {
+      "localPostId": 139,
+      "localSlug": "can-you-really-shower-swim-and-sleep-with-a-stick-on-system",
+      "payloadMediaId": 139,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-10-2026-04_56_31-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:52.761Z"
+    },
+    {
+      "localPostId": 140,
+      "localSlug": "bollywoods-silent-trend-the-rise-of-non-surgical-hair-systems",
+      "payloadMediaId": 140,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-17-2026-03_22_27-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:54.345Z"
+    },
+    {
+      "localPostId": 141,
+      "localSlug": "hair-transplants-in-your-20s-smart-move-or-lifetime-regret",
+      "payloadMediaId": 141,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-23-2026-01_16_33-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:55.970Z"
+    },
+    {
+      "localPostId": 142,
+      "localSlug": "from-bald-spot-to-bollywood-look-how-clip-on-systems-create-instant-volume",
+      "payloadMediaId": 142,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-2-2026-05_31_26-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:57.372Z"
+    },
+    {
+      "localPostId": 143,
+      "localSlug": "can-modern-hair-systems-really-survive-gym-workouts-and-running",
+      "payloadMediaId": 143,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-12-2026-03_40_23-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:50:58.975Z"
+    },
+    {
+      "localPostId": 144,
+      "localSlug": "your-friends-are-balding-too-but-you-dont-have-to-join-them",
+      "payloadMediaId": 144,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-17-2026-02_58_34-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:51:00.186Z"
+    },
+    {
+      "localPostId": 145,
+      "localSlug": "client-facing-role-this-hair-hack-boosts-visual-credibility",
+      "payloadMediaId": 145,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_48_00-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:51:02.183Z"
+    },
+    {
+      "localPostId": 146,
+      "localSlug": "hairline-jealousy-is-real-heres-how-to-beat-it-without-surgery",
+      "payloadMediaId": 146,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-25-2026-04_57_08-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-04-16T04:51:03.363Z"
+    },
+    {
+      "localPostId": 191,
+      "localSlug": "the-new-trend-hair-confidence-is-the-real-status-symbol",
+      "payloadMediaId": 384,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Mar-31-2026-03_03_00-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:31:53.107Z"
+    },
+    {
+      "localPostId": 190,
+      "localSlug": "why-your-hairline-is-quietly-affecting-your-promotions-and-how-hair-systems-fix-it-instantly",
+      "payloadMediaId": 385,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/Who-will-get-the-promotion_.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:31:54.536Z"
+    },
+    {
+      "localPostId": 189,
+      "localSlug": "tired-of-hat-hiding-your-hairline-heres-the-real-solution",
+      "payloadMediaId": 386,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/Before-and-after-hair-transformation-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:31:56.137Z"
+    },
+    {
+      "localPostId": 188,
+      "localSlug": "why-are-hair-systems-still-misunderstood-as-wigs",
+      "payloadMediaId": 387,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-16-2026-08_37_41-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:31:58.015Z"
+    },
+    {
+      "localPostId": 187,
+      "localSlug": "hairline-restoration-without-surgery-married-men-are-doing-this",
+      "payloadMediaId": 388,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-18-2026-07_14_39-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:31:59.764Z"
+    },
+    {
+      "localPostId": 186,
+      "localSlug": "corporate-grooming-secrets-why-your-hair-needs-to-catch-up-with-your-career",
+      "payloadMediaId": 389,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/hair_thumbnail_1356x1024.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:01.360Z"
+    },
+    {
+      "localPostId": 185,
+      "localSlug": "this-smart-hair-upgrade-saves-time-for-busy-professionals",
+      "payloadMediaId": 390,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-25-2026-12_46_19-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:02.796Z"
+    },
+    {
+      "localPostId": 184,
+      "localSlug": "why-a-customized-hair-system-looks-more-natural-than-ready-made-hair-patches",
+      "payloadMediaId": 391,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-29-2026-02_15_32-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:04.855Z"
+    },
+    {
+      "localPostId": 183,
+      "localSlug": "what-no-one-tells-you-about-your-first-hair-system-experience",
+      "payloadMediaId": 392,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-3-2026-11_15_35-AM-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:06.373Z"
+    },
+    {
+      "localPostId": 182,
+      "localSlug": "read-this-before-budget-clip-ons-ruin-your-weekend-party-photos",
+      "payloadMediaId": 393,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-9-2026-06_52_04-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:08.158Z"
+    },
+    {
+      "localPostId": 181,
+      "localSlug": "the-low-maintenance-hair-system-for-high-performance-men",
+      "payloadMediaId": 394,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-13-2026-11_40_53-AM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:09.735Z"
+    },
+    {
+      "localPostId": 180,
+      "localSlug": "hair-loss-myths-every-young-man-needs-to-stop-believing-and-what-actually-helps",
+      "payloadMediaId": 395,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-21-2026-05_32_59-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:11.261Z"
+    },
+    {
+      "localPostId": 179,
+      "localSlug": "dont-let-hair-loss-hold-you-back-proven-solutions-for-working-men",
+      "payloadMediaId": 396,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/05/ChatGPT-Image-May-25-2026-03_51_09-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:12.595Z"
+    },
+    {
+      "localPostId": 178,
+      "localSlug": "the-truth-about-thinning-hair-in-your-20s-what-you-need-to-know",
+      "payloadMediaId": 397,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-3-2026-03_15_23-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:14.840Z"
+    },
+    {
+      "localPostId": 177,
+      "localSlug": "the-new-trend-in-corporate-grooming-why-hair-systems-are-the-future",
+      "payloadMediaId": 398,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-6-2026-01_20_08-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:16.582Z"
+    },
+    {
+      "localPostId": 176,
+      "localSlug": "work-stress-and-hair-loss-is-there-a-connection-find-out-here",
+      "payloadMediaId": 399,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-9-2026-05_57_13-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:17.885Z"
+    },
+    {
+      "localPostId": 175,
+      "localSlug": "whats-better-for-young-men-clip-on-or-stick-on-hair-systems-heres-the-truth",
+      "payloadMediaId": 400,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-18-2026-04_38_58-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:19.173Z"
+    },
+    {
+      "localPostId": 174,
+      "localSlug": "how-to-maintain-your-hair-system-while-managing-a-busy-work-schedule",
+      "payloadMediaId": 401,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/hair_white_bg_v3.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:20.499Z"
+    },
+    {
+      "localPostId": 173,
+      "localSlug": "why-indian-men-losing-hair-before-25",
+      "payloadMediaId": 402,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-22-2026-06_17_09-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:22.131Z"
+    },
+    {
+      "localPostId": 172,
+      "localSlug": "best-hair-systems-for-professionals-without-surgery",
+      "payloadMediaId": 403,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-23-2026-04_23_38-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:23.310Z"
+    },
+    {
+      "localPostId": 171,
+      "localSlug": "young-men-prefer-clip-on-hair-systems-over-transplants",
+      "payloadMediaId": 404,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jun-30-2026-08_44_08-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:24.773Z"
+    },
+    {
+      "localPostId": 170,
+      "localSlug": "best-stick-on-hair-systems-for-active-men",
+      "payloadMediaId": 405,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-4-2026-04_37_03-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:26.065Z"
+    },
+    {
+      "localPostId": 169,
+      "localSlug": "7-signs-you-need-a-customized-hair-system-in-your-25s",
+      "payloadMediaId": 406,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-9-2026-01_04_25-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:27.823Z"
+    },
+    {
+      "localPostId": 168,
+      "localSlug": "gen-z-low-maintenance-hair-systems",
+      "payloadMediaId": 407,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-9-2026-08_53_33-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:29.322Z"
+    },
+    {
+      "localPostId": 167,
+      "localSlug": "non-surgical-hair-system-vs-hair-transplant",
+      "payloadMediaId": 408,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-16-2026-03_45_46-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:30.572Z"
+    },
+    {
+      "localPostId": 166,
+      "localSlug": "the-psychology-of-hair-loss-why-fixing-hair-fixes-confidence",
+      "payloadMediaId": 409,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-16-2026-04_57_40-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:31.999Z"
+    },
+    {
+      "localPostId": 165,
+      "localSlug": "stop-premature-balding-before-your-partner-notices-the-change",
+      "payloadMediaId": 410,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-20-2026-03_40_15-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:33.592Z"
+    },
+    {
+      "localPostId": 164,
+      "localSlug": "why-do-most-hair-loss-treatments-fail-busy-indian-professionals",
+      "payloadMediaId": 411,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-23-2026-02_15_32-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:34.854Z"
+    },
+    {
+      "localPostId": 163,
+      "localSlug": "how-hair-systems-help-working-men-feel-more-confident-in-meetings",
+      "payloadMediaId": 412,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-30-2026-03_16_12-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:36.384Z"
+    },
+    {
+      "localPostId": 162,
+      "localSlug": "how-to-keep-your-hairline-looking-fresh-and-youthful-without-surgery",
+      "payloadMediaId": 413,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-29-2026-02_49_40-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:37.914Z"
+    },
+    {
+      "localPostId": 161,
+      "localSlug": "the-evolution-of-hair-systems-from-obvious-to-undetectable",
+      "payloadMediaId": 414,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-3-2026-05_08_09-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:39.793Z"
+    },
+    {
+      "localPostId": 160,
+      "localSlug": "the-smart-professionals-guide-to-non-surgical-hair-solutions",
+      "payloadMediaId": 415,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-6-2026-02_21_00-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:41.598Z"
+    },
+    {
+      "localPostId": 159,
+      "localSlug": "30-minute-hair-system-routine-for-corporate-men",
+      "payloadMediaId": 416,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-11-2026-03_43_17-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:43.288Z"
+    },
+    {
+      "localPostId": 158,
+      "localSlug": "clip-on-hair-system-daily-work-use",
+      "payloadMediaId": 417,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-9-2026-04_42_04-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:45.077Z"
+    },
+    {
+      "localPostId": 157,
+      "localSlug": "heat-stress-screen-time-hair-loss",
+      "payloadMediaId": 418,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/Are-You-Making-Hair-Loss-Worse_.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:47.265Z"
+    },
+    {
+      "localPostId": 156,
+      "localSlug": "customized-hair-systems-vs-ready-made",
+      "payloadMediaId": 419,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-19-2026-05_26_27-PM-1.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:48.861Z"
+    },
+    {
+      "localPostId": 155,
+      "localSlug": "the-hair-system-upgrade-every-corporate-leader-is-quietly-choosing-now",
+      "payloadMediaId": 420,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-23-2026-04_36_31-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:50.175Z"
+    },
+    {
+      "localPostId": 154,
+      "localSlug": "from-meetings-to-weekends-one-hair-system-that-adapts-to-your-lifestyle",
+      "payloadMediaId": 421,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-25-2026-12_02_14-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:51.676Z"
+    },
+    {
+      "localPostId": 153,
+      "localSlug": "the-hairline-fix-you-need-before-your-college-reunion",
+      "payloadMediaId": 422,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-3-2026-03_31_34-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:52.537Z"
+    },
+    {
+      "localPostId": 152,
+      "localSlug": "hair-loss-men-under-25",
+      "payloadMediaId": 423,
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-6-2026-12_52_09-PM.png",
+      "syncedMetaImage": true,
+      "linkedAt": "2026-09-06T09:32:54.602Z"
+    }
+  ],
+  "duplicateImagesReused": [
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/What-is-a-PU-Skin-Hair-System.webp",
+      "payloadMediaId": 70,
+      "localPostId": 66,
+      "localSlug": "common-issues-with-pu-skin-hair-systems-and-how-to-fix-them",
+      "reusedAt": "2026-04-16T04:49:44.397Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Scalp-Micropigmentation.jpg",
+      "payloadMediaId": 82,
+      "localPostId": 79,
+      "localSlug": "can-scalp-micropigmentation-be-removed-understanding-the-reversal-process",
+      "reusedAt": "2026-04-16T04:49:53.955Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/01/Scalp-Micro-Pigmentation-Safe-in-India-1.webp",
+      "payloadMediaId": 57,
+      "localPostId": 82,
+      "localSlug": "scalp-micropigmentation-can-it-really-help-you-look-younger-and-feel-more-confident",
+      "reusedAt": "2026-04-16T04:49:55.354Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-4.png",
+      "payloadMediaId": 89,
+      "localPostId": 97,
+      "localSlug": "7-hair-hacks-for-busy-professionals-fix-thinning-hair-without-extra-effort",
+      "reusedAt": "2026-04-16T04:50:08.075Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-4.png",
+      "payloadMediaId": 89,
+      "localPostId": 112,
+      "localSlug": "how-to-keep-your-hair-looking-perfect-in-every-event",
+      "reusedAt": "2026-04-16T04:50:18.468Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/03/Seven-Hair-Mistakes-That-Make-You-Look-Older-in-Selfies.jpg",
+      "payloadMediaId": 97,
+      "localPostId": 125,
+      "localSlug": "why-do-most-men-fear-stick-on-hair-systems-look-fake",
+      "reusedAt": "2026-04-16T04:50:34.716Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/NO-SURGERY-BETTER-HAIR.jpg",
+      "payloadMediaId": 88,
+      "localPostId": 128,
+      "localSlug": "why-are-stick-on-hair-systems-outsmarting-hair-transplants-in-india",
+      "reusedAt": "2026-04-16T04:50:38.387Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/02/This-Viral-Hair-Hack-will-change-how-you-style-your-hair-forever.jpg",
+      "payloadMediaId": 93,
+      "localPostId": 131,
+      "localSlug": "can-you-really-pull-off-a-clip-on-system-at-the-gym",
+      "reusedAt": "2026-04-16T04:50:41.541Z"
+    },
+    {
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/04/How-to-Look-10-Years-Younger-Without-Changing-Your-Hairstyle-_________________--scaled.jpg",
+      "payloadMediaId": 113,
+      "localPostId": 133,
+      "localSlug": "secret-grooming-tricks-that-make-you-look-younger-instantly",
+      "reusedAt": "2026-04-16T04:50:41.962Z"
+    }
+  ],
+  "skippedAlreadyLinkedPosts": [],
+  "skippedMissingUrls": [],
+  "skippedFromResume": [],
+  "missingLocalPosts": [],
+  "brokenWordPressUrls": [],
+  "uploadFailures": [],
+  "dbUpdateFailures": [],
+  "verification": {
+    "checkedAt": "2026-09-06T09:32:54.603Z",
+    "postsStillMissingHeroImage": 12,
+    "totalMediaRecords": 416,
+    "mediaRecordsCreatedThisRun": 175,
+    "sampleUpdatedPosts": [
+      {
+        "id": 1,
+        "slug": "how-to-choose-the-right-attachment-method-for-you",
+        "heroImageId": 12,
+        "metaImageId": 12
+      },
+      {
+        "id": 2,
+        "slug": "deep-conditioning-tips-for-your-hair-system",
+        "heroImageId": 13,
+        "metaImageId": 13
+      },
+      {
+        "id": 3,
+        "slug": "is-your-hair-replacement-system-free-from-corona-virus",
+        "heroImageId": 14,
+        "metaImageId": 14
+      },
+      {
+        "id": 4,
+        "slug": "caring-for-your-hair-system-in-the-summer",
+        "heroImageId": 15,
+        "metaImageId": 15
+      },
+      {
+        "id": 6,
+        "slug": "hair-replacement-for-alopecia-areata",
+        "heroImageId": 16,
+        "metaImageId": 16
+      },
+      {
+        "id": 7,
+        "slug": "how-to-prepare-yourself-for-non-surgical-hair-replacement",
+        "heroImageId": 17,
+        "metaImageId": 17
+      },
+      {
+        "id": 8,
+        "slug": "tips-to-take-care-of-your-hair-systems",
+        "heroImageId": 18,
+        "metaImageId": 18
+      },
+      {
+        "id": 9,
+        "slug": "attachment-issues-with-hair-replacement-systems",
+        "heroImageId": 19,
+        "metaImageId": 19
+      },
+      {
+        "id": 10,
+        "slug": "choosing-a-bonding-method-for-hair-replacement",
+        "heroImageId": 20,
+        "metaImageId": 20
+      },
+      {
+        "id": 11,
+        "slug": "benefits-of-non-surgical-hair-replacement-systems",
+        "heroImageId": 21,
+        "metaImageId": 21
+      }
+    ],
+    "sampleApiOutput": {
+      "slug": "how-to-choose-the-right-attachment-method-for-you",
+      "status": 200,
+      "featuredImage": "https://pub-dfcfdec07a8f40f2b756b4cce22c7bf9.r2.dev/media/choosing-right-hair-systems-1.png",
+      "heroImageUrl": "https://pub-dfcfdec07a8f40f2b756b4cce22c7bf9.r2.dev/media/choosing-right-hair-systems-1.png"
+    },
+    "sampleMetaImagePosts": [
+      {
+        "id": 1,
+        "slug": "how-to-choose-the-right-attachment-method-for-you",
+        "heroImageId": 12,
+        "metaImageId": 12
+      },
+      {
+        "id": 2,
+        "slug": "deep-conditioning-tips-for-your-hair-system",
+        "heroImageId": 13,
+        "metaImageId": 13
+      },
+      {
+        "id": 3,
+        "slug": "is-your-hair-replacement-system-free-from-corona-virus",
+        "heroImageId": 14,
+        "metaImageId": 14
+      },
+      {
+        "id": 4,
+        "slug": "caring-for-your-hair-system-in-the-summer",
+        "heroImageId": 15,
+        "metaImageId": 15
+      },
+      {
+        "id": 6,
+        "slug": "hair-replacement-for-alopecia-areata",
+        "heroImageId": 16,
+        "metaImageId": 16
+      }
+    ],
+    "sampleReusedImageMappings": [
+      {
+        "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/What-is-a-PU-Skin-Hair-System.webp",
+        "payloadMediaId": 70,
+        "localPostId": 66,
+        "localSlug": "common-issues-with-pu-skin-hair-systems-and-how-to-fix-them"
+      },
+      {
+        "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/Scalp-Micropigmentation.jpg",
+        "payloadMediaId": 82,
+        "localPostId": 79,
+        "localSlug": "can-scalp-micropigmentation-be-removed-understanding-the-reversal-process"
+      },
+      {
+        "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/01/Scalp-Micro-Pigmentation-Safe-in-India-1.webp",
+        "payloadMediaId": 57,
+        "localPostId": 82,
+        "localSlug": "scalp-micropigmentation-can-it-really-help-you-look-younger-and-feel-more-confident"
+      },
+      {
+        "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-4.png",
+        "payloadMediaId": 89,
+        "localPostId": 97,
+        "localSlug": "7-hair-hacks-for-busy-professionals-fix-thinning-hair-without-extra-effort"
+      },
+      {
+        "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2024/10/BA-4.png",
+        "payloadMediaId": 89,
+        "localPostId": 112,
+        "localSlug": "how-to-keep-your-hair-looking-perfect-in-every-event"
+      }
+    ]
+  }
+}

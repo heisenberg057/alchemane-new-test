@@ -1,0 +1,14 @@
+.head { margin-bottom: var(--stack); }
+.grid { display: grid; gap: var(--stack); }
+.media { max-width: 420px; }
+.photo { width: 100%; overflow: hidden; border-radius: var(--radius-sm); background: var(--ivory-deep); box-shadow: var(--shadow-media); line-height: 0; }
+.photoImg { width: 100%; height: auto; }
+
+.checklist { display: grid; gap: var(--s-3); }
+.checklist li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: var(--s-3); align-items: start; font-size: var(--fs-body); line-height: 1.5; color: var(--body); }
+.checklist :global(strong) { color: var(--ink); font-weight: 600; }
+
+@media (min-width: 900px) {
+  .grid { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: clamp(32px, 5vw, 80px); align-items: start; }
+  .media { position: sticky; top: 92px; }
+}

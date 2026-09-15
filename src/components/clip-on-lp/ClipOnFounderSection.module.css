@@ -1,0 +1,128 @@
+.root {
+  --clp-ink: #191919;
+  --clp-blue: #1769ff;
+  --clp-blue-light: #4686fe;
+  --clp-pale: #f0f4ff;
+  --clp-white: #fff;
+  --clp-muted: #5f6773;
+  --clp-black-15: rgba(0, 0, 0, 0.15);
+  --clp-ink-strong: #111111;
+  --clp-gutter: 16px;
+  --clp-space-2: 8px;
+  --clp-space-3: 12px;
+  --clp-space-5: 20px;
+  --clp-space-6: 24px;
+  --clp-space-7: 28px;
+  --clp-space-11: 44px;
+  --clp-fs-section-title: 28px;
+  --clp-fs-h3: 18px;
+  --clp-fs-body: 16px;
+  --clp-fs-tiny: 13px;
+  --clp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+  --clp-roboto: var(--font-clip-on-roboto), "Roboto", Arial, sans-serif;
+
+  position: relative;
+  padding: var(--clp-space-11) var(--clp-gutter);
+  overflow: hidden;
+  background: var(--clp-pale);
+  color: var(--clp-ink);
+  font-family: var(--clp-roboto);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--clp-montserrat);
+  font-size: var(--clp-fs-section-title);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.032em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.titleAccent {
+  color: var(--clp-blue-light);
+}
+
+.stage {
+  position: relative;
+  width: 100%;
+  height: 487px;
+  margin-top: var(--clp-space-7);
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--clp-ink-strong);
+  box-shadow: 0 4px 10px var(--clp-black-15);
+}
+
+.bullets {
+  display: grid;
+  gap: var(--clp-space-3);
+  margin: var(--clp-space-6) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bullet {
+  position: relative;
+  padding-left: 21px;
+  font-size: var(--clp-fs-body);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.bullet::before {
+  position: absolute;
+  top: 0.62em;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--clp-ink);
+  content: "";
+}
+
+.cta {
+  display: flex;
+  width: 100%;
+  min-height: 56px;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--clp-space-6);
+  border: 0;
+  border-radius: 8px;
+  background: linear-gradient(104deg, var(--clp-blue-light), var(--clp-blue));
+  color: var(--clp-white);
+  box-shadow: 0 2px 12px var(--clp-black-15);
+  font-family: var(--clp-montserrat);
+  font-size: var(--clp-fs-h3);
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: filter 0.2s ease, transform 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.cta:hover {
+  filter: brightness(1.06);
+}
+
+.cta:active {
+  transform: scale(0.985);
+}
+
+.ctaNote {
+  margin: var(--clp-space-2) auto 0;
+  color: var(--clp-muted);
+  font-size: var(--clp-fs-tiny);
+  line-height: 1.35;
+  text-align: center;
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 26px;
+  }
+}

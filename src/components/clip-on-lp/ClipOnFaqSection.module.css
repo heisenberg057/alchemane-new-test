@@ -1,0 +1,176 @@
+.root {
+  --clp-paper: #fafafa;
+  --clp-white: #fff;
+  --clp-white-25: rgba(255, 255, 255, 0.25);
+  --clp-blue: #1769ff;
+  --clp-blue-light: #4686fe;
+  --clp-blue-25: rgba(24, 105, 255, 0.25);
+  --clp-gutter: 16px;
+  --clp-space-2: 8px;
+  --clp-space-3: 12px;
+  --clp-space-4: 16px;
+  --clp-space-5: 20px;
+  --clp-space-6: 24px;
+  --clp-space-7: 28px;
+  --clp-space-8: 32px;
+  --clp-space-11: 44px;
+  --clp-fs-section-title: 28px;
+  --clp-fs-h3: 18px;
+  --clp-fs-body: 16px;
+  --clp-fs-small: 14px;
+  --clp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+  --clp-roboto: var(--font-clip-on-roboto), "Roboto", Arial, sans-serif;
+
+  position: relative;
+  padding: var(--clp-space-11) var(--clp-gutter);
+  overflow: hidden;
+  background: var(--clp-paper);
+  font-family: var(--clp-roboto);
+}
+
+.glass {
+  position: relative;
+  isolation: isolate;
+  padding: var(--clp-space-8) var(--clp-space-6) var(--clp-space-7);
+  overflow: hidden;
+  border: 1px solid var(--clp-white-25);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 82% 8%, rgba(92, 110, 146, 0.28), transparent 34%),
+    radial-gradient(circle at 7% 88%, rgba(255, 255, 255, 0.1), transparent 28%),
+    linear-gradient(145deg, #1d1f24 0%, #090a0d 100%);
+  box-shadow: 0 22px 48px rgba(10, 12, 18, 0.2), inset 0 1px 0 var(--clp-white-25);
+  color: var(--clp-white);
+}
+
+.glass::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0.06),
+    transparent 42%,
+    rgba(255, 255, 255, 0.025)
+  );
+  content: "";
+  pointer-events: none;
+}
+
+.title {
+  margin: 0;
+  color: var(--clp-white);
+  font-family: var(--clp-montserrat);
+  font-size: var(--clp-fs-section-title);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.032em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.lead {
+  width: 340px;
+  max-width: 100%;
+  margin: var(--clp-space-2) auto 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: var(--clp-fs-body);
+  line-height: 1.5;
+  text-align: center;
+  text-wrap: pretty;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: var(--clp-space-6);
+  padding: 3px;
+  border: 1px solid var(--clp-white-25);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+.tab {
+  min-height: 52px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.72);
+  font-family: var(--clp-montserrat);
+  font-size: var(--clp-fs-small);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tabActive {
+  background: linear-gradient(104deg, var(--clp-blue-light), var(--clp-blue));
+  color: var(--clp-white);
+  box-shadow: 0 8px 18px var(--clp-blue-25);
+}
+
+.panel {
+  display: grid;
+  gap: var(--clp-space-3);
+  margin-top: var(--clp-space-6);
+}
+
+.item {
+  overflow: hidden;
+  border: 1px solid var(--clp-white-25);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.035));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+.itemOpen {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.05));
+}
+
+.trigger {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 68px;
+  padding: var(--clp-space-5) 48px var(--clp-space-4) var(--clp-space-4);
+  border: 0;
+  background: transparent;
+  color: var(--clp-white);
+  cursor: pointer;
+  font-family: var(--clp-montserrat);
+  font-size: var(--clp-fs-h3);
+  font-weight: 800;
+  line-height: 1.35;
+  text-align: left;
+}
+
+.trigger::after {
+  position: absolute;
+  top: var(--clp-space-5);
+  right: var(--clp-space-4);
+  color: rgba(255, 255, 255, 0.78);
+  content: "+";
+  font: 400 30px / 1 Arial, sans-serif;
+}
+
+.itemOpen .trigger::after {
+  content: "−";
+}
+
+.answer {
+  margin: 0;
+  padding: 0 var(--clp-space-4) var(--clp-space-5);
+  color: rgba(255, 255, 255, 0.78);
+  font-size: var(--clp-fs-small);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 26px;
+  }
+}

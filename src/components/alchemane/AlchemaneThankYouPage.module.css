@@ -1,0 +1,135 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(21, 25, 24, 0.08);
+}
+.logo { width: 160px; height: auto; }
+
+.banner {
+  background: linear-gradient(160deg, var(--teal) 0%, var(--teal-deep) 100%);
+  padding: clamp(48px, 9vw, 88px) 0;
+  text-align: center;
+  color: var(--white);
+}
+.bannerTitle {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-style: italic;
+  font-size: clamp(2.75rem, 2rem + 3vw, 4.5rem);
+  line-height: 1;
+  color: var(--white);
+  margin: 0;
+}
+.bannerLead {
+  margin-top: var(--s-5);
+  font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem);
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-inline: auto;
+}
+.bannerLead strong { font-weight: 700; }
+.bannerSub {
+  margin-top: var(--s-3);
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+  max-width: 46ch;
+  margin-inline: auto;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.stayConnected {
+  text-align: center;
+  padding: clamp(40px, 8vw, 72px) 0 clamp(24px, 5vw, 40px);
+}
+.hourglass { font-size: 2rem; display: block; margin-bottom: var(--s-3); }
+.sectionTitle {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: var(--fs-h2);
+  line-height: 1.2;
+  color: var(--ink);
+}
+.sectionTitle em { font-style: italic; color: var(--teal-deep); }
+
+.cards {
+  display: grid;
+  gap: var(--s-8);
+  padding-bottom: clamp(56px, 9vw, 96px);
+}
+
+.card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-top: 4px solid transparent;
+  border-radius: var(--radius-md);
+  padding: clamp(24px, 5vw, 36px);
+  box-shadow: var(--shadow-soft);
+}
+.cardTeal { border-top-color: var(--teal-deep); }
+.cardChampagne { border-top-color: var(--champagne); }
+
+.cardTitle {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(1.3rem, 1.1rem + 0.6vw, 1.6rem);
+  color: var(--ink);
+  padding-bottom: var(--s-3);
+  border-bottom: 2px solid var(--mist-deep);
+  margin-bottom: var(--s-5);
+}
+
+.pointList { display: flex; flex-direction: column; gap: var(--s-4); }
+.pointList li { display: grid; grid-template-columns: 26px 1fr; gap: var(--s-3); align-items: start; }
+.pointList span:last-child { font-size: var(--fs-sm); line-height: 1.5; color: var(--body); }
+.pointList strong { color: var(--ink); }
+.pointIcon {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--mist);
+  color: var(--teal-deep);
+  flex: none;
+}
+.pointIcon svg { width: 14px; height: 14px; }
+
+.quote {
+  margin-top: var(--s-6);
+  padding: var(--s-4) var(--s-5);
+  background: var(--mist);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.button {
+  margin-top: var(--s-6);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 14px 24px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 1.0625rem;
+  color: var(--white);
+  transition: transform 160ms ease, background-color 160ms ease;
+}
+.button svg { width: 22px; height: 22px; flex: none; }
+.button:active { transform: scale(0.98); }
+.buttonTeal { background: var(--teal-deep); }
+.buttonTeal:hover { background: var(--teal-ink); }
+.buttonChampagne { background: var(--champagne-ink); }
+.buttonChampagne:hover { background: #5f4823; }
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

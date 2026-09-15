@@ -1,0 +1,78 @@
+.head { display: flex; flex-direction: column; gap: var(--s-2); margin-bottom: var(--stack); }
+
+.carousel { position: relative; }
+.track {
+  display: flex;
+  gap: var(--s-3);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-inline: var(--gutter);
+  margin-inline: calc(var(--gutter) * -1);
+  padding-bottom: 4px;
+  scroll-padding-inline: var(--gutter);
+}
+.track::-webkit-scrollbar { display: none; }
+.track > * { scroll-snap-align: start; flex: none; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+  width: min(78vw, 300px);
+  min-height: 190px;
+  padding: var(--s-5);
+  border: 1px solid var(--line);
+  background: var(--ivory);
+}
+.card p { font-size: var(--fs-body); line-height: 1.5; color: var(--body); text-wrap: pretty; }
+.card strong { color: var(--ink); font-weight: 600; }
+.icon { width: 44px; height: 44px; flex: none; }
+
+.nav { display: flex; align-items: center; gap: var(--s-3); margin-top: var(--s-4); }
+.control {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease), opacity var(--dur-fast) var(--ease);
+}
+.control svg { width: 20px; height: 20px; }
+.control:hover:not(:disabled) { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.control:disabled { opacity: 0.35; cursor: default; }
+
+.progress { display: flex; flex: 1 1 auto; align-items: center; gap: 4px; min-width: 0; }
+.progress button { position: relative; flex: 1 1 0; min-width: 44px; height: 44px; cursor: pointer; }
+.progress button::before { content: ''; position: absolute; left: 0; right: 0; top: 50%; height: 2px; margin-top: -1px; background: var(--line); transition: background-color var(--dur) var(--ease); }
+.progress button[aria-current='true']::before { background: var(--teal-deep); height: 3px; margin-top: -1.5px; }
+
+.status { flex: none; min-width: 4.5ch; font-size: var(--fs-sm); font-weight: 600; font-variant-numeric: tabular-nums; color: var(--ink); text-align: center; }
+
+.ctaWrap { display: flex; flex-direction: column; align-items: center; margin-top: var(--stack); }
+
+@media (max-width: 767px) {
+  .progress { display: none; }
+  .status { flex: 1 1 auto; }
+}
+
+@media (min-width: 768px) {
+  .track {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .card { width: auto; min-height: 0; border: 0; padding: var(--s-6) var(--s-5); }
+  .nav { display: none; }
+}

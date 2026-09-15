@@ -1,0 +1,18 @@
+ALTER TABLE form_submissions RENAME COLUMN lead_status TO status;
+ALTER TABLE form_submissions ADD COLUMN utm_content text;
+ALTER TABLE form_submissions ADD COLUMN utm_term text;
+ALTER TABLE form_submissions ADD COLUMN campaign_name text;
+ALTER TABLE form_submissions ADD COLUMN ad_set_name text;
+ALTER TABLE form_submissions ADD COLUMN ad_name text;
+ALTER TABLE form_submissions ADD COLUMN campaign_source text;
+ALTER TABLE form_submissions ADD COLUMN placement text;
+ALTER TABLE form_submissions ADD COLUMN gclid text;
+ALTER TABLE form_submissions ADD COLUMN fbclid text;
+ALTER TABLE form_submissions ADD COLUMN msclkid text;
+ALTER TABLE form_submissions ADD COLUMN ttclid text;
+ALTER TABLE form_submissions ADD COLUMN li_fat_id text;
+ALTER TABLE form_submissions ADD COLUMN ip_address text;
+ALTER TABLE form_submissions ADD COLUMN user_agent text;
+ALTER TABLE form_submissions ADD COLUMN time_on_site numeric;
+ALTER TABLE form_submissions ADD COLUMN pages_before numeric;
+ALTER TABLE form_submissions ADD COLUMN scroll_depth numeric;

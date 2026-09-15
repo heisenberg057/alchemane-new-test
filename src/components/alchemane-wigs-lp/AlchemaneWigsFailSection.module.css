@@ -1,0 +1,8 @@
+.head { margin-bottom: var(--stack); }
+.fail { max-width: var(--container-narrow); }
+.label { font-size: var(--fs-sm); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; color: var(--ink); margin-bottom: var(--s-3); }
+.list { display: grid; gap: var(--s-3); border-top: 1px solid var(--line); }
+.list li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: var(--s-3); align-items: start; padding: var(--s-3) 0; border-bottom: 1px solid var(--line); font-size: var(--fs-body); color: var(--body); }
+.list :global(strong) { color: var(--ink); font-weight: 600; }
+.resolve { margin-top: var(--stack); max-width: 46ch; font-family: var(--font-serif); font-size: clamp(1.15rem, 1rem + 0.6vw, 1.4rem); line-height: 1.4; color: var(--ink); }
+.resolve em { font-style: italic; color: var(--teal-deep); }

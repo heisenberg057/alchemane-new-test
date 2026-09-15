@@ -1,0 +1,128 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+  .location-section {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 32px 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: #FFF;
+    text-align: center;
+    position: relative;
+  }
+  .location-title {
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 800;
+    color: #191919;
+    margin-bottom: 24px;
+    line-height: 130%;
+  }
+  .location-carousel-wrapper {
+    overflow: hidden;
+    border-radius: 12px;
+    position: relative;
+  }
+  .location-carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    column-gap: 20px;
+    padding-left: 10px;
+  }
+  .location-carousel-slide {
+    min-width: 88%;
+    flex-shrink: 0;
+    border-radius: 12px;
+  }
+  .location-carousel-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+  }
+  .location-carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 29px 0;
+    gap: 8px;
+  }
+  .location-carousel-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  .location-carousel-dot.active {
+    background-color: #333;
+  }
+  .location-arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    background: #F0F4FF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .location-arrow-right svg {
+    transform: rotate(180deg);
+  }
+  .location-address {
+    font-size: 16px;
+    font-weight: 400;
+    color: #191919;
+    text-align: left;
+    font-family: Roboto;
+    margin-top: 16px;
+    padding: 0 4px;
+    line-height: 150%;
+  }
+  .location-address strong {
+    display: block;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 4px;
+  }
+</style>
+<div class="location-section">
+  <h2 class="location-title">Our Location
+  </h2>
+  <div class="location-carousel-wrapper">
+    <div class="location-carousel-track">
+      <div class="location-carousel-slide">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczMcMIhuN4ZUpfv65MmqjbQfwMz0ZxyL7h3yjvSM5kGve136WkpoILe7f_OLkCkQKvrOptfenMeASL0ek_5mrWQojcRT7NGF9Asb0Qp-dOy3Uy-ayvc=w2400" alt="Slide 1">
+      </div>
+      <div class="location-carousel-slide">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOpNkF2WoNe5G28V9QsccuKktk2QumWyNYPdmdskfbN3hK8s7r2LEt-TZBxb1Ppe8ioJu-4tFzN2qIz-0rH-BiuNDi2Exmttvdzc0_1CladQG0B4IY=w2400" alt="Slide 2">
+      </div>
+      <div class="location-carousel-slide">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNdvURLYlxmX96Rnnvgcz6GbTO0KPNYY92R9yEur3GDZUYarpytkul61WftsFGQBy0ANeYoPpNUQMsmAnda6jGZ-MDAg9Jb9fQiW_ulmYaoTz5S3SA=w2400" alt="Slide 3">
+      </div>
+      <div class="location-carousel-slide">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOiebpObXZ_DhyYWRHcyPbhXLB-uct84mkNqBy-S_cbBXxxo9h3Uor87OqUGxBG2dRqhX1f8LUxllIrFTsgRFwZmb6dfQiK3jV7Tnz40Un_FdOkiug=w2400" alt="Slide 4">
+      </div>
+    </div>
+    <!-- SVG Arrow -->
+    <div class="location-arrow-right">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+        <path d="M14 18L8 12L14 6" stroke="#1769FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+  </div>
+  <div class="location-carousel-dots">
+  </div>
+  <div class="location-address">
+    <strong>Address:</strong>
+    
+    Saffron Building, 202, Linking Rd, above Anushree Reddy Store, Khar (West), Mumbai, Maharashtra 400052.
+  </div>
+</div>

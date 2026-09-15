@@ -1,0 +1,36 @@
+.head { display: flex; flex-direction: column; gap: var(--s-2); margin-bottom: var(--stack); }
+.carousel { position: relative; }
+
+.track {
+  display: flex;
+  gap: var(--s-3);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-inline: var(--gutter);
+  margin-inline: calc(var(--gutter) * -1);
+  padding-bottom: 4px;
+}
+.track::-webkit-scrollbar { display: none; }
+.track > * { scroll-snap-align: start; flex: none; }
+
+.card { width: 232px; position: relative; padding: 10px 10px 12px; border: 1px solid var(--line); background: var(--ivory); }
+@media (min-width: 768px) { .card { width: 256px; } }
+
+.frame { position: relative; display: block; width: 100%; aspect-ratio: 9 / 16; overflow: hidden; cursor: pointer; background: var(--ink); border-radius: var(--radius-md); box-shadow: var(--shadow-soft); }
+.frame :global(img) { position: absolute; inset: 0; width: 100% !important; height: 100% !important; object-fit: cover; }
+.videoEl { width: 100%; height: 100%; object-fit: cover; }
+.playButton { position: absolute; inset: 0; display: grid; place-items: center; color: transparent; font-size: 0; }
+.playButton svg { width: 56px; height: 56px; padding: 16px; border-radius: 50%; background: rgba(246, 244, 239, 0.94); color: var(--ink); box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.5); }
+
+.options { display: grid; gap: 1px; margin-top: var(--stack); border: 1px solid var(--mist-deep); background: var(--mist-deep); }
+.option { display: grid; grid-template-columns: 36px 1fr; gap: var(--s-4); align-items: start; padding: var(--s-5); background: var(--white); }
+.option h3 { font-size: var(--fs-h3); font-weight: 600; line-height: 1.3; }
+.option p { margin-top: 4px; font-size: var(--fs-sm); color: var(--body); }
+.optionIcon { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: var(--mist); color: var(--teal-deep); }
+.optionIcon svg { width: 18px; height: 18px; }
+
+.ctaWrap { display: flex; flex-direction: column; align-items: center; margin-top: var(--stack); }
+
+@media (min-width: 640px) { .options { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

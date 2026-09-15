@@ -1,0 +1,125 @@
+.root {
+  --clp-ink: #191919;
+  --clp-ink-strong: #111111;
+  --clp-blue: #1769ff;
+  --clp-paper: #fafafa;
+  --clp-white: #fff;
+  --clp-line: #e7e9ee;
+  --clp-navy-10: rgba(28, 43, 71, 0.1);
+  --clp-space-2: 8px;
+  --clp-space-7: 28px;
+  --clp-space-10: 40px;
+  --clp-space-11: 44px;
+  --clp-fs-section-title: 28px;
+  --clp-fs-small: 14px;
+  --clp-fs-tiny: 13px;
+  --clp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+  --clp-roboto: var(--font-clip-on-roboto), "Roboto", Arial, sans-serif;
+
+  position: relative;
+  padding: var(--clp-space-10) var(--clp-space-2) var(--clp-space-11);
+  overflow: hidden;
+  background: var(--clp-paper);
+  color: var(--clp-ink);
+  font-family: var(--clp-roboto);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--clp-montserrat);
+  font-size: var(--clp-fs-section-title);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.032em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.titleAccent {
+  color: var(--clp-blue);
+}
+
+.table {
+  margin-top: var(--clp-space-7);
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--clp-white);
+  box-shadow: 0 4px 14px var(--clp-navy-10);
+  font-size: var(--clp-fs-tiny);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  min-height: 68px;
+  border-top: 1px solid var(--clp-line);
+}
+
+.row:first-child {
+  min-height: 72px;
+  border-top: 0;
+}
+
+.head {
+  background: var(--clp-ink-strong);
+  color: var(--clp-white);
+}
+
+.headCell {
+  display: grid;
+  place-content: center;
+  padding: 12px 8px;
+  border-left: 1px solid rgba(255, 255, 255, 0.35);
+  color: var(--clp-white);
+  font-family: var(--clp-montserrat);
+  font-size: var(--clp-fs-small);
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.headCell:first-child {
+  justify-content: start;
+  padding-left: 12px;
+  border-left: 0;
+  text-align: left;
+}
+
+.feature {
+  display: grid;
+  place-content: center start;
+  padding: 6px 5px 6px 12px;
+  font-family: var(--clp-montserrat);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.cell {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 4px;
+  padding: 10px 8px;
+  border-left: 1px solid var(--clp-line);
+  line-height: 1.15;
+  text-align: center;
+}
+
+.status {
+  display: block;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .table {
+    font-size: var(--clp-fs-tiny);
+  }
+}

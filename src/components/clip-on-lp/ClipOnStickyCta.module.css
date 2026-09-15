@@ -1,0 +1,103 @@
+.root {
+  --clp-blue: #1769ff;
+  --clp-blue-light: #4686fe;
+  --clp-footer-bg: #f3f6ff;
+  --clp-black-08: rgba(0, 0, 0, 0.08);
+  --clp-black-10: rgba(0, 0, 0, 0.1);
+  --clp-white: #fff;
+  --clp-page-width: 390px;
+  --clp-fs-h3: 18px;
+  --clp-fs-tiny: 13px;
+  --clp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+
+  position: fixed;
+  z-index: 50;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 200px) 136px;
+  gap: clamp(8px, 5.64vw, 22px);
+  width: min(100%, var(--clp-page-width));
+  height: calc(74px + env(safe-area-inset-bottom));
+  margin-inline: auto;
+  padding: 15px 16px calc(15px + env(safe-area-inset-bottom));
+  border-top: 0.5px solid var(--clp-black-10);
+  background: var(--clp-footer-bg);
+  box-shadow: 0 -4px 14px var(--clp-black-08);
+}
+
+.trust {
+  display: flex;
+  min-width: 0;
+  height: 34px;
+  align-items: center;
+  align-self: center;
+  gap: 6px;
+}
+
+.trust svg {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.trustText {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  font-family: var(--clp-montserrat);
+  white-space: nowrap;
+}
+
+.trustStrong {
+  overflow: hidden;
+  font-size: var(--clp-fs-tiny);
+  font-weight: 700;
+  line-height: 18px;
+  text-overflow: clip;
+}
+
+.trustSmall {
+  font-size: var(--clp-fs-tiny);
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.cta {
+  display: grid;
+  width: 136px;
+  height: 44px;
+  place-items: center;
+  align-self: center;
+  border-radius: 8px;
+  background: linear-gradient(104deg, var(--clp-blue-light), var(--clp-blue));
+  color: var(--clp-white);
+  font-family: var(--clp-montserrat);
+  font-size: var(--clp-fs-h3);
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: none;
+  transition: filter 0.2s ease, transform 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.cta:hover {
+  filter: brightness(1.06);
+}
+
+.cta:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 370px) {
+  .root {
+    grid-template-columns: minmax(0, 1fr) 126px;
+    gap: 8px;
+    padding-inline: 10px;
+  }
+
+  .cta {
+    width: 126px;
+  }
+}

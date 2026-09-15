@@ -1,0 +1,197 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Roboto:wght@400;800;900&display=swap');
+  .what-makes-us-different {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    margin-top: 0px
+  }
+  .section-title {
+    color: #191919;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 33px;
+    margin: 32px 0 32px 0;
+    width: 100%;
+  }
+  .features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+    width: 100%;
+    max-width: 342px;
+  }
+  .feature-item {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 20px;
+  }
+  .feature-item:last-child {
+    margin-bottom: 0;
+  }
+  .feature-item::before {
+    content: "●";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #191919;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-text {
+    color: #191919;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    display: block;
+    width: 100%;
+  }
+  .feature-text strong {
+    font-weight: 800;
+  }
+  .guidance-section {
+    margin-bottom: 32px;
+    text-align: center;
+    width: 100%;
+  }
+  .guidance-text {
+    color: #191919;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0.8px;
+    margin: 0;
+  }
+  .guidance-highlight {
+    color: #1769FF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+  }
+  .consultation-btn {
+    display: flex;
+    width: 400px;
+    height: 52px;
+    padding: 22px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #1769FF;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  .consultation-btn:hover {
+    background: #1557E5;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    text-decoration: none;
+  }
+  .consultation-btn:active {
+    transform: translateY(0px);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+  }
+  /* Hide the FlexiFunnels trigger button */
+  #il625 {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    left: -9999px !important;
+  }
+  /* Responsive adjustments for FlexiFunnels */
+  @media (max-width: 450px) {
+    .what-makes-us-different {
+      padding: 24px 16px;
+    }
+    .consultation-btn {
+      width: 100%;
+      max-width: 400px;
+    }
+    .section-title {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .features-list {
+      max-width: 100%;
+    }
+    .feature-text {
+      font-size: 18px;
+      line-height: 19px;
+    }
+    .guidance-text,
+    .guidance-highlight {
+      font-size: 21px;
+      line-height: 20px;
+    }
+  }
+  @media (max-width: 320px) {
+    .feature-item {
+      padding-left: 20px;
+    }
+    .feature-item::before {
+      font-size: 14px;
+    }
+    .consultation-btn {
+      padding: 18px 24px;
+      font-size: 14px;
+    }
+  }
+</style>
+<div class="what-makes-us-different">
+  <h2 class="section-title">What Makes Us Different
+  </h2>
+  <ul class="features-list">
+    <li class="feature-item">
+      <span class="feature-text">Our consultations are designed to give you <strong>clarity</strong>, not push you into buying.</span>
+    </li>
+    <li class="feature-item">
+      <span class="feature-text">You'll get to see and <strong>feel real systems</strong> (no guesswork).</span>
+    </li>
+    <li class="feature-item">
+      <span class="feature-text">If we think a <strong>hair system</strong> will not work for you — we will say it.</span>
+    </li>
+    <li class="feature-item">
+      <span class="feature-text">We <strong>assess your hair loss</strong> and explain all your options.</span>
+    </li>
+    <li class="feature-item">
+      <span class="feature-text">We will guide you toward <strong>what's best</strong>, even if that means <strong>SMP, transplant,</strong> or waiting.</span>
+    </li>
+  </ul>
+  <div class="guidance-section">
+    <p class="guidance-text">Just Genuine 
+      <span class="guidance-highlight">"GUIDANCE"</span>
+    </p>
+  </div>
+  <a href="#"  class="consultation-btn">Book A Consultation Now</a>
+</div>

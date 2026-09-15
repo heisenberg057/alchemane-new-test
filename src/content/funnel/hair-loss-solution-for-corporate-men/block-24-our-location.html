@@ -1,0 +1,182 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+  .location-section-main {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 32px 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: #FFF;
+    text-align: center;
+    position: relative;
+  }
+  .location-title-main {
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 800;
+    color: #191919;
+    margin-bottom: 24px;
+    line-height: 130%;
+  }
+  /* Carousel Container - EXACTLY like Working Carousels */
+  .location-carousel-wrapper-main {
+    position: relative;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .location-container-main {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+    padding: 8px 10px 8px 10px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    border-radius: 12px;
+  }
+  .location-container-main::-webkit-scrollbar {
+    display: none;
+  }
+  .location-slide-main {
+    flex: 0 0 auto;
+    min-width: 88%;
+    flex-shrink: 0;
+    position: relative;
+    scroll-snap-align: start;
+    border-radius: 12px;
+  }
+  .location-slide-main img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+  }
+  /* Dots - Same as Working Carousels */
+  .location-dots-main {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 29px 0;
+    gap: 8px;
+  }
+  .location-dot-main {
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  .location-dot-main.active {
+    background-color: #333;
+  }
+  /* Arrows - Same as Working Carousels */
+  .location-arrow-left-main {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    background: #F0F4FF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .location-arrow-right-main {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    background: #F0F4FF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .location-arrow-right-main svg {
+    transform: rotate(0deg);
+  }
+  /* Arrow hover effects */
+  .location-arrow-left-main:hover,
+  .location-arrow-right-main:hover {
+    background: #E5EDFF;
+  }
+  .location-address-main {
+    font-size: 16px;
+    font-weight: 400;
+    color: #191919;
+    text-align: left;
+    font-family: Roboto;
+    margin-top: 16px;
+    padding: 0 4px;
+    line-height: 150%;
+  }
+  .location-address-main strong {
+    display: block;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 4px;
+  }
+</style>
+<div class="location-section-main">
+  <h2 class="location-title-main">Our Location
+  </h2>
+  <div class="location-carousel-wrapper-main">
+    <div class="location-container-main">
+      <!-- Slide 1 -->
+      <div class="location-slide-main">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczMcMIhuN4ZUpfv65MmqjbQfwMz0ZxyL7h3yjvSM5kGve136WkpoILe7f_OLkCkQKvrOptfenMeASL0ek_5mrWQojcRT7NGF9Asb0Qp-dOy3Uy-ayvc=w2400" alt="Slide 1">
+      </div>
+      <!-- Slide 2 -->
+      <div class="location-slide-main">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOpNkF2WoNe5G28V9QsccuKktk2QumWyNYPdmdskfbN3hK8s7r2LEt-TZBxb1Ppe8ioJu-4tFzN2qIz-0rH-BiuNDi2Exmttvdzc0_1CladQG0B4IY=w2400" alt="Slide 2">
+      </div>
+      <!-- Slide 3 -->
+      <div class="location-slide-main">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNdvURLYlxmX96Rnnvgcz6GbTO0KPNYY92R9yEur3GDZUYarpytkul61WftsFGQBy0ANeYoPpNUQMsmAnda6jGZ-MDAg9Jb9fQiW_ulmYaoTz5S3SA=w2400" alt="Slide 3">
+      </div>
+      <!-- Slide 4 -->
+      <div class="location-slide-main">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOiebpObXZ_DhyYWRHcyPbhXLB-uct84mkNqBy-S_cbBXxxo9h3Uor87OqUGxBG2dRqhX1f8LUxllIrFTsgRFwZmb6dfQiK3jV7Tnz40Un_FdOkiug=w2400" alt="Slide 4">
+      </div>
+      <!-- Left Arrow -->
+      <div class="location-arrow-left-main"
+           style="position: absolute; left: 12px; top: 50%; transform: translateY(-50%); z-index: 10; width: 40px; height: 40px; background: #F0F4FF; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M14 18L8 12L14 6" stroke="#1769FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <!-- Right Arrow -->
+      <div class="location-arrow-right-main"
+           style="position: absolute; right: 12px; top: 50%; transform: translateY(-50%); z-index: 10; width: 40px; height: 40px; background: #F0F4FF; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M10 18L16 12L10 6" stroke="#1769FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </div>
+    <!-- Dots Indicator - Same as Working Carousels -->
+    <div class="location-dots-main">
+      <span class="location-dot-main active" style="width: 8px; height: 8px; border-radius: 50%; background-color: #333; cursor: pointer; display: inline-block;"></span>
+      <span class="location-dot-main" style="width: 8px; height: 8px; border-radius: 50%; background-color: #ccc; cursor: pointer; display: inline-block;"></span>
+      <span class="location-dot-main" style="width: 8px; height: 8px; border-radius: 50%; background-color: #ccc; cursor: pointer; display: inline-block;"></span>
+      <span class="location-dot-main" style="width: 8px; height: 8px; border-radius: 50%; background-color: #ccc; cursor: pointer; display: inline-block;"></span>
+    </div>
+  </div>
+  <div class="location-address-main">
+    <strong>Address:</strong>
+    
+    Saffron Building, 202, Linking Rd, above Anushree Reddy Store, Khar (West), Mumbai, Maharashtra 400052.
+  </div>
+</div>

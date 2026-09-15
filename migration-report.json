@@ -1,0 +1,4891 @@
+{
+  "runId": "2026-04-14T06-21-08",
+  "mode": "live",
+  "timestamp": "2026-04-14T06:21:08.750Z",
+  "backupTable": "posts_migration_backup_2026_04_14T06_21_08",
+  "summary": {
+    "total": 147,
+    "successful": 147,
+    "skipped": 0,
+    "failed": 0,
+    "totalWarnings": 242,
+    "totalTocRemoved": 219
+  },
+  "posts": [
+    {
+      "id": 1,
+      "slug": "how-to-choose-the-right-attachment-method-for-you",
+      "title": "How To Choose The Right Attachment Method For You",
+      "status": "ok",
+      "blocksBefore": 21,
+      "blocksAfter": 21,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 22,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 21
+      }
+    },
+    {
+      "id": 2,
+      "slug": "deep-conditioning-tips-for-your-hair-system",
+      "title": "Deep Conditioning Tips For Your Hair System",
+      "status": "ok",
+      "blocksBefore": 10,
+      "blocksAfter": 10,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Important-facts-a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 12,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 10
+      }
+    },
+    {
+      "id": 3,
+      "slug": "is-your-hair-replacement-system-free-from-corona-virus",
+      "title": "Is Your Hair Replacement System Free From Corona Virus",
+      "status": "ok",
+      "blocksBefore": 6,
+      "blocksAfter": 6,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 6,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 6
+      }
+    },
+    {
+      "id": 4,
+      "slug": "caring-for-your-hair-system-in-the-summer",
+      "title": "Caring For Your Hair System in the Summer",
+      "status": "ok",
+      "blocksBefore": 13,
+      "blocksAfter": 13,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Hair-care-during-"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 15,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 13
+      }
+    },
+    {
+      "id": 5,
+      "slug": "how-to-achieve-a-secure-bond-for-hair-systems",
+      "title": "How To Achieve A Secure Bond For Hair Systems",
+      "status": "ok",
+      "blocksBefore": 16,
+      "blocksAfter": 16,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Preparing-the-sca"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 18,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 16
+      }
+    },
+    {
+      "id": 6,
+      "slug": "hair-replacement-for-alopecia-areata",
+      "title": "Hair Replacement for Alopecia Areata",
+      "status": "ok",
+      "blocksBefore": 10,
+      "blocksAfter": 10,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Alopecia-areata-c"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 12,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 10
+      }
+    },
+    {
+      "id": 7,
+      "slug": "how-to-prepare-yourself-for-non-surgical-hair-replacement",
+      "title": "How To Prepare Yourself For Non- Surgical Hair Replacement",
+      "status": "ok",
+      "blocksBefore": 13,
+      "blocksAfter": 13,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Acknowledge-your-"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 15,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 13
+      }
+    },
+    {
+      "id": 8,
+      "slug": "tips-to-take-care-of-your-hair-systems",
+      "title": "Tips To Take Care Of Your Hair Systems",
+      "status": "ok",
+      "blocksBefore": 18,
+      "blocksAfter": 18,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Taking-care-of-yo"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 20,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 18
+      }
+    },
+    {
+      "id": 9,
+      "slug": "attachment-issues-with-hair-replacement-systems",
+      "title": "Attachment Issues With Hair Replacement Systems",
+      "status": "ok",
+      "blocksBefore": 24,
+      "blocksAfter": 24,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Skin-Issues\">Skin"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 27,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 24
+      }
+    },
+    {
+      "id": 10,
+      "slug": "choosing-a-bonding-method-for-hair-replacement",
+      "title": "Choosing a Bonding Method For Hair Replacement",
+      "status": "ok",
+      "blocksBefore": 21,
+      "blocksAfter": 21,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 21,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 21
+      }
+    },
+    {
+      "id": 11,
+      "slug": "benefits-of-non-surgical-hair-replacement-systems",
+      "title": "Benefits of Non-Surgical Hair Replacement Systems",
+      "status": "ok",
+      "blocksBefore": 5,
+      "blocksAfter": 5,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 5,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 5
+      }
+    },
+    {
+      "id": 12,
+      "slug": "difference-between-hair-systems-and-hair-wigs",
+      "title": "Difference Between Hair Systems And Hair Wigs",
+      "status": "ok",
+      "blocksBefore": 11,
+      "blocksAfter": 11,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Human-hair-replac"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 14,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 11
+      }
+    },
+    {
+      "id": 13,
+      "slug": "human-hair-systems-or-synthetic-hair-systems-which-ones-the-best",
+      "title": "Human Hair Systems Or Synthetic Hair Systems: Which One’s The Best?",
+      "status": "ok",
+      "blocksBefore": 24,
+      "blocksAfter": 24,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 24,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 24
+      }
+    },
+    {
+      "id": 14,
+      "slug": "what-causes-itchiness-or-irritation-in-hair-systems",
+      "title": "What Causes Itchiness or Irritation In Hair Systems?",
+      "status": "ok",
+      "blocksBefore": 24,
+      "blocksAfter": 24,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Movement-of-your-"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 26,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 24
+      }
+    },
+    {
+      "id": 15,
+      "slug": "common-challenges-of-non-surgical-hair-replacement",
+      "title": "Common Challenges of Non- Surgical Hair Replacement",
+      "status": "ok",
+      "blocksBefore": 52,
+      "blocksAfter": 52,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 53,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 52
+      }
+    },
+    {
+      "id": 16,
+      "slug": "human-hair-wigs-for-cancer-or-alopecia",
+      "title": "Human Hair Wigs For Cancer Or Alopecia",
+      "status": "ok",
+      "blocksBefore": 12,
+      "blocksAfter": 12,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Natural-looking-h"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 14,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 12
+      }
+    },
+    {
+      "id": 17,
+      "slug": "reasons-for-hair-shedding-in-non-surgical-hair-replacement-systems",
+      "title": "Reasons For Hair Shedding In Non- Surgical Hair Replacement Systems",
+      "status": "ok",
+      "blocksBefore": 16,
+      "blocksAfter": 16,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td>Table of Contents</td></tr>"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Avoiding-specific"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 18,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 16
+      }
+    },
+    {
+      "id": 18,
+      "slug": "is-non-surgical-hair-replacement-meant-for-you",
+      "title": "Is Non- Surgical Hair Replacement Meant For you?",
+      "status": "ok",
+      "blocksBefore": 24,
+      "blocksAfter": 24,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#A hair system is "
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 27,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 24
+      }
+    },
+    {
+      "id": 19,
+      "slug": "hair-patches-in-india",
+      "title": "Hair patches in India",
+      "status": "ok",
+      "blocksBefore": 15,
+      "blocksAfter": 15,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 16,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 15
+      }
+    },
+    {
+      "id": 20,
+      "slug": "selecting-the-correct-hair-density-for-your-hair-system",
+      "title": "Selecting The Correct Hair Density For Your Hair System",
+      "status": "ok",
+      "blocksBefore": 14,
+      "blocksAfter": 14,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Choose-a-hair-den"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 16,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 14
+      }
+    },
+    {
+      "id": 21,
+      "slug": "is-hair-patch-a-better-solution-than-a-hair-transplant",
+      "title": "Is Hair Patch A Better Solution Then Hair Transplant",
+      "status": "ok",
+      "blocksBefore": 20,
+      "blocksAfter": 20,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-is-a-hair-tr"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 22,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 20
+      }
+    },
+    {
+      "id": 22,
+      "slug": "smp-aftercare-dos-and-donts",
+      "title": "Scalp Micropigmentation Aftercare -  SMP Do's and Don'ts",
+      "status": "ok",
+      "blocksBefore": 21,
+      "blocksAfter": 21,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Do's-Of-SMP\">Do's"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 23,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 21
+      }
+    },
+    {
+      "id": 23,
+      "slug": "get-a-natural-look-with-non-surgical-hair-replacement-for-the-crown-area",
+      "title": "Get a Natural Look With Non-Surgical Hair Replacement for the Crown Area",
+      "status": "ok",
+      "blocksBefore": 32,
+      "blocksAfter": 32,
+      "tocRemoved": 2,
+      "faqPairs": 3,
+      "faqData": [
+        {
+          "question": "1. What is a Non-Surgical Hair Replacement System?",
+          "answer": "A non-surgical hair replacement system is an easy and pain free way to replace lost hair in the crown area or other parts of your head. This solution will give you a natural looking head of hair without any surgery or chemicals being used."
+        },
+        {
+          "question": "2. How long does it take to get a Non-Surgical Hair Replacement System?",
+          "answer": "The process varies depending on the patient's situation, but typically takes one to two weeks from start to finish. In this time, our team will work with you to create your own customized system that perfectly fits your head shape and desired look."
+        },
+        {
+          "question": "3. How long does it last?",
+          "answer": "Non-surgical systems are designed with durability in mind and can last anywhere from 6 months up to a year before needing replacing or maintenance touch ups. We provide aftercare instructions and trainings so you can make sure your system stays in top condition for as long as possible.If you're considering non-surgical hair replacement solutions for the crown area, American Hairline is here to help you get the perfect natural look without surgery or chemicals!"
+        }
+      ],
+      "warnings": 3,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED",
+        "FAQ_BLOCK_PROCESSED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Introduction-to-C"
+        },
+        {
+          "code": "FAQ_BLOCK_PROCESSED",
+          "message": "FAQ block processed — 3 Q&A pair(s) converted",
+          "context": "3 pairs"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 29,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 32
+      }
+    },
+    {
+      "id": 24,
+      "slug": "myths-about-non-surgical-hair-replacement",
+      "title": "Myths About Non- Surgical Hair Replacement",
+      "status": "ok",
+      "blocksBefore": 20,
+      "blocksAfter": 20,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 20,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 20
+      }
+    },
+    {
+      "id": 25,
+      "slug": "how-to-choose-the-right-hairstyle-for-hair-systems",
+      "title": "How to Choose The Right Hairstyle For Hair Systems",
+      "status": "ok",
+      "blocksBefore": 15,
+      "blocksAfter": 15,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 16,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 15
+      }
+    },
+    {
+      "id": 26,
+      "slug": "travel-tips-for-hair-system-wearers",
+      "title": "Travel Tips for Hair System Wearers",
+      "status": "ok",
+      "blocksBefore": 22,
+      "blocksAfter": 22,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Choosing-the-Righ"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 24,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 22
+      }
+    },
+    {
+      "id": 27,
+      "slug": "is-scalp-micro-pigmentation-common-in-india",
+      "title": "Is Scalp Micro Pigmentation Common in India ?",
+      "status": "ok",
+      "blocksBefore": 44,
+      "blocksAfter": 44,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-Is-Scalp-Mic"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 46,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 44
+      }
+    },
+    {
+      "id": 28,
+      "slug": "avoid-these-mistakes-in-scalp-micro-pigmentation",
+      "title": "Avoid these Mistakes in Scalp Micro Pigmentation",
+      "status": "ok",
+      "blocksBefore": 30,
+      "blocksAfter": 30,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Choosing-the-Wron"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 32,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 30
+      }
+    },
+    {
+      "id": 29,
+      "slug": "the-truth-about-swiss-lace-hair-patches-in-india",
+      "title": "The Truth About Swiss Lace Hair Patches in India",
+      "status": "ok",
+      "blocksBefore": 39,
+      "blocksAfter": 39,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-Are-Swiss-La"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 41,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 39
+      }
+    },
+    {
+      "id": 30,
+      "slug": "most-natural-looking-hairline-patches-in-india",
+      "title": "Most Natural Looking Hairline Patches in India",
+      "status": "ok",
+      "blocksBefore": 47,
+      "blocksAfter": 47,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td>Table of Contents</td></tr>"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Natural-Hairline:"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 49,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 47
+      }
+    },
+    {
+      "id": 31,
+      "slug": "are-hair-patches-safe",
+      "title": "Are Hair Patches Safe?",
+      "status": "ok",
+      "blocksBefore": 60,
+      "blocksAfter": 60,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-Are-Hair-Pat"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 62,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 60
+      }
+    },
+    {
+      "id": 32,
+      "slug": "does-a-hair-system-damage-the-hair-underneath-scalp",
+      "title": "Does a Hair System Damage the Hair Underneath/Scalp?",
+      "status": "ok",
+      "blocksBefore": 41,
+      "blocksAfter": 41,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td>Table of Contents</td></tr>"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#How-Do-Hair-Syste"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 43,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 41
+      }
+    },
+    {
+      "id": 33,
+      "slug": "are-poly-skin-base-hair-systems-suitable-for-indian-weather",
+      "title": "Are Poly Skin Base Hair Systems Suitable for Indian Weather?",
+      "status": "ok",
+      "blocksBefore": 24,
+      "blocksAfter": 24,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Why-Poly-Base-Hai"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 26,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 24
+      }
+    },
+    {
+      "id": 34,
+      "slug": "what-precautions-should-take-to-use-clip-on-hair-system",
+      "title": "What precautions should take, to use clip on hair system?",
+      "status": "ok",
+      "blocksBefore": 25,
+      "blocksAfter": 25,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Understanding-Cli"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 27,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 25
+      }
+    },
+    {
+      "id": 35,
+      "slug": "hair-patch-for-men-or-hair-transplant-in-india-whats-right-for-you",
+      "title": "Hair Patch For Men or Hair Transplant in India: What's Right for You?",
+      "status": "ok",
+      "blocksBefore": 25,
+      "blocksAfter": 25,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Hair-Patch-for-Me"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 27,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 25
+      }
+    },
+    {
+      "id": 36,
+      "slug": "everything-you-need-to-know-about-maintaining-your-hair-system-in-india",
+      "title": "Everything You Need to Know About Maintaining Your Hair System in India",
+      "status": "ok",
+      "blocksBefore": 26,
+      "blocksAfter": 26,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Maintenance-of-Ha"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 28,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 26
+      }
+    },
+    {
+      "id": 37,
+      "slug": "everything-you-need-to-know-about-hair-systems-for-men",
+      "title": "Everything You Need to Know About Hair Systems for Men",
+      "status": "ok",
+      "blocksBefore": 14,
+      "blocksAfter": 14,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-exactly-is-a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 16,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 14
+      }
+    },
+    {
+      "id": 38,
+      "slug": "should-i-consider-getting-a-hair-system",
+      "title": "Should I Consider Getting a Hair System?",
+      "status": "ok",
+      "blocksBefore": 10,
+      "blocksAfter": 10,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 10,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 10
+      }
+    },
+    {
+      "id": 39,
+      "slug": "does-scalp-micropigmentation-look-natural-and-real",
+      "title": "Does Scalp Micropigmentation Look Natural and Real?",
+      "status": "ok",
+      "blocksBefore": 25,
+      "blocksAfter": 25,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-Is-Scalp-Mic"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 27,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 25
+      }
+    },
+    {
+      "id": 40,
+      "slug": "setting-up-a-basic-hair-care-system-in-india-dos-and-donts",
+      "title": "Setting up a Basic Hair Care System in India: Do's and Don'ts",
+      "status": "ok",
+      "blocksBefore": 34,
+      "blocksAfter": 34,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Choosing-the-Righ"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 36,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 34
+      }
+    },
+    {
+      "id": 41,
+      "slug": "how-to-choose-a-base-type-skin-base-or-lace-base-hair-systems",
+      "title": "How to Choose a Base Type? Skin Base or Lace Base Hair Systems?",
+      "status": "ok",
+      "blocksBefore": 20,
+      "blocksAfter": 20,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Comparing-Skin-Ba"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 22,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 20
+      }
+    },
+    {
+      "id": 42,
+      "slug": "the-ultimate-guide-to-non-surgical-hair-replacement-for-men-in-india",
+      "title": "The Ultimate Guide to Non-Surgical Hair Replacement for Men in India",
+      "status": "ok",
+      "blocksBefore": 51,
+      "blocksAfter": 51,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-Is-Non-Surgi"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 53,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 51
+      }
+    },
+    {
+      "id": 43,
+      "slug": "can-i-shower-normally-with-my-hair-system-in-india",
+      "title": "Can I Shower Normally with My Hair System in India?",
+      "status": "ok",
+      "blocksBefore": 58,
+      "blocksAfter": 58,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-Are-Hair-Sys"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 60,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 58
+      }
+    },
+    {
+      "id": 44,
+      "slug": "failed-hair-transplant-in-india-how-to-avoid-or-fix-it",
+      "title": "Failed Hair Transplant in India: How to Avoid or Fix It?",
+      "status": "ok",
+      "blocksBefore": 29,
+      "blocksAfter": 29,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-Causes-Hair-"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 31,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 29
+      }
+    },
+    {
+      "id": 45,
+      "slug": "how-to-deal-with-hair-system-wearers-with-different-skin-conditions",
+      "title": "How to Deal With Hair System Wearers With Different Skin Conditions",
+      "status": "ok",
+      "blocksBefore": 58,
+      "blocksAfter": 58,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Understanding-Com"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 60,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 58
+      }
+    },
+    {
+      "id": 46,
+      "slug": "how-to-create-a-natural-front-hairline-for-a-hair-system",
+      "title": "How to Create a Natural Front Hairline for a Hair System?",
+      "status": "ok",
+      "blocksBefore": 32,
+      "blocksAfter": 32,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Choosing-the-Righ"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 34,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 32
+      }
+    },
+    {
+      "id": 47,
+      "slug": "is-a-hair-patch-a-good-option-to-opt-for",
+      "title": "Is a Hair Patch a Good Option to opt for?",
+      "status": "ok",
+      "blocksBefore": 50,
+      "blocksAfter": 50,
+      "tocRemoved": 2,
+      "faqPairs": 7,
+      "faqData": [
+        {
+          "question": "How long does a hair patch last before needing reapplication?",
+          "answer": "A hair patch typically lasts 4 to 6 weeks before requiring reapplication. The duration may vary based on factors like adhesion method, care, and lifestyle."
+        },
+        {
+          "question": "Are hair patches suitable for all types of hair loss patterns?",
+          "answer": "Yes, hair patches can be customized to various balding patterns. Consult with a specialist to determine the suitability based on your specific hair loss situation."
+        },
+        {
+          "question": "Is there discomfort or irritation associated with wearing a hair patch?",
+          "answer": "While glue provides a natural hold, it may cause scalp irritation. Tape is gentler but may not last as long. Clips or combs, though easy on and off, can sometimes be felt. Choose the attachment method based on your comfort preferences."
+        },
+        {
+          "question": "Can I style and treat a hair patch like my natural hair?",
+          "answer": "Yes, hair patches can be styled, washed, and treated like natural hair. Follow care instructions provided by the manufacturer or stylist for optimal results."
+        },
+        {
+          "question": "How affordable are high-quality hair patches compared to surgical hair transplants?",
+          "answer": "High-quality hair patches are a more affordable option compared to surgical hair transplants. Hair patches provide a budget-friendly solution to hair loss."
+        },
+        {
+          "question": "Can I exercise or swim with a hair patch?",
+          "answer": "Yes, you can exercise and swim with a hair patch. However, it's advisable to secure it well and follow care guidelines to ensure longevity and maintain its natural appearance."
+        },
+        {
+          "question": "Are there specific considerations for choosing a hair patch for men's hair loss in India?",
+          "answer": "Consider factors like the quality of human hair, color match, design preferences, and attachment method when choosing a hair patch in India. Research and consult with experts to find the most suitable option for your needs."
+        }
+      ],
+      "warnings": 3,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED",
+        "FAQ_BLOCK_PROCESSED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-Is-a-Hair-Pa"
+        },
+        {
+          "code": "FAQ_BLOCK_PROCESSED",
+          "message": "FAQ block processed — 7 Q&A pair(s) converted",
+          "context": "7 pairs"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 39,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 50
+      }
+    },
+    {
+      "id": 48,
+      "slug": "scalp-micro-pigmentation-safe-in-india",
+      "title": "Scalp Micro Pigmentation Safe in India?",
+      "status": "ok",
+      "blocksBefore": 39,
+      "blocksAfter": 39,
+      "tocRemoved": 2,
+      "faqPairs": 7,
+      "faqData": [
+        {
+          "question": "Is SMP the same as a regular tattoo?",
+          "answer": "No, SMP is not the same as a regular tattoo. It uses different equipment, pigments, and techniques. The pigment is applied more superficially than a traditional tattoo."
+        },
+        {
+          "question": "How long does SMP last?",
+          "answer": "SMP typically lasts for several years, but it can fade over time. Touch-up sessions may be required every few years to maintain the look."
+        },
+        {
+          "question": "Is the SMP procedure painful?",
+          "answer": "Pain levels vary from person to person, but SMP is generally less painful than traditional tattooing. Most clients experience only mild discomfort."
+        },
+        {
+          "question": "How many sessions are required?",
+          "answer": "Typically, SMP requires 2-4 sessions, spaced about a week apart. This can vary based on individual needs and the extent of hair loss."
+        },
+        {
+          "question": "Can SMP cover scars or birthmarks on the scalp?",
+          "answer": "Yes, SMP can be used to camouflage scars, including those from hair transplant surgery, as well as birthmarks."
+        },
+        {
+          "question": "What should I do for aftercare?",
+          "answer": "Aftercare involves keeping the scalp dry for a few days post-treatment, avoiding sun exposure, and not picking or scratching the treated area. Detailed aftercare instructions will be provided by your practitioner."
+        },
+        {
+          "question": "How soon can I return to work after SMP?",
+          "answer": "Most people can return to work the next day. However, the scalp may appear slightly red for a few days following each session."
+        }
+      ],
+      "warnings": 3,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED",
+        "FAQ_BLOCK_PROCESSED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-Is-Scalp-Mic"
+        },
+        {
+          "code": "FAQ_BLOCK_PROCESSED",
+          "message": "FAQ block processed — 7 Q&A pair(s) converted",
+          "context": "7 pairs"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 28,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 39
+      }
+    },
+    {
+      "id": 49,
+      "slug": "if-you-sweat-a-lot-which-base-to-choose-hair-system",
+      "title": "If you sweat a lot, Which base to choose for Hair System?",
+      "status": "ok",
+      "blocksBefore": 46,
+      "blocksAfter": 46,
+      "tocRemoved": 4,
+      "faqPairs": 5,
+      "faqData": [
+        {
+          "question": "What's the difference between lace, HD lace and Swiss lace?",
+          "answer": "These terms refer to the material used to create the base. Lace base is the most basic and affordable. HD lace and Swiss lace are higher quality, with smaller knots and a more natural appearance. HD lace is a bit thicker, while Swiss lace is the thinnest and most transparent. For heavy sweating, Swiss lace may be the most breathable option."
+        },
+        {
+          "question": "Which lace base is the most durable?",
+          "answer": "HD lace and Swiss lace tend to be more durable than regular lace. The finer, higher quality materials and construction make them more tear-resistant. Proper care and maintenance will also extend the life of any lace base. Be gentle when handling, washing and styling the hair system."
+        },
+        {
+          "question": "Can I swim or exercise wearing a lace base?",
+          "answer": "Any lace base can withstand occasional swimming or exercise. However, frequent or prolonged exposure to water or sweat can damage the lace over time. It's best to limit swimming, hot yoga or other sweat-inducing activities when possible. Always rinse your hair system after and let it air dry completely to prevent damage. Using a hair system specifically designed for activity may be better for an active lifestyle."
+        },
+        {
+          "question": "How often should I replace my lace base?",
+          "answer": "The general rule of thumb is to replace your lace base every 4 to 6 weeks. As the lace ages, it becomes more prone to tearing and looks less natural. Higher quality lace bases like HD lace and Swiss lace may last 6-8 weeks with proper care. If your lace base shows signs of damage or isn't looking natural anymore, it's best to replace it. Your stylist can help determine when it's time for a new base."
+        },
+        {
+          "question": "Can I style my lace base with heat tools?",
+          "answer": "Yes, you can use heat tools like blow dryers, curling irons and flat irons on lace bases. However, use the lowest heat setting and keep the tool moving to avoid damaging the lace. Allow your lace base to cool completely between uses of heat tools. Limit use of extreme heat which can cause the lace to deteriorate faster. With regular heat styling, you may need to replace your lace base more often, around every 3 to 4 weeks."
+        }
+      ],
+      "warnings": 5,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED",
+        "FAQ_BLOCK_PROCESSED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Understanding-Swe"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Lace-Base\">Lace  "
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Breathability\">Br"
+        },
+        {
+          "code": "FAQ_BLOCK_PROCESSED",
+          "message": "FAQ block processed — 5 Q&A pair(s) converted",
+          "context": "5 pairs"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 41,
+        "tocTablesRemoved": 4,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 46
+      }
+    },
+    {
+      "id": 50,
+      "slug": "why-scalp-micropigmentation-goes-wrong",
+      "title": "Why Scalp Micropigmentation Goes Wrong?",
+      "status": "ok",
+      "blocksBefore": 47,
+      "blocksAfter": 47,
+      "tocRemoved": 2,
+      "faqPairs": 3,
+      "faqData": [
+        {
+          "question": "How painful is the Scalp Micropigmentation procedure?",
+          "answer": "Scalp micropigmentation is typically not painful because a local anesthetic is used to numb the area before treatment. You may experience minor discomfort from the needle and sounds of the motorized tattoo pen. The sensation feels like light pinching or pricking. Any discomfort you do feel is temporary and minimal."
+        },
+        {
+          "question": "How long does Scalp Micropigmentation last?",
+          "answer": "Scalp micropigmentation results can last 3 to 5 years before needing a touch up. The pigments will fade over time due to sun exposure and natural fading. To maintain results, most clients need follow up treatments every 1 to 3 years. Proper aftercare and limiting sun exposure will help maximize the results. With regular maintenance, scalp micropigmentation can provide a long-term solution for hair loss."
+        },
+        {
+          "question": "Will SMP work for my hair loss?",
+          "answer": "Scalp micropigmentation can work for many types of hair loss, including:Male pattern baldness: Scalp micropigmentation works very well for concealing a receding hairline and balding crown.Scarring from hair transplants: SMP can help mask visibility of scarring by blending the pigment to your natural hair and skin tone.Alopecia: For patchy or diffuse hair loss from alopecia, SMP provides a uniform look by blending any bare areas or spots with your existing hair.The key is that you still have hair follicles in the treated areas, even if most of the hair has been lost. The pigment is applied directly to the scalp to mimic hair follicles, providing an appearance of shaved hair. For completely bald areas with no hair follicles, SMP may not produce natural-looking results. It is best to discuss your specific hair loss with a specialist to determine if you are a good candidate for scalp micropigmentation.Scalp micropigmentation offers a viable solution for hair loss when hair transplants are not an option or for concealing scarring from other hair restoration procedures. By choosing an experienced clinic and technician, SMP can produce very natural-looking results and help restore your confidence in your appearance."
+        }
+      ],
+      "warnings": 3,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED",
+        "FAQ_BLOCK_PROCESSED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-Is-Scalp-Mic"
+        },
+        {
+          "code": "FAQ_BLOCK_PROCESSED",
+          "message": "FAQ block processed — 3 Q&A pair(s) converted",
+          "context": "3 pairs"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 44,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 47
+      }
+    },
+    {
+      "id": 51,
+      "slug": "why-should-men-consider-using-hair-patches",
+      "title": "Why Should Men Consider Using Hair Patches?",
+      "status": "ok",
+      "blocksBefore": 36,
+      "blocksAfter": 36,
+      "tocRemoved": 2,
+      "faqPairs": 4,
+      "faqData": [
+        {
+          "question": "How long do hair patching systems last?",
+          "answer": "The lifespan of a hair patching system can vary depending on the quality of materials, maintenance, and daily wear. On average, a high-quality hair patch can last anywhere from 6 months to over a year."
+        },
+        {
+          "question": "Can I shower, swim, or play sports with a hair patch?",
+          "answer": "Yes, modern hair patches are designed to withstand daily activities, including showering, swimming, and sports. It's important to follow the care instructions provided by your specialist to maintain the patch's integrity."
+        },
+        {
+          "question": "Is it difficult to maintain a hair replacement system?",
+          "answer": "Maintenance routines are straightforward but require regular care, including gentle washing, conditioning, and periodic adjustments by a professional to ensure the hair patch remains secure and looks its best."
+        },
+        {
+          "question": "Will wearing a hair patch cause any damage to my existing hair or scalp?",
+          "answer": "When properly fitted and maintained, hair patches should not damage your existing hair or scalp. It's crucial to follow the guidance of your specialist and address any discomfort or issues promptly."
+        }
+      ],
+      "warnings": 3,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED",
+        "FAQ_BLOCK_PROCESSED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table aligncenter\"><table><tbody><tr><td class=\"has-text"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "FAQ_BLOCK_PROCESSED",
+          "message": "FAQ block processed — 4 Q&A pair(s) converted",
+          "context": "4 pairs"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 31,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 36
+      }
+    },
+    {
+      "id": 52,
+      "slug": "whats-the-difference-between-a-hair-patch-and-a-hair-wig",
+      "title": "What's the Difference Between a Hair Patch and a Hair Wig?",
+      "status": "ok",
+      "blocksBefore": 43,
+      "blocksAfter": 43,
+      "tocRemoved": 2,
+      "faqPairs": 4,
+      "faqData": [
+        {
+          "question": "What is the difference between a hair patch and a hair wig?",
+          "answer": "A hair patch, also known as a hairpiece or toupee, is designed to cover bald spots or areas of thinning hair. It is made of human hair and meant to blend in with your natural hair to create the illusion of a full head of hair. A hair wig, on the other hand, is designed to replace a full head of hair. It covers the entire scalp and is not meant to blend in with any remaining natural hair. Wigs provide complete coverage for men with extensive hair loss or baldness."
+        },
+        {
+          "question": "How do hair patches work?",
+          "answer": "Hair patches use high-quality human hair that is matched to your natural hair color and texture. The hair patch is secured to your scalp using medical-grade adhesives and/or clips to ensure a natural look. Hair patches require maintenance to ensure secure attachment and natural appearance. They need to be removed, cleaned, and reapplied every few weeks with the assistance of a hair replacement specialist."
+        },
+        {
+          "question": "Who benefits from hair replacement systems?",
+          "answer": "Non-surgical hair replacement systems like hair patches and wigs benefit men who want to cover visible hair loss without undergoing hair transplant surgery. They are ideal for covering bald spots, receding hairlines, and diffuse thinning hair. Hair replacement systems can provide men with a natural-looking full head of hair, allowing them to regain lost confidence and self-esteem due to hair loss."
+        },
+        {
+          "question": "Are hair replacement systems noticeable?",
+          "answer": "High-quality hair replacement systems made of human hair and properly matched to your natural hair should be virtually undetectable. When applied by an experienced hair replacement specialist, hair patches and wigs adhere securely to the scalp and blend in seamlessly with surrounding hair. However, lower quality synthetic hair pieces may appear obviously fake and are more prone to shifting or detachment, revealing their presence. For the most natural results, human hair replacement systems applied by a specialist are recommended."
+        }
+      ],
+      "warnings": 3,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED",
+        "FAQ_BLOCK_PROCESSED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Hair-Wigs-vs-Hair"
+        },
+        {
+          "code": "FAQ_BLOCK_PROCESSED",
+          "message": "FAQ block processed — 4 Q&A pair(s) converted",
+          "context": "4 pairs"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 38,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 43
+      }
+    },
+    {
+      "id": 53,
+      "slug": "how-can-you-select-the-best-hair-patch-for-your-needs",
+      "title": "How Can You Select the Best Hair Patch for Your Needs?",
+      "status": "ok",
+      "blocksBefore": 35,
+      "blocksAfter": 35,
+      "tocRemoved": 2,
+      "faqPairs": 2,
+      "faqData": [
+        {
+          "question": "How is a hair system installed?",
+          "answer": "Hair systems are installed using medical-grade adhesives that bond the system to your natural hair and scalp. The installation process takes about an hour and is done by a trained stylist. They clean and prepare your scalp, position the hair system, and apply bonding adhesive to secure it in place. Properly installed systems can remain securely adhered for 4 to 6 weeks before needing reattachment. Some men prefer to have their systems removed and reinstalled more frequently for increased security and to allow the scalp to breathe."
+        },
+        {
+          "question": "How long do hair systems last?",
+          "answer": "The lifespan of a hair system depends on several factors, including the quality of the hair used and how well you care for the system. On average, a human hair system may last 6 to 12 months with proper maintenance before needing replacement. With frequent use and handling, all systems will gradually show signs of wear over time. It is best to replace your system before damage becomes noticeable to maintain the most natural appearance."
+        }
+      ],
+      "warnings": 3,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED",
+        "FAQ_BLOCK_PROCESSED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Understanding-Hai"
+        },
+        {
+          "code": "FAQ_BLOCK_PROCESSED",
+          "message": "FAQ block processed — 2 Q&A pair(s) converted",
+          "context": "2 pairs"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 34,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 35
+      }
+    },
+    {
+      "id": 54,
+      "slug": "understanding-hair-systems-a-comprehensive-guide",
+      "title": "Understanding Hair Systems: A Comprehensive Guide",
+      "status": "ok",
+      "blocksBefore": 17,
+      "blocksAfter": 17,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Understanding-the"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 19,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 17
+      }
+    },
+    {
+      "id": 55,
+      "slug": "how-to-achieve-an-undetectable-front-hairline-with-your-hair-system",
+      "title": "How to Achieve an Natural Front Hairline with Your Hair Systems",
+      "status": "ok",
+      "blocksBefore": 10,
+      "blocksAfter": 10,
+      "tocRemoved": 0,
+      "faqPairs": 0,
+      "warnings": 0,
+      "warningCodes": [],
+      "warningDetails": [],
+      "stats": {
+        "totalInputBlocks": 10,
+        "tocTablesRemoved": 0,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 10
+      }
+    },
+    {
+      "id": 56,
+      "slug": "how-to-achieve-the-perfect-hair-density-for-a-natural-looking-hair-systems",
+      "title": "How to Achieve the Perfect Hair Density for a Natural Looking Hair Systems",
+      "status": "ok",
+      "blocksBefore": 13,
+      "blocksAfter": 13,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Understanding-Hai"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 15,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 13
+      }
+    },
+    {
+      "id": 57,
+      "slug": "how-to-choose-the-right-base-size-for-your-hair-patch",
+      "title": "How to Choose the Right Base Size for Your Hair Patch",
+      "status": "ok",
+      "blocksBefore": 27,
+      "blocksAfter": 27,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#Front-Hai"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 29,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 27
+      }
+    },
+    {
+      "id": 58,
+      "slug": "scalp-micropigmentation-vs-hair-transplant-which-is-the-better-option",
+      "title": "Scalp Micropigmentation vs. Hair Transplant: Which is the Better Option?",
+      "status": "ok",
+      "blocksBefore": 32,
+      "blocksAfter": 32,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#Understan"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 34,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 32
+      }
+    },
+    {
+      "id": 59,
+      "slug": "why-pu-skin-hair-systems-are-not-suitable-for-indian-weather",
+      "title": "Why PU Skin Hair Systems Are Not Suitable for Indian Weather?",
+      "status": "ok",
+      "blocksBefore": 41,
+      "blocksAfter": 41,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td>Table of content</td></tr><"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#Understan"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 43,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 41
+      }
+    },
+    {
+      "id": 60,
+      "slug": "hair-systems-styling-how-hair-direction-affects-your-look",
+      "title": "Hair Systems Styling: How Hair Direction Affects Your Look",
+      "status": "ok",
+      "blocksBefore": 30,
+      "blocksAfter": 30,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#Understan"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 32,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 30
+      }
+    },
+    {
+      "id": 61,
+      "slug": "what-is-a-pu-skin-hair-system-a-complete-guide-for-beginners",
+      "title": "What is a PU Skin Hair System? A Complete Guide for Beginners",
+      "status": "ok",
+      "blocksBefore": 31,
+      "blocksAfter": 31,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td>Table of contents</td></tr>"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#What-is-a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 33,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 31
+      }
+    },
+    {
+      "id": 62,
+      "slug": "scalp-micropigmentation-side-effects-what-to-know-before-treatment",
+      "title": "Scalp Micropigmentation Side Effects: What to Know Before Treatment",
+      "status": "ok",
+      "blocksBefore": 39,
+      "blocksAfter": 39,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#What-is-Scalp-Mic"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 41,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 39
+      }
+    },
+    {
+      "id": 63,
+      "slug": "how-made-to-order-hair-systems-help-pune-residents-regain-confidence-without-surgery",
+      "title": "How Made-to-Order Hair Systems Help Pune Residents Regain Confidence Without Surgery",
+      "status": "ok",
+      "blocksBefore": 26,
+      "blocksAfter": 26,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#What-Are-"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 28,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 26
+      }
+    },
+    {
+      "id": 64,
+      "slug": "why-bangalore-men-prefer-hair-systems-over-hair-transplants",
+      "title": "Why Bangalore Men Prefer Hair Systems Over Hair Transplants",
+      "status": "ok",
+      "blocksBefore": 33,
+      "blocksAfter": 33,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#1.-What-A"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 35,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 33
+      }
+    },
+    {
+      "id": 65,
+      "slug": "best-hair-patches-for-punes-hot-and-humid-weather",
+      "title": "Best Hair Patches for Pune's Hot and Humid Weather",
+      "status": "ok",
+      "blocksBefore": 35,
+      "blocksAfter": 35,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#Why-Hair-Patches-"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 37,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 35
+      }
+    },
+    {
+      "id": 66,
+      "slug": "common-issues-with-pu-skin-hair-systems-and-how-to-fix-them",
+      "title": "Common Issues with PU Skin Hair Systems and How to Fix Them",
+      "status": "ok",
+      "blocksBefore": 32,
+      "blocksAfter": 32,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#1-Lack-of"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 34,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 32
+      }
+    },
+    {
+      "id": 67,
+      "slug": "hair-systems-for-corporate-men-in-pune",
+      "title": "Hair Systems for Corporate Men in Pune",
+      "status": "ok",
+      "blocksBefore": 28,
+      "blocksAfter": 28,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#Common-Pr"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 30,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 28
+      }
+    },
+    {
+      "id": 68,
+      "slug": "how-bangalores-weather-influences-hair-loss-and-what-you-can-do",
+      "title": "How Bangalore’s Weather Influences Hair Loss and What You Can Do",
+      "status": "ok",
+      "blocksBefore": 45,
+      "blocksAfter": 45,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"Final-Thoughts\" class=\"wp-block-table\"><table><tbody><tr><td><strong"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 47,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 45
+      }
+    },
+    {
+      "id": 69,
+      "slug": "hair-systems-for-married-men-in-pune",
+      "title": "Hair Systems for Married Men in Pune",
+      "status": "ok",
+      "blocksBefore": 37,
+      "blocksAfter": 37,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#Why-Hair-"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 40,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 37
+      }
+    },
+    {
+      "id": 70,
+      "slug": "the-real-reason-most-hair-replacement-systems-dont-look-natural-and-how-to-avoid-it",
+      "title": "The Real Reason Most Hair Replacement Systems Don’t Look Natural (And How to Avoid It)",
+      "status": "ok",
+      "blocksBefore": 43,
+      "blocksAfter": 43,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 4,
+      "warningCodes": [
+        "CONTAINER_FLATTENED",
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:columns — inner content flattened",
+          "context": "columns"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:column — inner content flattened",
+          "context": "column"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#Why-Do-Ha"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 45,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 2,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 43
+      }
+    },
+    {
+      "id": 71,
+      "slug": "is-your-hair-loss-affecting-your-married-life-how-non-surgical-hair-replacement-can-help",
+      "title": "Is Your Hair Loss Affecting Your Married Life? How Non-Surgical Hair Replacement Can Help",
+      "status": "ok",
+      "blocksBefore": 71,
+      "blocksAfter": 71,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td class=\"has-text-align-cente"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><a href=\"#The Emotional and"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 73,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 71
+      }
+    },
+    {
+      "id": 72,
+      "slug": "why-most-hair-transplants-fail-to-satisfy-and-the-non-surgical-solution-to-consider",
+      "title": "Why Most Hair Transplants Fail to Satisfy and the Non-Surgical Solution to Consider",
+      "status": "ok",
+      "blocksBefore": 74,
+      "blocksAfter": 74,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 3,
+      "warningCodes": [
+        "CONTAINER_FLATTENED",
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:columns — inner content flattened",
+          "context": "columns"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:column — inner content flattened",
+          "context": "column"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><strong><a href=\"#-The-Allu"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 74,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 2,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 74
+      }
+    },
+    {
+      "id": 73,
+      "slug": "wedding-worries-how-to-fix-hair-loss-before-the-big-day",
+      "title": "Wedding Worries? How to Fix Hair Loss Before the Big Day",
+      "status": "ok",
+      "blocksBefore": 90,
+      "blocksAfter": 90,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td cl"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 93,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 90
+      }
+    },
+    {
+      "id": 74,
+      "slug": "top-reasons-why-scalp-micropigmentation-is-the-best-choice-for-thinning-hair",
+      "title": "Top Reasons Why Scalp Micropigmentation is the Best Choice for Thinning Hair",
+      "status": "ok",
+      "blocksBefore": 62,
+      "blocksAfter": 62,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td cl"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 65,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 62
+      }
+    },
+    {
+      "id": 75,
+      "slug": "how-indian-men-in-their-40s-are-fighting-hair-loss-successfully",
+      "title": "How Indian Men in Their 40s Are Fighting Hair Loss Successfully",
+      "status": "ok",
+      "blocksBefore": 37,
+      "blocksAfter": 37,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED",
+        "CONTAINER_FLATTENED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"Conclusion:-A-Timely-Solution-for-Men-in-Their-40s\" class=\"wp-block-"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:group — inner content flattened",
+          "context": "group"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 40,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 1,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 2,
+        "blocksProduced": 37
+      }
+    },
+    {
+      "id": 76,
+      "slug": "hair-replacement-in-mumbai-the-perfect-solution-for-busy-professionals",
+      "title": "Hair Replacement in Mumbai: The Perfect Solution for Busy Professionals",
+      "status": "ok",
+      "blocksBefore": 30,
+      "blocksAfter": 30,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"Why-Choose-an-American-Hairline-for-Hair-Replacement-in-Mumbai?\" cla"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 32,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 30
+      }
+    },
+    {
+      "id": 77,
+      "slug": "quick-fix-hair-loss-solutions-for-men-with-busy-lives",
+      "title": "Quick Fix: Hair Loss Solutions for Men With Busy Lives",
+      "status": "ok",
+      "blocksBefore": 28,
+      "blocksAfter": 28,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"Why-Non-Surgical-Hair-Loss-Solutions-Are-Ideal-for-Busy-Men\" class=\""
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 30,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 28
+      }
+    },
+    {
+      "id": 78,
+      "slug": "is-stress-making-you-bald-the-ultimate-fix-for-corporate-men",
+      "title": "Is Stress Making You Bald? The Ultimate Fix for Corporate Men",
+      "status": "ok",
+      "blocksBefore": 32,
+      "blocksAfter": 32,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"Why-Traditional-Solutions-Might-Not-Work-for-You\" class=\"wp-block-ta"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 34,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 32
+      }
+    },
+    {
+      "id": 79,
+      "slug": "can-scalp-micropigmentation-be-removed-understanding-the-reversal-process",
+      "title": "Can Scalp Micropigmentation Be Removed? Understanding the Reversal Process",
+      "status": "ok",
+      "blocksBefore": 37,
+      "blocksAfter": 37,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 38,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 37
+      }
+    },
+    {
+      "id": 80,
+      "slug": "7-signs-your-hair-loss-is-making-you-look-older",
+      "title": "Seven Signs Your Hair Loss Is Making You Look Older",
+      "status": "ok",
+      "blocksBefore": 31,
+      "blocksAfter": 31,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 32,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 31
+      }
+    },
+    {
+      "id": 81,
+      "slug": "top-5-reasons-why-non-surgical-hair-replacement-is-the-secret-weapon-of-confident-men",
+      "title": "Top 5 Reasons Why Non-Surgical Hair Replacement Is the Secret Weapon of Confident Men",
+      "status": "ok",
+      "blocksBefore": 29,
+      "blocksAfter": 29,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 31,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 29
+      }
+    },
+    {
+      "id": 82,
+      "slug": "scalp-micropigmentation-can-it-really-help-you-look-younger-and-feel-more-confident",
+      "title": "Scalp Micropigmentation: Can It Really Help You Look Younger and Feel More Confident?",
+      "status": "ok",
+      "blocksBefore": 70,
+      "blocksAfter": 70,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 71,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 70
+      }
+    },
+    {
+      "id": 83,
+      "slug": "boost-your-career-confidence-with-a-non-surgical-hair-system",
+      "title": "Boost Your Career &amp; Confidence with a Non Surgical Hair System",
+      "status": "ok",
+      "blocksBefore": 56,
+      "blocksAfter": 56,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 57,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 56
+      }
+    },
+    {
+      "id": 84,
+      "slug": "is-your-hairline-secretly-aging-you-find-out-now",
+      "title": "Is Your Hairline Secretly Aging You? Find Out Now!",
+      "status": "ok",
+      "blocksBefore": 41,
+      "blocksAfter": 41,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"Common-Mistakes-That-Make-Your-Hairline-Look-Older\" class=\"wp-block-"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 42,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 41
+      }
+    },
+    {
+      "id": 85,
+      "slug": "why-80-of-young-men-regret-ignoring-early-hair-loss",
+      "title": "Why 80% of Young Men Regret Ignoring Early Hair Loss",
+      "status": "ok",
+      "blocksBefore": 47,
+      "blocksAfter": 47,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 48,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 47
+      }
+    },
+    {
+      "id": 86,
+      "slug": "how-indian-college-students-are-secretly-beating-hair-loss",
+      "title": "How Indian College Students Are Secretly Beating Hair Loss",
+      "status": "ok",
+      "blocksBefore": 47,
+      "blocksAfter": 47,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 49,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 47
+      }
+    },
+    {
+      "id": 87,
+      "slug": "this-viral-hair-hack-will-change-how-you-style-your-hair-forever",
+      "title": "This Viral Hair Hack Will Change How You Style Your Hair Forever",
+      "status": "ok",
+      "blocksBefore": 51,
+      "blocksAfter": 51,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"-Why-Men-Struggle-with-Styling-Their-Hair-as-They-Age\" class=\"wp-blo"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 52,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 51
+      }
+    },
+    {
+      "id": 88,
+      "slug": "balding-at-22-the-surprising-science-behind-early-hair-loss",
+      "title": "Balding at Twenty-Two? The Surprising Science Behind Early Hair Loss",
+      "status": "ok",
+      "blocksBefore": 51,
+      "blocksAfter": 51,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 52,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 51
+      }
+    },
+    {
+      "id": 89,
+      "slug": "are-you-wedding-photo-ready-the-ultimate-hair-fix-for-grooms",
+      "title": "Are You Wedding-Photo Ready? The Ultimate Hair Fix for Grooms",
+      "status": "ok",
+      "blocksBefore": 44,
+      "blocksAfter": 44,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 46,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 44
+      }
+    },
+    {
+      "id": 90,
+      "slug": "hair-patches-vs-transplants-which-one-will-get-you-more-right-swipes",
+      "title": "Hair Patches vs. Transplants: Which One Will Get You More Right Swipes?",
+      "status": "ok",
+      "blocksBefore": 47,
+      "blocksAfter": 47,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 48,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 47
+      }
+    },
+    {
+      "id": 91,
+      "slug": "seven-hair-mistakes-that-make-you-look-older-in-selfies",
+      "title": "Seven Hair Mistakes That Make You Look Older in Selfies",
+      "status": "ok",
+      "blocksBefore": 37,
+      "blocksAfter": 37,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 38,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 37
+      }
+    },
+    {
+      "id": 92,
+      "slug": "the-ultimate-guide-to-looking-more-attractive-in-selfies",
+      "title": "The Ultimate Guide to Looking More Attractive in Selfies",
+      "status": "ok",
+      "blocksBefore": 45,
+      "blocksAfter": 45,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 46,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 45
+      }
+    },
+    {
+      "id": 93,
+      "slug": "the-1-hair-fix-every-influencer-swears-by-and-its-not-a-transplant",
+      "title": "The #1 Hair Fix Every Influencer Swears By—And It’s Not a Transplant",
+      "status": "ok",
+      "blocksBefore": 50,
+      "blocksAfter": 50,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 52,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 50
+      }
+    },
+    {
+      "id": 94,
+      "slug": "the-silent-career-killer-how-hair-loss-affects-workplace-confidence",
+      "title": "The Silent Career Killer: How Hair Loss Affects Workplace Confidence",
+      "status": "ok",
+      "blocksBefore": 40,
+      "blocksAfter": 40,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 42,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 40
+      }
+    },
+    {
+      "id": 95,
+      "slug": "hair-transplants-are-a-trap-what-no-one-tells-indian-men-about-regrowth",
+      "title": "Hair Transplants Are a Trap? What No One Tells Indian Men About Regrowth",
+      "status": "ok",
+      "blocksBefore": 35,
+      "blocksAfter": 35,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 37,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 35
+      }
+    },
+    {
+      "id": 96,
+      "slug": "the-hair-confidence-blueprint-how-to-look-more-powerful-at-work",
+      "title": "The Hair Confidence Blueprint: How to Look More Powerful at Work",
+      "status": "ok",
+      "blocksBefore": 35,
+      "blocksAfter": 35,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 36,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 35
+      }
+    },
+    {
+      "id": 97,
+      "slug": "7-hair-hacks-for-busy-professionals-fix-thinning-hair-without-extra-effort",
+      "title": "7 Hair Hacks for Busy Professionals Fix Thinning Hair Without Extra Effort",
+      "status": "ok",
+      "blocksBefore": 53,
+      "blocksAfter": 53,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 54,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 53
+      }
+    },
+    {
+      "id": 98,
+      "slug": "your-wife-wont-say-it-but-she-notices-this-about-your-hair",
+      "title": "Your Wife Won’t Say It, But She Notices This About Your Hair",
+      "status": "ok",
+      "blocksBefore": 40,
+      "blocksAfter": 40,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 4,
+      "warningCodes": [
+        "CONTAINER_FLATTENED",
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:group — inner content flattened",
+          "context": "group"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:columns — inner content flattened",
+          "context": "columns"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:column — inner content flattened",
+          "context": "column"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 40,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 3,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 40
+      }
+    },
+    {
+      "id": 99,
+      "slug": "why-your-hairline-might-be-killing-your-confidence-and-how-to-fix-it",
+      "title": "Why Your Hairline Might Be Killing Your Confidence (And How to Fix It)",
+      "status": "ok",
+      "blocksBefore": 32,
+      "blocksAfter": 32,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 5,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED",
+        "CONTAINER_FLATTENED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:columns — inner content flattened",
+          "context": "columns"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:column — inner content flattened",
+          "context": "column"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:column — inner content flattened",
+          "context": "column"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:column — inner content flattened",
+          "context": "column"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 31,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 4,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 32
+      }
+    },
+    {
+      "id": 100,
+      "slug": "why-corporate-india-is-secretly-embracing-hair-patches-over-transplants",
+      "title": "Why Corporate India Is Secretly Embracing Hair Patches Over Transplants",
+      "status": "ok",
+      "blocksBefore": 29,
+      "blocksAfter": 29,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 31,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 29
+      }
+    },
+    {
+      "id": 101,
+      "slug": "balding-in-your-30s-the-indian-ceo-approved-solution-you-need",
+      "title": "Balding in Your 30s? The Indian CEO-Approved Solution You Need",
+      "status": "ok",
+      "blocksBefore": 31,
+      "blocksAfter": 31,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"Skin-Base-Hair-Systems:-Look-Good,-Lead-Better\" class=\"wp-block-tabl"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 33,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 31
+      }
+    },
+    {
+      "id": 102,
+      "slug": "are-you-aging-faster-than-your-friends-the-secret-to-a-youthful-hairline",
+      "title": "Are You Aging Faster Than Your Friends? The Secret to a Youthful Hairline",
+      "status": "ok",
+      "blocksBefore": 27,
+      "blocksAfter": 27,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 29,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 27
+      }
+    },
+    {
+      "id": 103,
+      "slug": "is-hair-loss-making-you-look-older-than-your-wife-heres-what-to-do",
+      "title": "Is Hair Loss Making You Look Older Than Your Wife? Here’s What to Do",
+      "status": "ok",
+      "blocksBefore": 27,
+      "blocksAfter": 27,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 29,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 27
+      }
+    },
+    {
+      "id": 104,
+      "slug": "from-zoom-calls-to-boardrooms-how-to-maintain-a-strong-hairline-under-pressure",
+      "title": "From Zoom Calls to Boardrooms: How to Maintain a Strong Hairline Under Pressure",
+      "status": "ok",
+      "blocksBefore": 39,
+      "blocksAfter": 39,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 41,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 39
+      }
+    },
+    {
+      "id": 105,
+      "slug": "this-indian-hair-secret-is-helping-husbands-look-younger-instantly",
+      "title": "This Indian Hair Secret Is Helping Husbands Look Younger Instantly",
+      "status": "ok",
+      "blocksBefore": 42,
+      "blocksAfter": 42,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 44,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 42
+      }
+    },
+    {
+      "id": 106,
+      "slug": "bald-spots-and-marriage-the-unspoken-fear-no-one-talks-about",
+      "title": "Bald Spots and Marriage: The Unspoken Fear No One Talks About",
+      "status": "ok",
+      "blocksBefore": 41,
+      "blocksAfter": 41,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 43,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 41
+      }
+    },
+    {
+      "id": 107,
+      "slug": "90-of-men-regret-this-hair-loss-mistake-are-you-making-it",
+      "title": "90% of Men Regret This Hair Loss Mistake Are You Making It?",
+      "status": "ok",
+      "blocksBefore": 38,
+      "blocksAfter": 38,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 39,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 38
+      }
+    },
+    {
+      "id": 108,
+      "slug": "how-to-look-10-years-younger-without-changing-your-hairstyle",
+      "title": "How to Look 10 Years Younger Without Changing Your Hairstyle",
+      "status": "ok",
+      "blocksBefore": 22,
+      "blocksAfter": 22,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 27,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 4,
+        "blocksProduced": 22
+      }
+    },
+    {
+      "id": 109,
+      "slug": "she-swiped-right-for-your-hair-heres-how-to-keep-it-that-way",
+      "title": "She Swiped Right for Your Hair Here’s How to Keep It That Way",
+      "status": "ok",
+      "blocksBefore": 41,
+      "blocksAfter": 41,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 42,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 41
+      }
+    },
+    {
+      "id": 110,
+      "slug": "hair-hacks-for-busy-professionals-fix-thinning-hair-without-extra-effort",
+      "title": "Hair Hacks for Busy Professionals: Fix Thinning Hair Without Extra Effort",
+      "status": "ok",
+      "blocksBefore": 28,
+      "blocksAfter": 28,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 29,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 28
+      }
+    },
+    {
+      "id": 111,
+      "slug": "grooming-tricks-that-make-you-look-younger-instantly",
+      "title": "Grooming Tricks That Make You Look Younger Instantly",
+      "status": "ok",
+      "blocksBefore": 30,
+      "blocksAfter": 30,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 32,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 30
+      }
+    },
+    {
+      "id": 112,
+      "slug": "how-to-keep-your-hair-looking-perfect-in-every-event",
+      "title": "How to Keep Your Hair Looking Perfect in Every Event",
+      "status": "ok",
+      "blocksBefore": 16,
+      "blocksAfter": 16,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 17,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 16
+      }
+    },
+    {
+      "id": 113,
+      "slug": "hair-transplants-vs-hair-patches-whats-best-for-wedding-season",
+      "title": "Hair Transplants vs. Hair Patches: What’s Best for Wedding Season?",
+      "status": "ok",
+      "blocksBefore": 13,
+      "blocksAfter": 13,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 15,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 13
+      }
+    },
+    {
+      "id": 114,
+      "slug": "this-hair-solution-is-helping-indian-men-look-their-best-without-surgery",
+      "title": "This Hair Solution Is Helping Indian Men Look Their Best Without Surgery",
+      "status": "ok",
+      "blocksBefore": 24,
+      "blocksAfter": 24,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 27,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 2,
+        "blocksProduced": 24
+      }
+    },
+    {
+      "id": 115,
+      "slug": "how-your-hairline-can-impact-promotions",
+      "title": "How Your Hairline Can Impact Promotions",
+      "status": "ok",
+      "blocksBefore": 22,
+      "blocksAfter": 22,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 25,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 2,
+        "blocksProduced": 22
+      }
+    },
+    {
+      "id": 116,
+      "slug": "why-most-hair-loss-solutions-fail-working-professionals",
+      "title": "Why Most Hair Loss Solutions Fail Working Professionals",
+      "status": "ok",
+      "blocksBefore": 33,
+      "blocksAfter": 33,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"How-It-Boosts-Confidence-&amp;-Career\" class=\"wp-block-table\"><table"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 36,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 33
+      }
+    },
+    {
+      "id": 117,
+      "slug": "hair-patches-vs-hair-growth-oils-what-actually-works-for-married-men",
+      "title": "Hair Patches vs. Hair Growth Oils: What Actually Works for Married Men?",
+      "status": "ok",
+      "blocksBefore": 43,
+      "blocksAfter": 43,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"The-Hair-Oil-Trap:-Why-It-Rarely-Delivers\" class=\"wp-block-table\"><t"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 46,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 43
+      }
+    },
+    {
+      "id": 118,
+      "slug": "shocking-ways-hair-loss-changes-how-your-partner-sees-you",
+      "title": "Shocking Ways Hair Loss Changes How Your Partner Sees You",
+      "status": "ok",
+      "blocksBefore": 30,
+      "blocksAfter": 30,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 33,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 30
+      }
+    },
+    {
+      "id": 119,
+      "slug": "why-hair-patches-are-the-most-practical-fix-for-corporate-india",
+      "title": "Why Hair Patches Are the Most Practical Fix for Corporate India",
+      "status": "ok",
+      "blocksBefore": 50,
+      "blocksAfter": 50,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td>Ta"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"Conclusion:-A-Practical,-Confident,-and-Professional-Look\" class=\"wp"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 53,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 50
+      }
+    },
+    {
+      "id": 120,
+      "slug": "clip-on-hair-systems-a-quick-style-advantage-for-gen-z",
+      "title": "Clip On Hair Systems: A Quick Style Advantage for Gen Z",
+      "status": "ok",
+      "blocksBefore": 72,
+      "blocksAfter": 72,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 75,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 72
+      }
+    },
+    {
+      "id": 121,
+      "slug": "bald-spot-horror-why-grooms-are-choosing-this-over-hair-transplants",
+      "title": "Bald Spot Horror: Why Grooms Are Choosing This Over Hair Transplants",
+      "status": "ok",
+      "blocksBefore": 34,
+      "blocksAfter": 34,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 37,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 34
+      }
+    },
+    {
+      "id": 122,
+      "slug": "why-hair-transplants-before-your-wedding-might-be-a-bad-idea",
+      "title": "Why Hair Transplants Before Your Wedding Might Be a Bad Idea",
+      "status": "ok",
+      "blocksBefore": 47,
+      "blocksAfter": 47,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 49,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 47
+      }
+    },
+    {
+      "id": 123,
+      "slug": "clip-on-vs-stick-on-which-hair-patch-is-right-for-you",
+      "title": "Clip On vs. Stick On: Which Hair Patch Is Right for You?",
+      "status": "ok",
+      "blocksBefore": 44,
+      "blocksAfter": 44,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 46,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 44
+      }
+    },
+    {
+      "id": 124,
+      "slug": "no-time-for-transplants-smart-professionals-are-choosing-this",
+      "title": "No Time for Transplants? Smart Professionals Are Choosing This",
+      "status": "ok",
+      "blocksBefore": 63,
+      "blocksAfter": 63,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 65,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 63
+      }
+    },
+    {
+      "id": 125,
+      "slug": "why-do-most-men-fear-stick-on-hair-systems-look-fake",
+      "title": "Why Do Most Men Fear Stick-On Hair Systems Look Fake?",
+      "status": "ok",
+      "blocksBefore": 48,
+      "blocksAfter": 48,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 51,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 48
+      }
+    },
+    {
+      "id": 126,
+      "slug": "looking-45-at-35-the-hairline-confession-every-husband-needs-to-hear",
+      "title": "Looking 45 at 35? The Hairline Confession Every Husband Needs to Hear",
+      "status": "ok",
+      "blocksBefore": 41,
+      "blocksAfter": 41,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 43,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 41
+      }
+    },
+    {
+      "id": 127,
+      "slug": "hairline-anxiety-why-gen-z-men-choose-clip-on-systems",
+      "title": "Hairline Anxiety? Why Gen Z Men Choose Clip-On Systems",
+      "status": "ok",
+      "blocksBefore": 35,
+      "blocksAfter": 35,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 38,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 35
+      }
+    },
+    {
+      "id": 128,
+      "slug": "why-are-stick-on-hair-systems-outsmarting-hair-transplants-in-india",
+      "title": "Why Are Stick-On Hair Systems Outsmarting Hair Transplants in India?",
+      "status": "ok",
+      "blocksBefore": 34,
+      "blocksAfter": 34,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 37,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 34
+      }
+    },
+    {
+      "id": 129,
+      "slug": "can-clip-on-systems-survive-a-night-out-we-tested-it",
+      "title": "Can Clip-On Systems Survive a Night Out? We Tested It",
+      "status": "ok",
+      "blocksBefore": 37,
+      "blocksAfter": 37,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 40,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 37
+      }
+    },
+    {
+      "id": 130,
+      "slug": "first-time-stick-on-hair-system-buyer-should-you-book-a-trial-first",
+      "title": "First Time Stick On Hair System Buyer: Should You Book a Trial First?",
+      "status": "ok",
+      "blocksBefore": 27,
+      "blocksAfter": 27,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 30,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 27
+      }
+    },
+    {
+      "id": 131,
+      "slug": "can-you-really-pull-off-a-clip-on-system-at-the-gym",
+      "title": "Can You Really Pull Off a Clip On System at the Gym?",
+      "status": "ok",
+      "blocksBefore": 29,
+      "blocksAfter": 29,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 32,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 29
+      }
+    },
+    {
+      "id": 132,
+      "slug": "why-ceos-secretly-prefer-stick-on-hair-systems-over-transplants",
+      "title": "Why CEOs Secretly Prefer Stick On Hair Systems Over Transplants",
+      "status": "ok",
+      "blocksBefore": 36,
+      "blocksAfter": 36,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 38,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 36
+      }
+    },
+    {
+      "id": 133,
+      "slug": "secret-grooming-tricks-that-make-you-look-younger-instantly",
+      "title": "Secret Grooming Tricks That Make You Look Younger Instantly",
+      "status": "ok",
+      "blocksBefore": 39,
+      "blocksAfter": 39,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 42,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 39
+      }
+    },
+    {
+      "id": 134,
+      "slug": "the-patch-panic-myth-why-modern-hair-systems-look-nothing-like-wigs",
+      "title": "The “Patch Panic” Myth: Why Modern Hair Systems Look Nothing Like Wigs",
+      "status": "ok",
+      "blocksBefore": 57,
+      "blocksAfter": 57,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 59,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 57
+      }
+    },
+    {
+      "id": 135,
+      "slug": "why-stick-on-hair-systems-outperform-transplants-in-real-life",
+      "title": "Why Stick On Hair Systems Outperform Transplants in Real Life",
+      "status": "ok",
+      "blocksBefore": 55,
+      "blocksAfter": 55,
+      "tocRemoved": 2,
+      "faqPairs": 0,
+      "warnings": 2,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"Hair-Loss-Keeps-Progressing,-Transplants-Don’t\" class=\"wp-block-tabl"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 58,
+        "tocTablesRemoved": 2,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 55
+      }
+    },
+    {
+      "id": 136,
+      "slug": "are-you-shortening-your-hair-patch-lifespan-with-poor-aftercare-practices",
+      "title": "Are You Shortening Your Hair Patch Lifespan With Poor Aftercare Practices?",
+      "status": "ok",
+      "blocksBefore": 50,
+      "blocksAfter": 50,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 4,
+      "warningCodes": [
+        "CONTAINER_FLATTENED",
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:group — inner content flattened",
+          "context": "group"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:columns — inner content flattened",
+          "context": "columns"
+        },
+        {
+          "code": "CONTAINER_FLATTENED",
+          "message": "Unsupported layout container wp:column — inner content flattened",
+          "context": "column"
+        },
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table><tbody><tr><td><mark class=\"has-inline-col"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 52,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 3,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 50
+      }
+    },
+    {
+      "id": 137,
+      "slug": "can-breathable-hair-system-bases-reduce-sweat-in-humid-weather",
+      "title": "Can Breathable Hair System Bases Reduce Sweat in Humid Weather?",
+      "status": "ok",
+      "blocksBefore": 42,
+      "blocksAfter": 42,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 43,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 42
+      }
+    },
+    {
+      "id": 138,
+      "slug": "9-reasons-smart-professionals-are-switching-to-modern-hair-systems",
+      "title": "9 Reasons Smart Professionals Are Switching to Modern Hair Systems",
+      "status": "ok",
+      "blocksBefore": 34,
+      "blocksAfter": 34,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 36,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 34
+      }
+    },
+    {
+      "id": 139,
+      "slug": "can-you-really-shower-swim-and-sleep-with-a-stick-on-system",
+      "title": "Can You Really Shower, Swim, and Sleep With a Stick On System?",
+      "status": "ok",
+      "blocksBefore": 56,
+      "blocksAfter": 56,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 58,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 56
+      }
+    },
+    {
+      "id": 140,
+      "slug": "bollywoods-silent-trend-the-rise-of-non-surgical-hair-systems",
+      "title": "Bollywood’s Silent Trend: The Rise of Non Surgical Hair Systems",
+      "status": "ok",
+      "blocksBefore": 44,
+      "blocksAfter": 44,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 45,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 44
+      }
+    },
+    {
+      "id": 141,
+      "slug": "hair-transplants-in-your-20s-smart-move-or-lifetime-regret",
+      "title": "Hair Transplants in Your 20s: Smart Move or Lifetime Regret?",
+      "status": "ok",
+      "blocksBefore": 34,
+      "blocksAfter": 34,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 35,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 34
+      }
+    },
+    {
+      "id": 142,
+      "slug": "from-bald-spot-to-bollywood-look-how-clip-on-systems-create-instant-volume",
+      "title": "From Bald Spot to Bollywood Look: How Clip-On Systems Create Instant Volume",
+      "status": "ok",
+      "blocksBefore": 35,
+      "blocksAfter": 35,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure id=\"Conclusion:-Your-Bollywood-Look-Is-5-Minutes-Away\" class=\"wp-block-t"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 37,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 35
+      }
+    },
+    {
+      "id": 143,
+      "slug": "can-modern-hair-systems-really-survive-gym-workouts-and-running",
+      "title": "Can Modern Hair Systems Really Survive Gym Workouts and Running?",
+      "status": "ok",
+      "blocksBefore": 53,
+      "blocksAfter": 53,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 55,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 1,
+        "blocksProduced": 53
+      }
+    },
+    {
+      "id": 144,
+      "slug": "your-friends-are-balding-too-but-you-dont-have-to-join-them",
+      "title": "Your Friends Are Balding Too… But You Don’t Have to Join Them",
+      "status": "ok",
+      "blocksBefore": 81,
+      "blocksAfter": 81,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><s"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 82,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 81
+      }
+    },
+    {
+      "id": 145,
+      "slug": "client-facing-role-this-hair-hack-boosts-visual-credibility",
+      "title": "Client-Facing Role? This Hair Hack Boosts Visual Credibility",
+      "status": "ok",
+      "blocksBefore": 36,
+      "blocksAfter": 36,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 37,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 36
+      }
+    },
+    {
+      "id": 146,
+      "slug": "hairline-jealousy-is-real-heres-how-to-beat-it-without-surgery",
+      "title": "Hairline Jealousy Is Real! Here’s How to Beat It Without Surgery",
+      "status": "ok",
+      "blocksBefore": 45,
+      "blocksAfter": 45,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 46,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 45
+      }
+    },
+    {
+      "id": 147,
+      "slug": "the-hidden-link-between-career-stress-and-rapid-hair-thinning-no-one-talks-about-this",
+      "title": "The Hidden Link Between Career Stress and Rapid Hair Thinning (No One Talks About This)",
+      "status": "ok",
+      "blocksBefore": 93,
+      "blocksAfter": 93,
+      "tocRemoved": 1,
+      "faqPairs": 0,
+      "warnings": 1,
+      "warningCodes": [
+        "TOC_TABLE_REMOVED"
+      ],
+      "warningDetails": [
+        {
+          "code": "TOC_TABLE_REMOVED",
+          "message": "WordPress TOC table removed — page TOC is generated from headings",
+          "context": "<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><a"
+        }
+      ],
+      "stats": {
+        "totalInputBlocks": 94,
+        "tocTablesRemoved": 1,
+        "unsupportedContainersFlattened": 0,
+        "unknownEmbedsSkipped": 0,
+        "emptyBlocksSkipped": 0,
+        "blocksProduced": 93
+      }
+    }
+  ]
+}

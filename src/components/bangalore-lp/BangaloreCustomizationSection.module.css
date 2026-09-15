@@ -1,0 +1,106 @@
+.root {
+  --blp-ink: #191919;
+  --blp-blue-light: #4686fe;
+  --blp-green: #12b02a;
+  --blp-green-light: #55de6b;
+  --blp-paper: #fafafa;
+  --blp-white: #fff;
+  --blp-gutter: 16px;
+  --blp-space-3: 12px;
+  --blp-space-4: 16px;
+  --blp-space-5: 20px;
+  --blp-space-7: 28px;
+  --blp-space-11: 44px;
+  --blp-fs-section-title: 28px;
+  --blp-fs-small: 14px;
+  --blp-fs-tiny: 13px;
+  --blp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+  --blp-roboto: var(--font-bangalore-roboto), "Roboto", Arial, sans-serif;
+
+  position: relative;
+  padding: var(--blp-space-11) var(--blp-gutter);
+  overflow: hidden;
+  background: var(--blp-paper);
+  color: var(--blp-ink);
+  font-family: var(--blp-roboto);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--blp-montserrat);
+  font-size: var(--blp-fs-section-title);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.032em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.titleAccent {
+  color: var(--blp-blue-light);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--blp-space-3);
+  margin-top: var(--blp-space-7);
+  padding: var(--blp-space-5) var(--blp-space-4);
+  border: 1px solid var(--blp-blue-light);
+  border-radius: 12px;
+  background: var(--blp-white);
+}
+
+.list {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  position: relative;
+  padding-left: 24px;
+  font-family: var(--blp-montserrat);
+  font-size: var(--blp-fs-small);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.item::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  width: 17px;
+  height: 17px;
+  place-items: center;
+  border-radius: 4px;
+  background: linear-gradient(135deg, var(--blp-green), var(--blp-green-light));
+  color: var(--blp-white);
+  content: "✓";
+  font: 700 var(--blp-fs-small) / 1 Arial, sans-serif;
+}
+
+.card {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: var(--blp-space-3);
+  border-radius: 12px;
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .grid {
+    padding-inline: 12px;
+  }
+
+  .item {
+    font-size: var(--blp-fs-tiny);
+  }
+}

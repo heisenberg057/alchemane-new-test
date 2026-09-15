@@ -1,0 +1,170 @@
+const fs = require('fs');
+const path = require('path');
+
+const CSV_DIR = '/Users/ketan/Desktop/AHL Website/Code/SEO WordPress';
+const OUTPUT_FILE = path.join(__dirname, '../src/config/legacy-seo-map.ts');
+const BASE_URL = 'https://americanhairline.com'; // or whatever the base url is in the CSV
+const BASE_HOSTNAME = new URL(BASE_URL).hostname;
+
+function parseCSV(filename) {
+  const content = fs.readFileSync(path.join(CSV_DIR, filename), 'utf8');
+  const rows = [];
+  let currentRow = [];
+  let currentCell = '';
+  let inQuotes = false;
+
+  for (let i = 0; i < content.length; i++) {
+    const char = content[i];
+    if (char === '"' && content[i + 1] === '"') {
+      currentCell += '"';
+      i++;
+    } else if (char === '"') {
+      inQuotes = !inQuotes;
+    } else if (char === ',' && !inQuotes) {
+      currentRow.push(currentCell.trim());
+      currentCell = '';
+    } else if ((char === '\n' || char === '\r') && !inQuotes) {
+      if (char === '\r' && content[i + 1] === '\n') i++; // skip \n
+      currentRow.push(currentCell.trim());
+      if (currentRow.length > 1 || currentRow[0] !== '') {
+        rows.push(currentRow);
+      }
+      currentRow = [];
+      currentCell = '';
+    } else {
+      currentCell += char;
+    }
+  }
+  if (currentRow.length > 0 || currentCell) {
+    currentRow.push(currentCell.trim());
+    rows.push(currentRow);
+  }
+  return rows;
+}
+
+function getPathname(url) {
+  try {
+    const parsed = new URL(url);
+    if (!parsed.hostname.includes(BASE_HOSTNAME)) return null;
+    let pathname = parsed.pathname;
+    // remove trailing slash if not root
+    if (pathname.length > 1 && pathname.endsWith('/')) {
+      pathname = pathname.substring(0, pathname.length - 1);
+    }
+    return pathname;
+  } catch (e) {
+    return null;
+  }
+}
+
+function sanitizeText(value) {
+  if (typeof value !== 'string') return undefined;
+
+  const normalized = value.replace(/^﻿/, '').trim();
+  if (!normalized) return undefined;
+  if (/^"+$/.test(normalized)) return undefined;
+  if (/^(null|undefined)$/i.test(normalized)) return undefined;
+
+  return normalized.replace(/\s+/g, ' ').trim();
+}
+
+function sanitizeCanonical(value) {
+  const normalized = sanitizeText(value);
+  if (!normalized) return undefined;
+
+  try {
+    const parsed = new URL(normalized);
+    if (!parsed.hostname.includes(BASE_HOSTNAME)) return undefined;
+    return parsed.toString();
+  } catch (error) {
+    return undefined;
+  }
+}
+
+function setSeoField(seoMap, pathname, key, rawValue, sanitizer = sanitizeText) {
+  const value = sanitizer(rawValue);
+  if (!value) return;
+
+  if (!seoMap[pathname]) seoMap[pathname] = {};
+  seoMap[pathname][key] = value;
+}
+
+function buildSeoMap() {
+  const seoMap = {}; // { '/about-us': { title: '...', description: '...', canonical: '...' } }
+
+  // 1. Parse Titles
+  console.log('Parsing titles...');
+  const titles = parseCSV('page_titles_all.csv');
+  const titleHeaders = titles[0];
+  const urlIdxTitles = titleHeaders.findIndex(h => h.includes('Address'));
+  const titleIdx = titleHeaders.findIndex(h => h === 'Title 1');
+
+  for (let i = 1; i < titles.length; i++) {
+    const row = titles[i];
+    if (!row || row.length <= urlIdxTitles) continue;
+    const url = row[urlIdxTitles].replace(/^﻿/, ''); // remove BOM if present
+    const pathname = getPathname(url);
+    if (!pathname) continue;
+
+    setSeoField(seoMap, pathname, 'title', row[titleIdx]);
+  }
+
+  // 2. Parse Descriptions
+  console.log('Parsing descriptions...');
+  const descriptions = parseCSV('meta_description_all.csv');
+  const descHeaders = descriptions[0];
+  const urlIdxDesc = descHeaders.findIndex(h => h.includes('Address'));
+  const descIdx = descHeaders.findIndex(h => h === 'Meta Description 1');
+
+  for (let i = 1; i < descriptions.length; i++) {
+    const row = descriptions[i];
+    if (!row || row.length <= urlIdxDesc) continue;
+    const url = row[urlIdxDesc].replace(/^﻿/, '');
+    const pathname = getPathname(url);
+    if (!pathname) continue;
+
+    setSeoField(seoMap, pathname, 'description', row[descIdx]);
+  }
+
+  // 3. Parse Canonicals
+  console.log('Parsing canonicals...');
+  const canonicals = parseCSV('canonicals_all.csv');
+  const canHeaders = canonicals[0];
+  const urlIdxCan = canHeaders.findIndex(h => h.includes('Address'));
+  const canIdx = canHeaders.findIndex(h => h === 'Canonical Link Element 1');
+
+  for (let i = 1; i < canonicals.length; i++) {
+    const row = canonicals[i];
+    if (!row || row.length <= urlIdxCan) continue;
+    const url = row[urlIdxCan].replace(/^﻿/, '');
+    const pathname = getPathname(url);
+    if (!pathname) continue;
+
+    setSeoField(seoMap, pathname, 'canonical', row[canIdx], sanitizeCanonical);
+  }
+
+  const cleanedSeoMap = Object.fromEntries(
+    Object.entries(seoMap).filter(([, data]) => Object.keys(data).length > 0)
+  );
+
+  // Generate output
+  const tsContent = `/**
+ * Auto-generated SEO Map from WordPress Crawl Data
+ * Do not edit this file manually. Run scripts/parse-seo.js to regenerate.
+ */
+
+export interface PageSeoData {
+  title?: string;
+  description?: string;
+  canonical?: string;
+}
+
+export const LEGACY_SEO_MAP: Record<string, PageSeoData> = ${JSON.stringify(cleanedSeoMap, null, 2)};
+`;
+
+  fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
+  fs.writeFileSync(OUTPUT_FILE, tsContent, 'utf8');
+  console.log(`Successfully wrote SEO map to ${OUTPUT_FILE} (${Object.keys(cleanedSeoMap).length} URLs mapped)`);
+}
+
+buildSeoMap();

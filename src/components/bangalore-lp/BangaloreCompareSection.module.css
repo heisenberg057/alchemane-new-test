@@ -1,0 +1,127 @@
+.root {
+  --blp-ink: #191919;
+  --blp-ink-strong: #111111;
+  --blp-blue: #1769ff;
+  --blp-blue-light: #4686fe;
+  --blp-paper: #fafafa;
+  --blp-white: #fff;
+  --blp-line: #e7e9ee;
+  --blp-navy-10: rgba(28, 43, 71, 0.1);
+  --blp-gutter: 16px;
+  --blp-space-2: 8px;
+  --blp-space-7: 28px;
+  --blp-space-10: 40px;
+  --blp-space-11: 44px;
+  --blp-fs-section-title: 28px;
+  --blp-fs-small: 14px;
+  --blp-fs-tiny: 13px;
+  --blp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+  --blp-roboto: var(--font-bangalore-roboto), "Roboto", Arial, sans-serif;
+
+  position: relative;
+  padding: var(--blp-space-10) var(--blp-space-2) var(--blp-space-11);
+  overflow: hidden;
+  background: var(--blp-paper);
+  color: var(--blp-ink);
+  font-family: var(--blp-roboto);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--blp-montserrat);
+  font-size: var(--blp-fs-section-title);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.032em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.titleAccent {
+  color: var(--blp-blue);
+}
+
+.table {
+  margin-top: var(--blp-space-7);
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--blp-white);
+  box-shadow: 0 4px 14px var(--blp-navy-10);
+  font-size: var(--blp-fs-tiny);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  min-height: 68px;
+  border-top: 1px solid var(--blp-line);
+}
+
+.row:first-child {
+  min-height: 72px;
+  border-top: 0;
+}
+
+.head {
+  background: var(--blp-ink-strong);
+  color: var(--blp-white);
+}
+
+.headCell {
+  display: grid;
+  place-content: center;
+  padding: 12px 8px;
+  border-left: 1px solid rgba(255, 255, 255, 0.35);
+  color: var(--blp-white);
+  font-family: var(--blp-montserrat);
+  font-size: var(--blp-fs-small);
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.headCell:first-child {
+  justify-content: start;
+  padding-left: 12px;
+  border-left: 0;
+  text-align: left;
+}
+
+.feature {
+  display: grid;
+  place-content: center start;
+  padding: 6px 5px 6px 12px;
+  font-family: var(--blp-montserrat);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.cell {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 4px;
+  padding: 10px 8px;
+  border-left: 1px solid var(--blp-line);
+  line-height: 1.15;
+  text-align: center;
+}
+
+.status {
+  display: block;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .table {
+    font-size: var(--blp-fs-tiny);
+  }
+}

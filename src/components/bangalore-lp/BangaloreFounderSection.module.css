@@ -1,0 +1,128 @@
+.root {
+  --blp-ink: #191919;
+  --blp-blue: #1769ff;
+  --blp-blue-light: #4686fe;
+  --blp-pale: #f0f4ff;
+  --blp-white: #fff;
+  --blp-muted: #5f6773;
+  --blp-black-15: rgba(0, 0, 0, 0.15);
+  --blp-ink-strong: #111111;
+  --blp-gutter: 16px;
+  --blp-space-2: 8px;
+  --blp-space-3: 12px;
+  --blp-space-5: 20px;
+  --blp-space-6: 24px;
+  --blp-space-7: 28px;
+  --blp-space-11: 44px;
+  --blp-fs-section-title: 28px;
+  --blp-fs-h3: 18px;
+  --blp-fs-body: 16px;
+  --blp-fs-tiny: 13px;
+  --blp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+  --blp-roboto: var(--font-bangalore-roboto), "Roboto", Arial, sans-serif;
+
+  position: relative;
+  padding: var(--blp-space-11) var(--blp-gutter);
+  overflow: hidden;
+  background: var(--blp-pale);
+  color: var(--blp-ink);
+  font-family: var(--blp-roboto);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--blp-montserrat);
+  font-size: var(--blp-fs-section-title);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.032em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.titleAccent {
+  color: var(--blp-blue-light);
+}
+
+.stage {
+  position: relative;
+  width: 100%;
+  height: 487px;
+  margin-top: var(--blp-space-7);
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--blp-ink-strong);
+  box-shadow: 0 4px 10px var(--blp-black-15);
+}
+
+.bullets {
+  display: grid;
+  gap: var(--blp-space-3);
+  margin: var(--blp-space-6) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bullet {
+  position: relative;
+  padding-left: 21px;
+  font-size: var(--blp-fs-body);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.bullet::before {
+  position: absolute;
+  top: 0.62em;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--blp-ink);
+  content: "";
+}
+
+.cta {
+  display: flex;
+  width: 100%;
+  min-height: 56px;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--blp-space-6);
+  border: 0;
+  border-radius: 8px;
+  background: linear-gradient(104deg, var(--blp-blue-light), var(--blp-blue));
+  color: var(--blp-white);
+  box-shadow: 0 2px 12px var(--blp-black-15);
+  font-family: var(--blp-montserrat);
+  font-size: var(--blp-fs-h3);
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: filter 0.2s ease, transform 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.cta:hover {
+  filter: brightness(1.06);
+}
+
+.cta:active {
+  transform: scale(0.985);
+}
+
+.ctaNote {
+  margin: var(--blp-space-2) auto 0;
+  color: var(--blp-muted);
+  font-size: var(--blp-fs-tiny);
+  line-height: 1.35;
+  text-align: center;
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 26px;
+  }
+}

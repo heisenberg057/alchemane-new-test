@@ -1,0 +1,157 @@
+<!-- ============== Reality Section (mobile-first, responsive) ============== -->
+<section class="reality-wrap" style="max-width:450px;margin:auto;padding:28px 14px;background: #F3F6FF;font-family:Montserrat,Roboto,system-ui,sans-serif;">
+  <!-- Title -->
+  <h2 style="margin:32px 0 24px;font-family: Montserrat;text-align:center;line-height: 130%;letter-spacing: -0.06px;">
+    <span style="display:block;font-weight:800;font-size:clamp(20px,6.2vw,24px);color:#161616;">
+      This Is Your Reality
+    </span>
+    <span style="display:block;font-weight:800;font-size:clamp(20px,6.2vw,24px);
+                 background:linear-gradient(104deg,#4686FE 0%,#1769FF 100%);
+                 -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">
+      Right Now
+    </span>
+  </h2>
+  <!-- CARD 1 -->
+  <article class="reality-card">
+    <figure class="reality-media">
+      <img loading="lazy" decoding="async"
+           src="https://lh3.googleusercontent.com/pw/AP1GczMssUjaHfFmDRj_cFSaHz9USdKF-afiCP58zO8d14pL7zYDdJ5l7TnoimyLwujKQH0lketRfacJpJ5zV5Xpjzn9ubHDAkXaVLWa-AiI526l7SLhNfM=w2400"
+           alt="Man looking into mirror, concerned about hair" />
+    </figure>
+    <p class="reality-copy">
+      Every morning you see the man in the mirror getting older,
+      <strong>less confident.</strong>
+    </p>
+  </article>
+  <!-- CARD 2 -->
+  <article class="reality-card">
+    <figure class="reality-media">
+      <img loading="lazy" decoding="async"
+           src="https://lh3.googleusercontent.com/pw/AP1GczOqqjO1RQCx8ijM27P2MiekjLyrYWFEGZhTnIQZdfq-PMDVORdgueVMTDBSYKfjCN0lkxhIDf44SjRu2wIBtJXRMt4aZOckjpO4fw-paO2j_Ee7z78=w2400"
+           alt="Avoiding photos because of thinning hair" />
+    </figure>
+    <p class="reality-copy">
+      You 
+      <strong>avoid photos</strong>, hiding your 
+      <strong>thinning hair</strong> from every camera.
+    </p>
+  </article>
+  <!-- CARD 3 -->
+  <article class="reality-card">
+    <figure class="reality-media">
+      <img loading="lazy" decoding="async"
+           src="https://lh3.googleusercontent.com/pw/AP1GczNS7gAmpXDFI5txctPvHOmfqnWtTmNQ28Wu7T_aCIZovaoJ70Bz2f5eRVo4FgRElLU_eGZdso7LfU33rc021Wi--oT1QVtzCxxUVpudTxXWvojmi9U=w2400"
+           alt="Trying pills and shampoos" />
+    </figure>
+    <p class="reality-copy">
+      You’ve tried 
+      <strong>oils, pills</strong>, expensive shampoos 
+      <strong>nothing worked.</strong>
+    </p>
+  </article>
+  <!-- CARD 4 -->
+  <article class="reality-card">
+    <figure class="reality-media">
+      <img loading="lazy" decoding="async"
+           src="https://lh3.googleusercontent.com/pw/AP1GczMA12PpvCOxFLXP-XCK9C2D95f-P8ohl_IxCOneIFOxSd3uZBygIOsPB5-6mVgHuexyjM-fLDUHzg8n-4msYGe6nEDuo-rD4Dm8IkgkSSlTS4A2sq8=w2400"
+           alt="Tired of tricks and caps to hide baldness" />
+    </figure>
+    <p class="reality-copy">
+      You’re exhausted from 
+      <strong>caps, tricks</strong>, and 
+      <strong>combing</strong> to hide baldness.
+    </p>
+  </article>
+  <!-- CARD 5 -->
+  <article class="reality-card">
+    <figure class="reality-media">
+      <img loading="lazy" decoding="async"
+           src="https://lh3.googleusercontent.com/pw/AP1GczMvRufa0QTJqmDp7Q-FqUYuQ7GC6Dp9iskAXysK7eJAFYHKcgV49tV3QwRBe6IP16ioxrQjuXJHlc7xw1Un-53YTQ518XCiRVJjsJq-MTDw2e8MjzM=w2400"
+           alt="Worried about surgery and costs" />
+    </figure>
+    <p class="reality-copy">
+      You’re not ready for 
+      <strong>surgery, pain</strong> and massive costs.
+    </p>
+  </article>
+  <!-- CARD 6 -->
+  <article class="reality-card">
+    <figure class="reality-media">
+      <img loading="lazy" decoding="async"
+           src="https://lh3.googleusercontent.com/pw/AP1GczPcBFWSz1Ctv8duj3qAHxTVA44HietDqojLJbH5kmbZvmnaljd1xdAFC89QD_c3m_p5hA5c0IL82MEgA-a6pDXAyC-GjnmrBiBUGFeB938vLO0Jb74=w2400"
+           alt="Confident man smiling outdoors" />
+    </figure>
+    <p class="reality-copy">
+      You want 
+      <strong>confidence</strong> that doesn’t require 
+      <strong>daily maintenance.</strong>
+    </p>
+  </article>
+</section>
+<style>
+  /* Card shell */
+  .reality-card{
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    padding:10px;
+    margin:0 0 24px;
+  }
+  /* Photo frame — NO background, no inner padding */
+  .reality-media{
+    margin:0;
+    /* spacing above/below image */
+    position:relative;
+    overflow:hidden;
+    border-radius:12px;
+    /* rounded corners like the mock */
+    aspect-ratio:16/10.9;
+    /* wide cinematic look */
+  }
+  .reality-media img{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    /* fills frame edge-to-edge */
+    display:block;
+    transform:translateZ(0);
+    /* smooth on iOS */
+  }
+  /* Caption under each image */
+  .reality-copy{
+    margin-bottom:12px;
+    /* tight text gap, bottom 12px */
+    margin-top:-12px;
+    color:#191919;
+    text-align: center;
+    font-style: normal;
+    font-family:Roboto,system-ui,sans-serif;
+    font-weight:400;
+    line-height:150%;
+    font-size:clamp(14px,4vw,16px);
+  }
+  .reality-copy strong{
+    font-weight:700;
+  }
+  /* Very small phones */
+  @media (max-width:320px){
+    .reality-card{
+      padding:8px;
+      border-radius:10px;
+    }
+    .reality-media{
+      border-radius:10px;
+    }
+  }
+  /* Larger phones (Pro/Ultra) */
+  @media (min-width:420px){
+    .reality-card{
+      padding:12px;
+    }
+    .reality-copy{
+      font-size:16px;
+    }
+  }
+</style>

@@ -1,0 +1,21 @@
+{
+  "status": 200,
+  "title": "Corporate Men Hair Systems | American Hairline | American Hairline",
+  "hero": {
+    "width": "1194px",
+    "maxWidth": "1194px",
+    "minHeight": "648px",
+    "padding": "48px 101px",
+    "gridTemplateColumns": "474px 458px"
+  },
+  "whenSection": {
+    "maxWidth": "100%",
+    "padding": "60px 0px",
+    "textAlign": "start"
+  },
+  "naturalHairline": {
+    "padding": "60px"
+  },
+  "mainHeading": "Get Your\n      Confidence Back\n      - Naturally",
+  "banner": "Thinning Hair At Work?"
+}

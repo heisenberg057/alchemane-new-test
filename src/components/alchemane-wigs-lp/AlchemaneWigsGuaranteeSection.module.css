@@ -1,0 +1,17 @@
+.grid { display: grid; gap: var(--stack); }
+.badgeWrap { display: flex; justify-content: center; }
+.badge { width: clamp(150px, 40vw, 220px); height: auto; }
+.body { text-align: center; display: flex; flex-direction: column; align-items: center; }
+.title { composes: sectionTitle from global; margin-inline: auto; }
+.scope { display: block; color: var(--teal-deep); font-style: italic; }
+.promise { margin-top: var(--s-6); font-family: var(--font-serif); font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2.1rem); line-height: 1.2; color: var(--ink); }
+.promise span { display: block; font-size: var(--fs-lead); font-style: italic; color: var(--champagne-ink); margin-top: 4px; }
+.trust { margin: var(--s-5) 0 var(--s-6); font-size: var(--fs-sm); color: var(--body); }
+.trust strong { color: var(--ink); }
+
+@media (min-width: 768px) {
+  .grid { grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); align-items: center; column-gap: clamp(32px, 5vw, 80px); }
+  .body { text-align: left; align-items: flex-start; }
+  .title { margin-inline: 0; }
+  .body :global(.cta) { margin-inline: 0; }
+}

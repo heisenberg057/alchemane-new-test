@@ -1,0 +1,40 @@
+.root {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  background: rgba(246, 244, 239, 0.88);
+  -webkit-backdrop-filter: saturate(150%) blur(12px);
+  backdrop-filter: saturate(150%) blur(12px);
+  border-bottom: 1px solid rgba(21, 25, 24, 0.08);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 58px;
+  width: min(100% - (var(--gutter) * 2), var(--container));
+  margin-inline: auto;
+}
+
+.brand { display: block; padding: 8px 4px; }
+.logo { width: 150px; height: auto; }
+.cta { display: none; }
+
+@media (min-width: 1024px) {
+  .inner { justify-content: space-between; height: 68px; }
+  .logo { width: 176px; }
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 20px;
+    border: 1.5px solid var(--teal-deep);
+    border-radius: var(--radius-sm);
+    color: var(--teal-deep);
+    font-weight: 600;
+    font-size: var(--fs-sm);
+    transition: background-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+  }
+  .cta:hover { background: var(--teal-deep); color: var(--white); }
+}

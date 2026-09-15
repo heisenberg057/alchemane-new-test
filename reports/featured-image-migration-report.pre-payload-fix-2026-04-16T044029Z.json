@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-04-16T04:40:27.653Z",
+  "updatedAt": "2026-04-16T04:40:29.968Z",
+  "mode": "live",
+  "options": {
+    "dryRun": false,
+    "force": false,
+    "limit": 20,
+    "offset": 0,
+    "batchSize": 20,
+    "retryDownloads": 3,
+    "syncMetaImage": true,
+    "sourceAuditReport": "/Users/ketan/Desktop/AHL Website/New Website/ahl-new-website/AmericanHairline-Unified/reports/featured-image-audit.json"
+  },
+  "preflight": {
+    "totalRowsSelected": 20,
+    "alreadyLinkedRows": 0,
+    "rowsToUpload": 20,
+    "rowsToReuse": 0,
+    "rowsSkipped": 0,
+    "rowsWithBrokenAttachmentUrl": 0,
+    "rowsWithMissingLocalPost": 0
+  },
+  "summary": {
+    "candidateRows": 20,
+    "attemptedRows": 20,
+    "successfulUploads": 0,
+    "successfulPostLinks": 0,
+    "duplicateImagesReused": 0,
+    "skippedAlreadyLinkedPosts": 0,
+    "skippedMissingUrls": 0,
+    "skippedFromResume": 0,
+    "missingLocalPosts": 0,
+    "brokenWordPressUrls": 0,
+    "uploadFailures": 20,
+    "dbUpdateFailures": 0
+  },
+  "attachmentUrlToPayloadMediaId": {},
+  "successfulUploads": [],
+  "successfulPostLinks": [],
+  "duplicateImagesReused": [],
+  "skippedAlreadyLinkedPosts": [],
+  "skippedMissingUrls": [],
+  "skippedFromResume": [],
+  "missingLocalPosts": [],
+  "brokenWordPressUrls": [],
+  "uploadFailures": [
+    {
+      "localPostId": 1,
+      "localSlug": "how-to-choose-the-right-attachment-method-for-you",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/choosing-right-hair-systems-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:28.868Z"
+    },
+    {
+      "localPostId": 2,
+      "localSlug": "deep-conditioning-tips-for-your-hair-system",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/blog-ahl-deep-conditioning-1.jpg",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:28.911Z"
+    },
+    {
+      "localPostId": 3,
+      "localSlug": "is-your-hair-replacement-system-free-from-corona-virus",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/blog-ahl-Is-Your-Hair-System-Free-From-Corona-Virus-1.jpg",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:28.937Z"
+    },
+    {
+      "localPostId": 4,
+      "localSlug": "caring-for-your-hair-system-in-the-summer",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/caring-for-your-hair-syatem-in-the-summer-1.jpg",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:28.987Z"
+    },
+    {
+      "localPostId": 6,
+      "localSlug": "hair-replacement-for-alopecia-areata",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2022/12/wigs-for-cancer-patients-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.065Z"
+    },
+    {
+      "localPostId": 7,
+      "localSlug": "how-to-prepare-yourself-for-non-surgical-hair-replacement",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/preparing-yourself-for-hair-replacement.webp",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.119Z"
+    },
+    {
+      "localPostId": 8,
+      "localSlug": "tips-to-take-care-of-your-hair-systems",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-Systems-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.196Z"
+    },
+    {
+      "localPostId": 9,
+      "localSlug": "attachment-issues-with-hair-replacement-systems",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-Systems-in-Mumbai-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.290Z"
+    },
+    {
+      "localPostId": 10,
+      "localSlug": "choosing-a-bonding-method-for-hair-replacement",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/hair-replacement-center-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.325Z"
+    },
+    {
+      "localPostId": 11,
+      "localSlug": "benefits-of-non-surgical-hair-replacement-systems",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/hair-patch-wigs-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.395Z"
+    },
+    {
+      "localPostId": 12,
+      "localSlug": "difference-between-hair-systems-and-hair-wigs",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Difference-Between-Hair-Systems-And-Hair-Wigs-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.469Z"
+    },
+    {
+      "localPostId": 13,
+      "localSlug": "human-hair-systems-or-synthetic-hair-systems-which-ones-the-best",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Human-Hair-Systems-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.541Z"
+    },
+    {
+      "localPostId": 14,
+      "localSlug": "what-causes-itchiness-or-irritation-in-hair-systems",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Hair-Replacement-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.617Z"
+    },
+    {
+      "localPostId": 15,
+      "localSlug": "common-challenges-of-non-surgical-hair-replacement",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2025/01/common-challenges-in-hair-replacement-systems.webp",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.663Z"
+    },
+    {
+      "localPostId": 16,
+      "localSlug": "human-hair-wigs-for-cancer-or-alopecia",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Wigs-for-Cancer-Patients-in-Mumbai-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.721Z"
+    },
+    {
+      "localPostId": 17,
+      "localSlug": "reasons-for-hair-shedding-in-non-surgical-hair-replacement-systems",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/Non-Surgical-Hair-Replacement-Systems-1.jpg",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.747Z"
+    },
+    {
+      "localPostId": 18,
+      "localSlug": "is-non-surgical-hair-replacement-meant-for-you",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/Hair-Replacement-in-Mumbai-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.779Z"
+    },
+    {
+      "localPostId": 20,
+      "localSlug": "selecting-the-correct-hair-density-for-your-hair-system",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/hair-replacement-system-1.png",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.842Z"
+    },
+    {
+      "localPostId": 21,
+      "localSlug": "is-hair-patch-a-better-solution-than-a-hair-transplant",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/02/Untitled-1-5-1.jpg",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.877Z"
+    },
+    {
+      "localPostId": 22,
+      "localSlug": "smp-aftercare-dos-and-donts",
+      "attachmentUrl": "https://americanhairline.com/wp-content/uploads/2023/01/Scalp-micro-pigmentation-in-india-1.webp",
+      "reason": "Media upload failed (400): missing media id",
+      "failedAt": "2026-04-16T04:40:29.962Z"
+    }
+  ],
+  "dbUpdateFailures": [],
+  "verification": {
+    "checkedAt": "2026-04-16T04:40:29.962Z",
+    "postsStillMissingHeroImage": 147,
+    "totalMediaRecords": 3,
+    "mediaRecordsCreatedThisRun": 0,
+    "sampleUpdatedPosts": [],
+    "sampleApiOutput": null,
+    "sampleMetaImagePosts": [],
+    "sampleReusedImageMappings": []
+  }
+}

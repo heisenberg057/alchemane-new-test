@@ -1,0 +1,52 @@
+.root {
+  --clp-ink: #191919;
+  --clp-blue-light: #4686fe;
+  --clp-pale: #f0f4ff;
+  --clp-black-15: rgba(0, 0, 0, 0.15);
+  --clp-ink-strong: #111111;
+  --clp-gutter: 16px;
+  --clp-space-7: 28px;
+  --clp-space-11: 44px;
+  --clp-fs-section-title: 28px;
+  --clp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+  --clp-roboto: var(--font-clip-on-roboto), "Roboto", Arial, sans-serif;
+
+  position: relative;
+  padding: var(--clp-space-11) var(--clp-gutter);
+  overflow: hidden;
+  background: var(--clp-pale);
+  color: var(--clp-ink);
+  font-family: var(--clp-roboto);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--clp-montserrat);
+  font-size: var(--clp-fs-section-title);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.032em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.titleAccent {
+  color: var(--clp-blue-light);
+}
+
+.stage {
+  position: relative;
+  width: 100%;
+  height: 487px;
+  margin-top: var(--clp-space-7);
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--clp-ink-strong);
+  box-shadow: 0 4px 10px var(--clp-black-15);
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 26px;
+  }
+}

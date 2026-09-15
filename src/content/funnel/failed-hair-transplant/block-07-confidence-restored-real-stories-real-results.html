@@ -1,0 +1,106 @@
+<!-- WhatsApp Widget with UTM Tracking -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<!-- Contact Widget HTML -->
+<div id="contact-widget-container">
+  <!-- Phone Widget -->
+  <a id="phone-widget" href="tel:+919222666111" class="phone-float" target="_blank" rel="noopener">
+    <i class="fas fa-phone phone-icon">
+    </i>
+    <!-- <span class="phone-tooltip">Call us!</span> -->
+  </a>
+  <!-- WhatsApp Widget -->
+  <a id="whatsapp-widget" href="https://api.whatsapp.com/send/?phone=917208329070" class="whatsapp-float" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp whatsapp-icon">
+    </i>
+    <!-- <span class="whatsapp-tooltip">Chat with us!</span> -->
+  </a>
+</div>
+<style>
+  /* Container for both widgets */
+  #contact-widget-container {
+    position: fixed;
+    bottom: 126px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    z-index: 1000;
+  }
+  /* Common styles for both widgets */
+  .phone-float,
+  .whatsapp-float {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 28px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+  }
+  /* Phone Widget Styles */
+  .phone-float {
+    background-color: #007BFF;
+    color: #ffffff;
+  }
+  .phone-float:hover {
+    background-color: #0056B3;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .phone-icon {
+    font-size: 28px;
+    line-height: 1;
+  }
+  /* WhatsApp Widget Styles */
+  .whatsapp-float {
+    background-color: #25D366;
+    color: #ffffff;
+  }
+  .whatsapp-float:hover {
+    background-color: #128C7E;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .whatsapp-icon {
+    font-size: 36px;
+    line-height: 1;
+  }
+  .whatsapp-float:hover .whatsapp-tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    #contact-widget-container {
+      bottom: 120px;
+      right: 20px;
+      gap: 10px;
+    }
+    .phone-float,
+    .whatsapp-float {
+      width: 55px;
+      height: 55px;
+      font-size: 24px;
+    }
+    .phone-tooltip,
+    .whatsapp-tooltip {
+      display: none;
+    }
+  }
+  /* Stagger the pulse animations */
+  .phone-float::before {
+    animation-delay: 0.5s;
+  }
+</style>

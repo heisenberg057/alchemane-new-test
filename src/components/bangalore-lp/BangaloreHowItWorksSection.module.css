@@ -1,0 +1,52 @@
+.root {
+  --blp-ink: #191919;
+  --blp-blue-light: #4686fe;
+  --blp-pale: #f0f4ff;
+  --blp-black-15: rgba(0, 0, 0, 0.15);
+  --blp-ink-strong: #111111;
+  --blp-gutter: 16px;
+  --blp-space-7: 28px;
+  --blp-space-11: 44px;
+  --blp-fs-section-title: 28px;
+  --blp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+  --blp-roboto: var(--font-bangalore-roboto), "Roboto", Arial, sans-serif;
+
+  position: relative;
+  padding: var(--blp-space-11) var(--blp-gutter);
+  overflow: hidden;
+  background: var(--blp-pale);
+  color: var(--blp-ink);
+  font-family: var(--blp-roboto);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--blp-montserrat);
+  font-size: var(--blp-fs-section-title);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.032em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.titleAccent {
+  color: var(--blp-blue-light);
+}
+
+.stage {
+  position: relative;
+  width: 100%;
+  height: 487px;
+  margin-top: var(--blp-space-7);
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--blp-ink-strong);
+  box-shadow: 0 4px 10px var(--blp-black-15);
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 26px;
+  }
+}

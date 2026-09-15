@@ -1,0 +1,176 @@
+.root {
+  --blp-paper: #fafafa;
+  --blp-white: #fff;
+  --blp-white-25: rgba(255, 255, 255, 0.25);
+  --blp-blue: #1769ff;
+  --blp-blue-light: #4686fe;
+  --blp-blue-25: rgba(24, 105, 255, 0.25);
+  --blp-gutter: 16px;
+  --blp-space-2: 8px;
+  --blp-space-3: 12px;
+  --blp-space-4: 16px;
+  --blp-space-5: 20px;
+  --blp-space-6: 24px;
+  --blp-space-7: 28px;
+  --blp-space-8: 32px;
+  --blp-space-11: 44px;
+  --blp-fs-section-title: 28px;
+  --blp-fs-h3: 18px;
+  --blp-fs-body: 16px;
+  --blp-fs-small: 14px;
+  --blp-montserrat: var(--font-funnel-montserrat), "Montserrat", Arial, sans-serif;
+  --blp-roboto: var(--font-bangalore-roboto), "Roboto", Arial, sans-serif;
+
+  position: relative;
+  padding: var(--blp-space-11) var(--blp-gutter);
+  overflow: hidden;
+  background: var(--blp-paper);
+  font-family: var(--blp-roboto);
+}
+
+.glass {
+  position: relative;
+  isolation: isolate;
+  padding: var(--blp-space-8) var(--blp-space-6) var(--blp-space-7);
+  overflow: hidden;
+  border: 1px solid var(--blp-white-25);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 82% 8%, rgba(92, 110, 146, 0.28), transparent 34%),
+    radial-gradient(circle at 7% 88%, rgba(255, 255, 255, 0.1), transparent 28%),
+    linear-gradient(145deg, #1d1f24 0%, #090a0d 100%);
+  box-shadow: 0 22px 48px rgba(10, 12, 18, 0.2), inset 0 1px 0 var(--blp-white-25);
+  color: var(--blp-white);
+}
+
+.glass::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0.06),
+    transparent 42%,
+    rgba(255, 255, 255, 0.025)
+  );
+  content: "";
+  pointer-events: none;
+}
+
+.title {
+  margin: 0;
+  color: var(--blp-white);
+  font-family: var(--blp-montserrat);
+  font-size: var(--blp-fs-section-title);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.032em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.lead {
+  width: 340px;
+  max-width: 100%;
+  margin: var(--blp-space-2) auto 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: var(--blp-fs-body);
+  line-height: 1.5;
+  text-align: center;
+  text-wrap: pretty;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: var(--blp-space-6);
+  padding: 3px;
+  border: 1px solid var(--blp-white-25);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+.tab {
+  min-height: 52px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.72);
+  font-family: var(--blp-montserrat);
+  font-size: var(--blp-fs-small);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tabActive {
+  background: linear-gradient(104deg, var(--blp-blue-light), var(--blp-blue));
+  color: var(--blp-white);
+  box-shadow: 0 8px 18px var(--blp-blue-25);
+}
+
+.panel {
+  display: grid;
+  gap: var(--blp-space-3);
+  margin-top: var(--blp-space-6);
+}
+
+.item {
+  overflow: hidden;
+  border: 1px solid var(--blp-white-25);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.035));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+.itemOpen {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.05));
+}
+
+.trigger {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 68px;
+  padding: var(--blp-space-5) 48px var(--blp-space-4) var(--blp-space-4);
+  border: 0;
+  background: transparent;
+  color: var(--blp-white);
+  cursor: pointer;
+  font-family: var(--blp-montserrat);
+  font-size: var(--blp-fs-h3);
+  font-weight: 800;
+  line-height: 1.35;
+  text-align: left;
+}
+
+.trigger::after {
+  position: absolute;
+  top: var(--blp-space-5);
+  right: var(--blp-space-4);
+  color: rgba(255, 255, 255, 0.78);
+  content: "+";
+  font: 400 30px / 1 Arial, sans-serif;
+}
+
+.itemOpen .trigger::after {
+  content: "−";
+}
+
+.answer {
+  margin: 0;
+  padding: 0 var(--blp-space-4) var(--blp-space-5);
+  color: rgba(255, 255, 255, 0.78);
+  font-size: var(--blp-fs-small);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 26px;
+  }
+}

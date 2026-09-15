@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Payload/Build outputs
+dist/
+build/
+.payload/
+.turbo/
+
+# Figma MCP plugin cache (local reference only, not source)
+.figma/
+
+# Asset migration staging (not used at runtime)
+scripts/asset-sources/
+
+# Generated Prisma client output (unused; regenerate with `prisma generate` if needed)
+src/lib/prisma/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Coverage and caches
+coverage/
+.cache/
+
+# Vercel
+.vercel/
+
+# Local media uploads (stored in R2 in production)
+public/media/
+
+# Local audit / migration scratch (do not push)
+.tmp/
+tmp/
+.mobile-audit/
+*.tsbuildinfo
+
+# Wrangler local dev state
+.wrangler/
+
+# Local media optimize output
+.media-opt/
