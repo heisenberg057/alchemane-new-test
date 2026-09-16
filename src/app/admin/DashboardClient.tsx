@@ -24,15 +24,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { format } from "date-fns";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-} from "recharts";
 
 export default function DashboardPage() {
   const { data: postsData, isLoading: postsLoading } = usePosts({ limit: 5 });
@@ -167,43 +158,18 @@ export default function DashboardPage() {
             </Button>
           </CardHeader>
           <CardContent>
-            {pageViewsData.length > 0 ? (
-              <ResponsiveContainer width="100%" height={240}>
-                <BarChart data={pageViewsData} margin={{ top: 4, right: 16, left: 0, bottom: 0 }}>
-                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f0f0f0" />
-                  <XAxis
-                    dataKey="date"
-                    tick={{ fontSize: 11 }}
-                    tickLine={false}
-                    axisLine={false}
-                  />
-                  <YAxis
-                    tick={{ fontSize: 11 }}
-                    tickLine={false}
-                    axisLine={false}
-                    width={32}
-                  />
-                  <Tooltip
-                    contentStyle={{ fontSize: 12, borderRadius: 8 }}
-                    cursor={{ fill: "#f1f5f9" }}
-                  />
-                  <Bar dataKey="views" fill="#6366f1" radius={[4, 4, 0, 0]} />
-                </BarChart>
-              </ResponsiveContainer>
-            ) : (
-              <div className="flex flex-col items-center justify-center h-[240px] text-center gap-3">
-                <BarChart3 className="h-10 w-10 text-slate-300" />
-                <div>
-                  <p className="text-sm font-medium text-slate-600">No page view data yet</p>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    Analytics will populate as visitors arrive.
-                  </p>
-                </div>
-                <Button variant="outline" size="sm" asChild>
-                  <Link href="/admin/analytics">View Analytics</Link>
-                </Button>
+            <div className="flex flex-col items-center justify-center h-[240px] text-center gap-3">
+              <BarChart3 className="h-10 w-10 text-slate-300" />
+              <div>
+                <p className="text-sm font-medium text-slate-600">Chart visualization unavailable in this preview build.</p>
+                <p className="text-xs text-muted-foreground mt-1">
+                  {pageViewsData.length} day{pageViewsData.length === 1 ? '' : 's'} of data in range.
+                </p>
               </div>
-            )}
+              <Button variant="outline" size="sm" asChild>
+                <Link href="/admin/analytics">View Analytics</Link>
+              </Button>
+            </div>
           </CardContent>
         </Card>
 

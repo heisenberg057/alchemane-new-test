@@ -20,22 +20,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import {
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-  BarChart,
-  Bar,
-  PieChart,
-  Pie,
-  Cell,
-} from "recharts";
-import { Download, Loader2, TrendingUp, MousePointerClick, Target, DollarSign } from "lucide-react";
+import { Download, Loader2, TrendingUp, MousePointerClick, Target, DollarSign, BarChart3 } from "lucide-react";
 import { format, subDays } from "date-fns";
-
-const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#8884d8"];
 
 export default function CampaignAnalyticsPage() {
   const [dateRange, setDateRange] = useState<{ from: Date; to: Date } | undefined>({
@@ -184,17 +170,11 @@ export default function CampaignAnalyticsPage() {
             <CardTitle>Performance Overview</CardTitle>
           </CardHeader>
           <CardContent className="pl-2">
-            <ResponsiveContainer width="100%" height={350}>
-              <BarChart data={chartData}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis yAxisId="left" orientation="left" stroke="#8884d8" />
-                <YAxis yAxisId="right" orientation="right" stroke="#82ca9d" />
-                <Tooltip />
-                <Bar yAxisId="left" dataKey="clicks" fill="#8884d8" name="Clicks" />
-                <Bar yAxisId="right" dataKey="conversions" fill="#82ca9d" name="Conversions" />
-              </BarChart>
-            </ResponsiveContainer>
+            <div className="flex flex-col items-center justify-center gap-2 h-[350px] text-center text-muted-foreground">
+              <BarChart3 className="h-8 w-8" />
+              <p className="text-sm">Chart visualization unavailable in this preview build.</p>
+              <p className="text-xs">{chartData.length} campaign{chartData.length === 1 ? '' : 's'} in range.</p>
+            </div>
           </CardContent>
         </Card>
         <Card className="col-span-3">
@@ -202,25 +182,10 @@ export default function CampaignAnalyticsPage() {
             <CardTitle>Conversions by Campaign</CardTitle>
           </CardHeader>
           <CardContent>
-            <ResponsiveContainer width="100%" height={350}>
-              <PieChart>
-                <Pie
-                  data={chartData}
-                  cx="50%"
-                  cy="50%"
-                  labelLine={false}
-                  label={(props: any) => `${props.name} ${((props.percent || 0) * 100).toFixed(0)}%`}
-                  outerRadius={80}
-                  fill="#8884d8"
-                  dataKey="conversions"
-                >
-                  {chartData.map((entry: any, index: number) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                  ))}
-                </Pie>
-                <Tooltip />
-              </PieChart>
-            </ResponsiveContainer>
+            <div className="flex flex-col items-center justify-center gap-2 h-[350px] text-center text-muted-foreground">
+              <BarChart3 className="h-8 w-8" />
+              <p className="text-sm">Chart visualization unavailable in this preview build.</p>
+            </div>
           </CardContent>
         </Card>
       </div>

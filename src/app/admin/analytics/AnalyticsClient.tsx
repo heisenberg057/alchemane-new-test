@@ -2,18 +2,6 @@
 
 import { useGetAnalytics } from "@/lib/hooks/useAnalytics";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-  PieChart,
-  Pie,
-  Cell,
-} from "recharts";
 import { format } from "date-fns";
 import {
   Table,
@@ -25,7 +13,7 @@ import {
 } from "@/components/ui/table";
 import { DateRange } from "react-day-picker";
 import { useState, useMemo } from "react";
-import { Calendar as CalendarIcon, AlertCircle, Loader2 } from "lucide-react";
+import { Calendar as CalendarIcon, AlertCircle, Loader2, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Popover,
@@ -198,26 +186,11 @@ export default function AnalyticsPage() {
             <CardTitle>Overview</CardTitle>
           </CardHeader>
           <CardContent className="pl-2">
-            <ResponsiveContainer width="100%" height={350}>
-              <LineChart data={analytics?.pageViews || []}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis
-                  dataKey="date"
-                  tickFormatter={(val) => format(new Date(val), "MMM d")}
-                />
-                <YAxis />
-                <Tooltip 
-                  labelFormatter={(val) => format(new Date(val), "MMM d, yyyy")}
-                />
-                <Line
-                  type="monotone"
-                  dataKey="views"
-                  stroke="#8884d8"
-                  strokeWidth={2}
-                  activeDot={{ r: 8 }}
-                />
-              </LineChart>
-            </ResponsiveContainer>
+            <div className="flex flex-col items-center justify-center gap-2 h-[350px] text-center text-muted-foreground">
+              <BarChart3 className="h-8 w-8" />
+              <p className="text-sm">Chart visualization unavailable in this preview build.</p>
+              <p className="text-xs">{(analytics?.pageViews || []).length} day{(analytics?.pageViews || []).length === 1 ? '' : 's'} of data.</p>
+            </div>
           </CardContent>
         </Card>
 
@@ -226,28 +199,10 @@ export default function AnalyticsPage() {
             <CardTitle>Traffic Sources</CardTitle>
           </CardHeader>
           <CardContent>
-            <ResponsiveContainer width="100%" height={350}>
-              <PieChart>
-                <Pie
-                  data={analytics?.trafficSources || []}
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={60}
-                  outerRadius={100}
-                  fill="#8884d8"
-                  paddingAngle={5}
-                  dataKey="users"
-                >
-                  {(analytics?.trafficSources || []).map((entry, index) => (
-                    <Cell
-                      key={`cell-${index}`}
-                      fill={COLORS[index % COLORS.length]}
-                    />
-                  ))}
-                </Pie>
-                <Tooltip />
-              </PieChart>
-            </ResponsiveContainer>
+            <div className="flex flex-col items-center justify-center gap-2 h-[200px] text-center text-muted-foreground">
+              <BarChart3 className="h-8 w-8" />
+              <p className="text-sm">Chart visualization unavailable in this preview build.</p>
+            </div>
             <div className="mt-4 flex justify-center gap-4 flex-wrap">
               {(analytics?.trafficSources || []).map((source, index) => (
                 <div key={source.source} className="flex items-center gap-2">
