@@ -17,9 +17,6 @@ build/
 # Asset migration staging (not used at runtime)
 scripts/asset-sources/
 
-# Generated Prisma client output (unused; regenerate with `prisma generate` if needed)
-src/lib/prisma/
-
 # Environment files
 .env
 .env.*
