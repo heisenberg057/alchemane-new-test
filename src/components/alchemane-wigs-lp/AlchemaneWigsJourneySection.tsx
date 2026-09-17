@@ -8,7 +8,7 @@ import styles from './AlchemaneWigsJourneySection.module.css';
 export function AlchemaneWigsJourneySection() {
   return (
     <section className="section section--ivory" aria-labelledby="journey-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="journey-title">{WIGS_JOURNEY.title}</h2>
           <p className="sectionLead">{WIGS_JOURNEY.lead}</p>

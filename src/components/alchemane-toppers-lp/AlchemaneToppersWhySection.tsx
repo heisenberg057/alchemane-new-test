@@ -13,7 +13,7 @@ export function AlchemaneToppersWhySection({ mediaBase }: { mediaBase: string })
 
   return (
     <section className="section section--white" aria-labelledby="alc-why-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <p className="kicker">{kicker}</p>
           <h2 className="sectionTitle" id="alc-why-title">{title} <em>{titleEmphasis}</em></h2>

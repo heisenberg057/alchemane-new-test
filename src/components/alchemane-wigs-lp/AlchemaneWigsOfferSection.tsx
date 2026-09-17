@@ -11,7 +11,7 @@ export function AlchemaneWigsOfferSection({ offerRef }: { offerRef?: RefObject<H
 
   return (
     <section className="section section--mist" id="consultation" aria-labelledby="offer-title" ref={offerRef}>
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll>
           <h2 className="sectionTitle" id="offer-title">Let&apos;s Start with a <em>Consultation</em></h2>
         </AnimateOnScroll>

@@ -47,7 +47,7 @@ export function AlchemaneToppersFaqSection() {
 
   return (
     <section className="section section--white" aria-labelledby="alc-faq-title">
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.faq}>
           <AnimateOnScroll className={styles.head}>
             <h2 className="sectionTitle" id="alc-faq-title">Frequently Asked Questions</h2>

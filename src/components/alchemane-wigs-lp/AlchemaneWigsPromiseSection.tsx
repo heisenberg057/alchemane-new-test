@@ -8,7 +8,7 @@ import styles from './AlchemaneWigsPromiseSection.module.css';
 export function AlchemaneWigsPromiseSection({ mediaBase }: { mediaBase: string }) {
   return (
     <section className="section section--ivory" aria-labelledby="promise-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="promise-title">The Alchemane Promise</h2>
           <p className="sectionLead">{WIGS_PROMISE_LEAD}</p>

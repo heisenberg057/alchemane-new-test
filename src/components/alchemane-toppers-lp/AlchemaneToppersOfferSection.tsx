@@ -11,7 +11,7 @@ export function AlchemaneToppersOfferSection({ offerRef }: { offerRef?: RefObjec
 
   return (
     <section className="section section--mist" id="consultation" aria-labelledby="alc-offer-title" ref={offerRef}>
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll>
           <h2 className="sectionTitle" id="alc-offer-title">Let&apos;s Start with a <em>Consultation</em></h2>
         </AnimateOnScroll>

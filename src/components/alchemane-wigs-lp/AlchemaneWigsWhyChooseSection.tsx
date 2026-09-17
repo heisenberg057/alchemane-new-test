@@ -11,7 +11,7 @@ export function AlchemaneWigsWhyChooseSection({ mediaBase }: { mediaBase: string
 
   return (
     <section className="section section--ivory" aria-labelledby="why-choose-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="why-choose-title">{titlePrefix} <em>{titleEmphasis}</em></h2>
         </AnimateOnScroll>

@@ -40,13 +40,13 @@ export function AlchemaneToppersMethodsSection({ mediaBase }: { mediaBase: strin
 
   return (
     <section className="section section--ivory" aria-labelledby="alc-method-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="alc-method-title">Popular Method of <em>Application</em></h2>
           <p className="sectionHint">{TOPPERS_METHODS_HINT}</p>
         </AnimateOnScroll>
       </div>
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.carousel}>
           <div ref={scrollRef} className={styles.track}>
             {TOPPERS_METHODS.map((item, index) => (

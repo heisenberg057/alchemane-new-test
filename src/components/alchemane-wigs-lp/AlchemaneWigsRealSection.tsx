@@ -9,7 +9,7 @@ import styles from './AlchemaneWigsRealSection.module.css';
 export function AlchemaneWigsRealSection({ mediaBase }: { mediaBase: string }) {
   return (
     <section className="section section--ivory" aria-labelledby="real-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="real-title">{WIGS_REAL.titlePrefix} <em>{WIGS_REAL.titleEmphasis}</em></h2>
         </AnimateOnScroll>

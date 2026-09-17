@@ -68,7 +68,7 @@ export function AlchemaneThankYouPage({
       </header>
 
       <section className={styles.banner}>
-        <div className="container">
+        <div className="alcContainer">
           <h1 className={styles.bannerTitle}>Thank You!</h1>
           <p className={styles.bannerLead}>
             We truly appreciate you reaching out to <strong>{brandLine}</strong>.
@@ -80,7 +80,7 @@ export function AlchemaneThankYouPage({
         </div>
       </section>
 
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.stayConnected}>
           <span className={styles.hourglass} aria-hidden="true">⏳</span>
           <h2 className={styles.sectionTitle}>While You Wait,<br /><em>Stay Connected!</em></h2>

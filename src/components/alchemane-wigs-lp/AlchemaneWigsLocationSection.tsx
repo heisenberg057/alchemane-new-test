@@ -15,13 +15,13 @@ export function AlchemaneWigsLocationSection({ mediaBase }: { mediaBase: string 
 
   return (
     <section className="section section--ivory" aria-labelledby="location-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="location-title">Our Location</h2>
           <p className="sectionHint">Khar West, Mumbai</p>
         </AnimateOnScroll>
       </div>
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.carousel} role="group" aria-roledescription="carousel" aria-label="Studio photos">
           <div ref={scrollRef} className={styles.track}>
             {WIGS_LOCATION_PHOTOS.map((photo, index) => (

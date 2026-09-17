@@ -87,7 +87,7 @@
 .alchemane-scope :where(strong) { font-weight: 600; }
 
 /* Shared building blocks reused by nearly every section */
-.alchemane-scope .container {
+.alchemane-scope .alcContainer {
   width: min(100% - (var(--gutter) * 2), var(--container));
   margin-inline: auto;
 }

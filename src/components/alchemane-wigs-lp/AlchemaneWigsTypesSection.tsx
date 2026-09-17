@@ -15,13 +15,13 @@ export function AlchemaneWigsTypesSection({ mediaBase }: { mediaBase: string }) 
 
   return (
     <section className="section section--ivory" aria-labelledby="wig-types-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="wig-types-title">{WIGS_TYPES.titlePrefix} <em>{WIGS_TYPES.titleEmphasis}</em></h2>
           <p className="sectionLead">{WIGS_TYPES.lead}</p>
         </AnimateOnScroll>
       </div>
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.carousel}>
           <div ref={scrollRef} className={styles.track}>
             {WIGS_TYPES.items.map((item, index) => (

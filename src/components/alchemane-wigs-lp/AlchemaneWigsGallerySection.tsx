@@ -15,13 +15,13 @@ export function AlchemaneWigsGallerySection({ mediaBase }: { mediaBase: string }
 
   return (
     <section className="section section--ivory" aria-labelledby="natural-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="natural-title">Do They Look Natural? <em>Watch &amp; Decide</em></h2>
           <p className="sectionHint">Real clients, unedited</p>
         </AnimateOnScroll>
       </div>
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.carousel}>
           <div ref={scrollRef} className={styles.track}>
             {WIGS_GALLERY_CLIPS.map((video, index) => (

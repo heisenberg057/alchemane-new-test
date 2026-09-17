@@ -16,7 +16,7 @@ const ITEMS = [
 export function AlchemaneExtensionPromiseSection({ mediaBase }: { mediaBase: string }) {
   return (
     <section className="section section--ivory" aria-labelledby="alc-promise-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="alc-promise-title">The Alchemane Promise</h2>
           <p className="sectionLead">{EXTENSION_PROMISE_LEAD}</p>

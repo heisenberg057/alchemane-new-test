@@ -57,7 +57,7 @@ function VideoGroupCarousel({ group, mediaBase, isFirst }: { group: EducationGro
 export function AlchemaneWigsEducationSection({ mediaBase }: { mediaBase: string }) {
   return (
     <section className="section section--white" aria-labelledby="education-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="education-title">{WIGS_EDUCATION.titlePrefix} <em>{WIGS_EDUCATION.titleEmphasis}</em></h2>
           <p className="sectionLead">{WIGS_EDUCATION.lead}</p>

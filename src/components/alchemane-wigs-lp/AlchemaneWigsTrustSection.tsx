@@ -16,7 +16,7 @@ export function AlchemaneWigsTrustSection({ mediaBase }: { mediaBase: string }) 
 
   return (
     <section className="section section--white" aria-labelledby="trust-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="trust-title">{WIGS_TRUST.title}</h2>
           <p className="sectionLead">{WIGS_TRUST.lead}</p>

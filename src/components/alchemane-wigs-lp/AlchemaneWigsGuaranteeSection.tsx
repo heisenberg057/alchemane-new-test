@@ -8,7 +8,7 @@ import { AlchemaneCtaButton } from '@/components/alchemane/AlchemaneCtaButton';
 export function AlchemaneWigsGuaranteeSection({ mediaBase }: { mediaBase: string }) {
   return (
     <section className="section section--white" aria-labelledby="guarantee-title">
-      <div className={`container ${styles.grid}`}>
+      <div className={`alcContainer ${styles.grid}`}>
         <AnimateOnScroll className={styles.badgeWrap}>
           <MediaImage
             src={`${mediaBase}/images/money-back-badge.png`}

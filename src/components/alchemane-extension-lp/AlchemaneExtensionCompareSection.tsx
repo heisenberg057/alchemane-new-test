@@ -10,7 +10,7 @@ export function AlchemaneExtensionCompareSection() {
 
   return (
     <section className="section section--white" aria-labelledby="alc-compare-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="alc-compare-title">{titlePrefix} <em>{titleEmphasis}</em></h2>
         </AnimateOnScroll>

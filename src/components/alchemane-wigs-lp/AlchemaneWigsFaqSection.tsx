@@ -47,7 +47,7 @@ export function AlchemaneWigsFaqSection() {
 
   return (
     <section className="section section--white" aria-labelledby="faq-title">
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.faq}>
           <AnimateOnScroll className={styles.head}>
             <h2 className="sectionTitle" id="faq-title">Frequently Asked Questions</h2>

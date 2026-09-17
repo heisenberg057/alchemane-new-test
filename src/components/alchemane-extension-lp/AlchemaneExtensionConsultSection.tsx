@@ -37,13 +37,13 @@ export function AlchemaneExtensionConsultSection({ mediaBase }: { mediaBase: str
 
   return (
     <section className="section section--mist" aria-labelledby="alc-consult-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="alc-consult-title">Step Inside a <em>Real Consultation</em></h2>
           <p className="sectionHint">{EXTENSION_CONSULT_HINT}</p>
         </AnimateOnScroll>
       </div>
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.carousel}>
           <div ref={scrollRef} className={styles.track}>
             {EXTENSION_CONSULT_CLIPS.map((video, index) => (

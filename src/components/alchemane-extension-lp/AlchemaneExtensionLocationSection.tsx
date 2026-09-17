@@ -15,13 +15,13 @@ export function AlchemaneExtensionLocationSection({ mediaBase }: { mediaBase: st
 
   return (
     <section className="section section--ivory" aria-labelledby="alc-location-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="alc-location-title">Our Location</h2>
           <p className="sectionHint">Khar West, Mumbai</p>
         </AnimateOnScroll>
       </div>
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.carousel} role="group" aria-roledescription="carousel" aria-label="Studio photos">
           <div ref={scrollRef} className={styles.track}>
             {EXTENSION_LOCATION_PHOTOS.map((photo, index) => (

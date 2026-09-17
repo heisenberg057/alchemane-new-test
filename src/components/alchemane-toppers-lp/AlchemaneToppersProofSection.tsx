@@ -8,7 +8,7 @@ import styles from './AlchemaneToppersProofSection.module.css';
 export function AlchemaneToppersProofSection({ mediaBase }: { mediaBase: string }) {
   return (
     <section className="section section--ink" aria-labelledby="alc-proof-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <svg className={styles.strand} aria-hidden="true"><use href="#alc-i-strand" /></svg>
           <h2 className={styles.title} id="alc-proof-title">Here&apos;s why we&apos;re the <em>First Choice For Women</em></h2>

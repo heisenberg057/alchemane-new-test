@@ -14,7 +14,7 @@ export function AlchemaneToppersFounderSection({ mediaBase }: { mediaBase: strin
 
   return (
     <section className={`section section--${background}`} aria-labelledby="alc-vinitt-title">
-      <div className={`container ${styles.grid}`}>
+      <div className={`alcContainer ${styles.grid}`}>
         <AnimateOnScroll className={styles.media}>
           <MediaVideo
             className={styles.frame}

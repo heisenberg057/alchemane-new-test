@@ -12,12 +12,12 @@ export function AlchemaneWigsConsultSection({ mediaBase }: { mediaBase: string }
 
   return (
     <section className="section section--mist" aria-labelledby="consult-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="consult-title">{titlePrefix} <em>{titleEmphasis}</em></h2>
         </AnimateOnScroll>
       </div>
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.grid}>
           <AnimateOnScroll className={styles.media}>
             <AlchemaneEmbedCard className={styles.frame} video={{ ...video, poster: `${mediaBase}/${video.poster}` }} />

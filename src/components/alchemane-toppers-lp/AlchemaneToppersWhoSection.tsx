@@ -17,14 +17,14 @@ export function AlchemaneToppersWhoSection({ mediaBase }: { mediaBase: string })
 
   return (
     <section className="section section--white" id="who" aria-labelledby="alc-who-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="alc-who-title">Who Is It For?</h2>
           <p className="sectionHint" aria-hidden="true">Swipe through</p>
         </AnimateOnScroll>
       </div>
 
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.carousel} role="group" aria-roledescription="carousel" aria-label={TOPPERS_WHO_ARIA_LABEL}>
           <div ref={scrollRef} className={styles.track}>
             {TOPPERS_WHO_ITEMS.map((item, index) => (

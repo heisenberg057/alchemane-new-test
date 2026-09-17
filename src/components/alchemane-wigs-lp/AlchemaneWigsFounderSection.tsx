@@ -10,7 +10,7 @@ import styles from './AlchemaneWigsFounderSection.module.css';
 export function AlchemaneWigsFounderSection({ mediaBase }: { mediaBase: string }) {
   return (
     <section className="section section--ivory" aria-labelledby="alc-vinitt-title">
-      <div className={`container ${styles.grid}`}>
+      <div className={`alcContainer ${styles.grid}`}>
         <AnimateOnScroll className={styles.media}>
           <figure className={styles.photo}>
             <MediaImage

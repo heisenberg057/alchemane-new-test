@@ -8,7 +8,7 @@ import styles from './AlchemaneWigsWhoForSection.module.css';
 export function AlchemaneWigsWhoForSection() {
   return (
     <section className="section section--white" aria-labelledby="who-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="who-title">{WIGS_WHO_FOR.title}</h2>
         </AnimateOnScroll>

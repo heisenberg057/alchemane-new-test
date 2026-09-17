@@ -14,7 +14,7 @@ export function AlchemaneExtensionVoiceSection({ mediaBase }: { mediaBase: strin
 
   return (
     <section className="section section--white" aria-labelledby="alc-say-title">
-      <div className={`container ${styles.grid}`}>
+      <div className={`alcContainer ${styles.grid}`}>
         <AnimateOnScroll className={styles.media}>
           <MediaVideo
             className={styles.frame}

@@ -37,13 +37,13 @@ export function AlchemaneToppersResultsGallery({ mediaBase }: { mediaBase: strin
 
   return (
     <section className="section section--white" aria-labelledby="alc-natural-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="alc-natural-title">Do They Look Natural? <em>Watch &amp; Decide</em></h2>
           <p className="sectionHint">Real clients, unedited</p>
         </AnimateOnScroll>
       </div>
-      <div className="container">
+      <div className="alcContainer">
         <div className={styles.carousel} role="group" aria-roledescription="carousel" aria-label="Real client results">
           <div ref={scrollRef} className={styles.track}>
             {TOPPERS_GALLERY_CLIPS.map((video, index) => (

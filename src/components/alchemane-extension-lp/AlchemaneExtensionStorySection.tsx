@@ -32,7 +32,7 @@ export function AlchemaneExtensionStorySection({
 
   return (
     <section className={`section section--ivory ${flip ? styles.flip : ''}`} aria-labelledby={`${id}-title`}>
-      <div className={`container ${styles.grid}`}>
+      <div className={`alcContainer ${styles.grid}`}>
         <AnimateOnScroll className={styles.media}>
           <MediaVideo
             className={`${styles.frame} ${flip ? styles.frameFlip : ''}`}

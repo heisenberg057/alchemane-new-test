@@ -11,7 +11,7 @@ export function AlchemaneFooter({
 }) {
   return (
     <footer className={styles.root} ref={footerRef}>
-      <div className={`container ${styles.inner}`}>
+      <div className={`alcContainer ${styles.inner}`}>
         <MediaImage
           src={`${mediaBase}/images/alchemane-logo-780.webp`}
           alt="Alchemane Hair Extensions"

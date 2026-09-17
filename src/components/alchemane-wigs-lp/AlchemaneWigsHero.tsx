@@ -25,7 +25,7 @@ export function AlchemaneWigsHero({
         <path className={`${styles.strandPath} ${styles.strandGold}`} pathLength={1} d="M-40 600C190 560 280 300 480 290S770 520 950 460 1130 200 1260 160" />
       </svg>
 
-      <div className={`container ${styles.grid}`}>
+      <div className={`alcContainer ${styles.grid}`}>
         <div className={styles.copy}>
           <p className={styles.badge}><span>{h.badge}</span></p>
           <h1 className={styles.title} id="alc-hero-title">{h.title}</h1>

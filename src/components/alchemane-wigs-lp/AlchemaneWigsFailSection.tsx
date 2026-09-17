@@ -8,7 +8,7 @@ import styles from './AlchemaneWigsFailSection.module.css';
 export function AlchemaneWigsFailSection() {
   return (
     <section className="section section--white" id="fail" aria-labelledby="fail-title">
-      <div className="container">
+      <div className="alcContainer">
         <AnimateOnScroll className={styles.head}>
           <h2 className="sectionTitle" id="fail-title">{WIGS_FAIL.titlePrefix} <em>{WIGS_FAIL.titleEmphasis}</em></h2>
         </AnimateOnScroll>
