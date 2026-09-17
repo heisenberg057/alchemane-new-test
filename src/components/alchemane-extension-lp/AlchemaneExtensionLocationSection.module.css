@@ -16,7 +16,7 @@
 .track > * { scroll-snap-align: start; flex: none; }
 
 .card { width: min(82vw, 340px); aspect-ratio: 4 / 3; overflow: hidden; background: var(--ivory-deep); position: relative; margin: 0; }
-.img { object-fit: cover; }
+.img { position: absolute; inset: 0; width: 100% !important; height: 100% !important; object-fit: cover; }
 
 .address { display: grid; grid-template-columns: 24px 1fr; gap: var(--s-3); max-width: 52ch; margin-top: var(--stack); font-style: normal; font-size: var(--fs-body); line-height: 1.6; color: var(--body); }
 .addressIcon { width: 24px; height: 24px; color: var(--teal-deep); margin-top: 2px; }

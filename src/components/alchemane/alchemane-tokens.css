@@ -46,7 +46,7 @@
 
   --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 20px; --s-6: 24px;
   --s-8: 32px; --s-10: 40px; --s-12: 48px; --s-14: 56px; --s-16: 64px; --s-20: 80px;
-  --gutter: clamp(16px, 3.2vw, 28px);
+  --gutter: clamp(12px, 3vw, 24px);
   --section-y: clamp(56px, 10vw, 112px);
   --stack: clamp(24px, 4vw, 40px);
 
