@@ -112,7 +112,6 @@ export function MediaVideo({
           <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
             <path d="M8 5.2v13.6L19 12z" fill="currentColor" />
           </svg>
-          {label}
         </span>
       )}
     </>
@@ -120,7 +119,7 @@ export function MediaVideo({
 
   if (playable && clickToPlay && onPlay) {
     return (
-      <button type="button" className={className} onClick={onPlay}>
+      <button type="button" className={className} aria-label={label} onClick={onPlay}>
         {posterInner}
       </button>
     )
