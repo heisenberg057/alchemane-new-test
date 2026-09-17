@@ -18,7 +18,20 @@
 .card { width: 232px; position: relative; padding: 10px 10px 12px; border: 1px solid var(--line); background: var(--ivory); }
 @media (min-width: 768px) { .card { width: 256px; } }
 
-.index { display: block; margin-bottom: 8px; font-size: var(--fs-micro); font-weight: 600; letter-spacing: 0.12em; color: var(--muted); }
+.index {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 3;
+  display: inline-flex;
+  padding: 3px 9px;
+  border-radius: var(--radius-pill);
+  background: rgba(21, 25, 24, 0.55);
+  font-size: var(--fs-micro);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--white);
+}
 
 .frame { position: relative; display: block; width: 100%; aspect-ratio: 9 / 16; overflow: hidden; cursor: pointer; background: var(--ink); }
 .frame :global(img) { position: absolute; inset: 0; width: 100% !important; height: 100% !important; object-fit: cover; }
