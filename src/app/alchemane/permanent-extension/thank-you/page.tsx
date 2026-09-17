@@ -17,8 +17,8 @@ export default function AlchemaneExtensionThankYouPage() {
         mediaBase="alchemane-extension-lp"
         brandLine="Alchemane Hair Extensions"
         productTerm="hair extensions"
-        whatsappHref="#"
-        youtubeHref="#"
+        whatsappHref="https://chat.whatsapp.com/DsyNmbYXLsG8Pg26z1QgxW"
+        youtubeHref="https://youtube.com/@alchemanehairextensions?si=qY1ea94D_W2gpEuS"
       />
     </div>
   );
