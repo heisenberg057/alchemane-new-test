@@ -26,7 +26,6 @@ function VideoGroupCarousel({ group, mediaBase, isFirst }: { group: EducationGro
             <article className={styles.card} role="group" aria-roledescription="slide" aria-label={`${index + 1} of ${count}`} key={index}>
               <AlchemaneEmbedCard
                 className={styles.frame}
-                cornerPlayButton
                 video={{ ...item.video, poster: `${mediaBase}/${item.video.poster}` }}
               />
               <p className={styles.label}>
