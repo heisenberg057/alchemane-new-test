@@ -146,7 +146,11 @@ export function getImageUrl(src: string, options: ImageUrlOptions = {}): string 
     return `${origin}/cdn-cgi/image/${params}/${key}`
   }
 
-  if (useAbsoluteMediaUrls() && /\.(png|jpe?g|webp|avif)$/i.test(key)) {
+  // Alchemane's R2 bucket only holds original assets — no prebuilt .w{N}.webp
+  // variants — so always serve the original for these paths.
+  const isAlchemaneKey = /^media\/alchemane-(extension|toppers|wigs)-lp\//.test(key)
+
+  if (!isAlchemaneKey && useAbsoluteMediaUrls() && /\.(png|jpe?g|webp|avif)$/i.test(key)) {
     return `${getMediaOrigin()}/${prebuiltWebpKey(key, width)}`
   }
 
