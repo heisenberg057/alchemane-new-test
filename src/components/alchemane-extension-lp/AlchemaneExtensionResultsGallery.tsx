@@ -18,6 +18,7 @@ function ClipCard({ mediaBase, index, video }: { mediaBase: string; index: numbe
         posterClassName={styles.poster}
         playClassName={styles.playButton}
         src={`${mediaBase}/${video.src}`}
+        gumletId={video.gumletId}
         poster={`${mediaBase}/${video.poster}`}
         alt={video.ariaLabel}
         label={video.ariaLabel}

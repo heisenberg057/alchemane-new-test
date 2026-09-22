@@ -17,6 +17,7 @@ function MethodCard({ mediaBase, index, item }: { mediaBase: string; index: numb
         posterClassName={styles.poster}
         playClassName={styles.playButton}
         src={`${mediaBase}/${item.video.src}`}
+        gumletId={item.video.gumletId}
         poster={`${mediaBase}/${item.video.poster}`}
         alt={item.video.ariaLabel}
         label={item.video.ariaLabel}

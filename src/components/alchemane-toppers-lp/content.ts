@@ -31,7 +31,7 @@ export const TOPPERS_HERO: {
   ctaLabel: 'Book Your Consultation',
   ctaNote: 'Paid consultation · Fee confirmed at booking · In-person in Mumbai or online',
   video: {
-    src: 'videos/hero.mp4',
+    src: 'videos/hero.mp4', gumletId: '6ab245df8a8d9ca7fc0443d7',
     poster: 'images/hero-poster-390.webp',
     width: 1080,
     height: 1350,
@@ -65,7 +65,7 @@ export const TOPPERS_STORY = {
   titleEmphasis: "We'll Never Forget",
   ctaLabel: 'Start Your Hair Journey',
   video: {
-    src: 'videos/moment.mp4',
+    src: 'videos/moment.mp4', gumletId: '6ab245f42394588e66b657c8',
     poster: 'images/moment-poster-780.webp',
     width: 1080,
     height: 1350,
@@ -73,8 +73,18 @@ export const TOPPERS_STORY = {
   } as AlchemaneVideoAsset,
 };
 
+const TOPPERS_GALLERY_GUMLET_IDS: Record<number, string> = {
+  1: '6ab245f72394588e66b657dc',
+  2: '6ab245f82394588e66b657fc',
+  3: '6ab245fa8a8d9ca7fc0444c5',
+  4: '6ab245fcd017a04767ab9c1f',
+  5: '6ab245fd8a8d9ca7fc0444e3',
+  6: '6ab245ffd017a04767ab9c3a',
+  7: '6ab246008a8d9ca7fc044504',
+};
 export const TOPPERS_GALLERY_CLIPS: AlchemaneVideoAsset[] = [1, 2, 3, 4, 5, 6, 7].map((n) => ({
   src: `videos/result-${n}.mp4`,
+  gumletId: TOPPERS_GALLERY_GUMLET_IDS[n],
   poster: `images/result-${n}-poster-390.webp`,
   width: 1080,
   height: 1920,
@@ -102,7 +112,7 @@ export const TOPPERS_SECOND_STORY = {
   ctaLabel: 'Start Your Hair Journey',
   flip: true,
   video: {
-    src: 'videos/clients.mp4',
+    src: 'videos/clients.mp4', gumletId: '6ab245bbd017a04767ab9a23',
     poster: 'images/clients-poster-780.webp',
     width: 1080,
     height: 1350,
@@ -116,7 +126,7 @@ export const TOPPERS_WHY = {
   titleEmphasis: 'Hair Toppers?',
   ctaLabel: 'Speak to an Expert',
   video: {
-    src: 'videos/why.mp4',
+    src: 'videos/why.mp4', gumletId: '6ab246022394588e66b6586e',
     poster: 'images/why-poster-780.webp',
     width: 1080,
     height: 1350,
@@ -136,8 +146,14 @@ export const TOPPERS_BENEFITS: AlchemaneBenefitItem[] = [
 ];
 
 export const TOPPERS_CONSULT_HINT = 'See exactly what happens before you decide';
+const TOPPERS_CONSULT_GUMLET_IDS: Record<number, string> = {
+  1: '6ab245c42394588e66b6566f',
+  2: '6ab245ca8a8d9ca7fc044349',
+  3: '6ab245ced017a04767ab9a90',
+};
 export const TOPPERS_CONSULT_CLIPS: AlchemaneVideoAsset[] = [1, 2, 3].map((n) => ({
   src: `videos/consult-${n}.mp4`,
+  gumletId: TOPPERS_CONSULT_GUMLET_IDS[n],
   poster: `images/consult-${n}-poster-390.webp`,
   width: 1080,
   height: 1920,
@@ -146,15 +162,15 @@ export const TOPPERS_CONSULT_CLIPS: AlchemaneVideoAsset[] = [1, 2, 3].map((n) =>
 
 export const TOPPERS_METHODS_HINT = 'We have got many more to explore';
 export const TOPPERS_METHODS: AlchemaneMethodItem[] = [
-  { video: { src: 'videos/method-1.mp4', poster: 'images/method-1-poster-780.webp', width: 606, height: 1080, ariaLabel: 'Topper application 1' } },
-  { video: { src: 'videos/method-2.mp4', poster: 'images/method-2-poster-780.webp', width: 606, height: 1080, ariaLabel: 'Topper application 2' } },
-  { video: { src: 'videos/method-3.mp4', poster: 'images/method-3-poster-780.webp', width: 606, height: 1080, ariaLabel: 'Topper application 3' } },
-  { video: { src: 'videos/method-4.mp4', poster: 'images/method-4-poster-780.webp', width: 606, height: 1080, ariaLabel: 'Topper application 4' } },
-  { video: { src: 'videos/method-5.mp4', poster: 'images/method-5-poster-780.webp', width: 404, height: 720, ariaLabel: 'Topper application 5' } },
-  { video: { src: 'videos/method-6.mp4', poster: 'images/method-6-poster-780.webp', width: 404, height: 720, ariaLabel: 'Topper application 6' } },
-  { video: { src: 'videos/method-7.mp4', poster: 'images/method-7-poster-780.webp', width: 606, height: 1080, ariaLabel: 'Topper application 7' } },
-  { video: { src: 'videos/method-8.mp4', poster: 'images/method-8-poster-780.webp', width: 404, height: 720, ariaLabel: 'Topper application 8' } },
-  { video: { src: 'videos/method-9.mp4', poster: 'images/method-9-poster-780.webp', width: 720, height: 1280, ariaLabel: 'Topper application 9' } },
+  { video: { src: 'videos/method-1.mp4', gumletId: '6ab245e18a8d9ca7fc0443de', poster: 'images/method-1-poster-780.webp', width: 606, height: 1080, ariaLabel: 'Topper application 1' } },
+  { video: { src: 'videos/method-2.mp4', gumletId: '6ab245e2d017a04767ab9b0d', poster: 'images/method-2-poster-780.webp', width: 606, height: 1080, ariaLabel: 'Topper application 2' } },
+  { video: { src: 'videos/method-3.mp4', gumletId: '6ab245e6d017a04767ab9b34', poster: 'images/method-3-poster-780.webp', width: 606, height: 1080, ariaLabel: 'Topper application 3' } },
+  { video: { src: 'videos/method-4.mp4', gumletId: '6ab245ead017a04767ab9b4f', poster: 'images/method-4-poster-780.webp', width: 606, height: 1080, ariaLabel: 'Topper application 4' } },
+  { video: { src: 'videos/method-5.mp4', gumletId: '6ab245edd017a04767ab9b7e', poster: 'images/method-5-poster-780.webp', width: 404, height: 720, ariaLabel: 'Topper application 5' } },
+  { video: { src: 'videos/method-6.mp4', gumletId: '6ab245ee2394588e66b6578b', poster: 'images/method-6-poster-780.webp', width: 404, height: 720, ariaLabel: 'Topper application 6' } },
+  { video: { src: 'videos/method-7.mp4', gumletId: '6ab245f0d017a04767ab9b9f', poster: 'images/method-7-poster-780.webp', width: 606, height: 1080, ariaLabel: 'Topper application 7' } },
+  { video: { src: 'videos/method-8.mp4', gumletId: '6ab245f12394588e66b657a6', poster: 'images/method-8-poster-780.webp', width: 404, height: 720, ariaLabel: 'Topper application 8' } },
+  { video: { src: 'videos/method-9.mp4', gumletId: '6ab245f32394588e66b657b5', poster: 'images/method-9-poster-780.webp', width: 720, height: 1280, ariaLabel: 'Topper application 9' } },
 ];
 
 export const TOPPERS_COMPARE: { titlePrefix: string; titleEmphasis: string; otherHead: string; usHead: string; captionOther: string; ctaLabel: string; rows: AlchemaneCompareRow[] } = {
@@ -180,7 +196,7 @@ export const TOPPERS_FOUNDER = {
   background: 'white' as const,
   ctaLabel: 'Book A Consultation Now',
   video: {
-    src: 'videos/founder.mp4',
+    src: 'videos/founder.mp4', gumletId: '6ab245d5d017a04767ab9abb',
     poster: 'images/founder-poster-780.webp',
     width: 1080,
     height: 1350,

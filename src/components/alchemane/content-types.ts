@@ -1,5 +1,7 @@
 export interface AlchemaneVideoAsset {
   src: string;
+  /** Gumlet asset id — when present, playback uses Gumlet instead of the self-hosted `src` file. */
+  gumletId?: string;
   poster: string;
   width: number;
   height: number;

@@ -31,7 +31,7 @@ export const EXTENSION_HERO: {
   ctaLabel: 'Book Your Consultation',
   ctaNote: 'Paid consultation · Fee confirmed at booking · In-person in Mumbai or online',
   video: {
-    src: 'videos/hero.mp4',
+    src: 'videos/hero.mp4', gumletId: '6ab245b6d017a04767ab99fb',
     poster: 'images/hero-video-poster-390.webp',
     width: 640,
     height: 800,
@@ -65,7 +65,7 @@ export const EXTENSION_STORY = {
   titleEmphasis: 'Lara Dutta',
   ctaLabel: 'Start Your Hair Journey',
   video: {
-    src: 'videos/lara-dutta.mp4',
+    src: 'videos/lara-dutta.mp4', gumletId: '6ab245b72394588e66b6560c',
     poster: 'images/lara-dutta-780.webp',
     width: 720,
     height: 900,
@@ -74,16 +74,17 @@ export const EXTENSION_STORY = {
 };
 
 const GALLERY_FILES = [
-  { file: 'original_video_685fd65fb5460c50cec212e2.mp4', poster: 'result-1-390.webp' },
-  { file: 'original_video_685fd65fddc393022dae23d1.mp4', poster: 'result-2-390.webp' },
-  { file: 'original_video_685fd65fb5460c50cec212e4.mp4', poster: 'result-3-390.webp' },
-  { file: 'original_video_685fd65fddc393022dae23d6.mp4', poster: 'result-4-390.webp' },
-  { file: 'original_video_685fd65f523fd47acaf1147d.mp4', poster: 'result-5-390.webp' },
-  { file: 'original_video_685fd65f523fd47acaf11483.mp4', poster: 'result-6-390.webp' },
-  { file: 'original_video_685fd65f523fd47acaf1147a.mp4', poster: 'result-7-390.webp' },
+  { file: 'original_video_685fd65fb5460c50cec212e2.mp4', poster: 'result-1-390.webp', gumletId: '6ab2457ed017a04767ab986c' },
+  { file: 'original_video_685fd65fddc393022dae23d1.mp4', poster: 'result-2-390.webp', gumletId: '6ab245852394588e66b654a8' },
+  { file: 'original_video_685fd65fb5460c50cec212e4.mp4', poster: 'result-3-390.webp', gumletId: '6ab24582d017a04767ab9896' },
+  { file: 'original_video_685fd65fddc393022dae23d6.mp4', poster: 'result-4-390.webp', gumletId: '6ab245882394588e66b654b8' },
+  { file: 'original_video_685fd65f523fd47acaf1147d.mp4', poster: 'result-5-390.webp', gumletId: '6ab245788a8d9ca7fc044154' },
+  { file: 'original_video_685fd65f523fd47acaf11483.mp4', poster: 'result-6-390.webp', gumletId: '6ab2457a2394588e66b65476' },
+  { file: 'original_video_685fd65f523fd47acaf1147a.mp4', poster: 'result-7-390.webp', gumletId: '6ab24570d017a04767ab981c' },
 ];
-export const EXTENSION_GALLERY_CLIPS: AlchemaneVideoAsset[] = GALLERY_FILES.map(({ file, poster }, i) => ({
+export const EXTENSION_GALLERY_CLIPS: AlchemaneVideoAsset[] = GALLERY_FILES.map(({ file, poster, gumletId }, i) => ({
   src: `videos/Do They Look Natural section videos/${file}`,
+  gumletId,
   poster: `images/${poster}`,
   width: 351,
   height: 621,
@@ -110,7 +111,7 @@ export const EXTENSION_SECOND_STORY = {
   ctaLabel: 'Start Your Hair Journey',
   flip: true,
   video: {
-    src: 'videos/The Quiet Comeback of Neha Dhupia section video.mp4',
+    src: 'videos/The Quiet Comeback of Neha Dhupia section video.mp4', gumletId: '6ab245add017a04767ab99a5',
     poster: 'images/neha-dhupia-780.webp',
     width: 1080,
     height: 1350,
@@ -124,7 +125,7 @@ export const EXTENSION_WHY = {
   titleEmphasis: 'Permanent Extensions?',
   ctaLabel: 'Speak to an Expert',
   video: {
-    src: 'videos/Why Alchemane video.mp4',
+    src: 'videos/Why Alchemane video.mp4', gumletId: '6ab245b28a8d9ca7fc0442b0',
     poster: 'images/why-extensions-fail-780.webp',
     width: 1080,
     height: 1350,
@@ -144,13 +145,14 @@ export const EXTENSION_BENEFITS: AlchemaneBenefitItem[] = [
 
 export const EXTENSION_CONSULT_HINT = 'See exactly what happens before you decide';
 const CONSULT_FILES = [
-  { file: 'original_video_685fdda4523fd47acaf13fe0.mp4', poster: 'consult-1-390.webp', h: 621 },
-  { file: 'original_video_685fdb45b5460c50cec2305d.mp4', poster: 'consult-2-390.webp', h: 621 },
-  { file: 'original_video_685fdb45b5460c50cec23072.mp4', poster: 'consult-3-390.webp', h: 619 },
-  { file: 'original_video_685fdb45523fd47acaf13155.mp4', poster: 'consult-4-390.webp', h: 615 },
+  { file: 'original_video_685fdda4523fd47acaf13fe0.mp4', poster: 'consult-1-390.webp', h: 621, gumletId: '6ab245ab8a8d9ca7fc04428a' },
+  { file: 'original_video_685fdb45b5460c50cec2305d.mp4', poster: 'consult-2-390.webp', h: 621, gumletId: '6ab245a68a8d9ca7fc044269' },
+  { file: 'original_video_685fdb45b5460c50cec23072.mp4', poster: 'consult-3-390.webp', h: 619, gumletId: '6ab245a92394588e66b655b8' },
+  { file: 'original_video_685fdb45523fd47acaf13155.mp4', poster: 'consult-4-390.webp', h: 615, gumletId: '6ab245a42394588e66b65591' },
 ];
-export const EXTENSION_CONSULT_CLIPS: AlchemaneVideoAsset[] = CONSULT_FILES.map(({ file, poster, h }, i) => ({
+export const EXTENSION_CONSULT_CLIPS: AlchemaneVideoAsset[] = CONSULT_FILES.map(({ file, poster, h, gumletId }, i) => ({
   src: `videos/Real Consultation videos/${file}`,
+  gumletId,
   poster: `images/${poster}`,
   width: 349,
   height: h,
@@ -162,7 +164,7 @@ export const EXTENSION_VOICE = {
   title: 'Hear What They Say',
   ctaLabel: 'Start Your Hair Journey',
   video: {
-    src: 'videos/Hear What They Say section video.mp4',
+    src: 'videos/Hear What They Say section video.mp4', gumletId: '6ab245902394588e66b65500',
     poster: 'images/longer-hair-780.webp',
     width: 1080,
     height: 1350,
@@ -177,15 +179,15 @@ export const EXTENSION_VOICE = {
 
 export const EXTENSION_METHODS_HINT = 'Watch each technique up close';
 export const EXTENSION_METHODS: AlchemaneMethodItem[] = [
-  { video: { src: 'videos/Popular Method VIDEOS/P1.mp4', poster: 'images/method-1-390.webp', width: 1080, height: 1920, ariaLabel: 'Tape-in extensions' }, label: 'Tape-in extensions' },
-  { video: { src: 'videos/Popular Method VIDEOS/E1.mp4', poster: 'images/method-2-390.webp', width: 1080, height: 1920, ariaLabel: 'Extremely comfortable extensions' }, label: 'Extremely comfortable extensions' },
-  { video: { src: 'videos/Popular Method VIDEOS/P2.mp4', poster: 'images/method-3-390.webp', width: 1080, height: 1920, ariaLabel: 'Micro-ring hair extensions' }, label: 'Micro-ring hair extensions' },
-  { video: { src: 'videos/Popular Method VIDEOS/E2.mp4', poster: 'images/method-4-390.webp', width: 1080, height: 1920, ariaLabel: 'Hair extension option' }, label: 'Hair extension option' },
-  { video: { src: 'videos/Popular Method VIDEOS/P3.mp4', poster: 'images/method-5-390.webp', width: 1080, height: 1920, ariaLabel: 'Keratin bond extensions' }, label: 'Keratin bond extensions' },
-  { video: { src: 'videos/Popular Method VIDEOS/E3.mp4', poster: 'images/method-6-390.webp', width: 1080, height: 1920, ariaLabel: 'Reusable extensions' }, label: 'Reusable extensions' },
-  { video: { src: 'videos/Popular Method VIDEOS/Feather.mp4', poster: 'images/method-7-390.webp', width: 720, height: 1280, ariaLabel: 'Feather-tip extensions' }, label: 'Feather-tip extensions' },
-  { video: { src: 'videos/Popular Method VIDEOS/Ice extension.mp4', poster: 'images/method-8-390.webp', width: 720, height: 1280, ariaLabel: 'Ice-tip extensions' }, label: 'Ice-tip extensions' },
-  { video: { src: 'videos/Popular Method VIDEOS/Vlight.mp4', poster: 'images/method-9-390.webp', width: 720, height: 1280, ariaLabel: 'V-Light extensions' }, label: 'V-Light extensions' },
+  { video: { src: 'videos/Popular Method VIDEOS/P1.mp4', gumletId: '6ab2459e8a8d9ca7fc04422b', poster: 'images/method-1-390.webp', width: 1080, height: 1920, ariaLabel: 'Tape-in extensions' }, label: 'Tape-in extensions' },
+  { video: { src: 'videos/Popular Method VIDEOS/E1.mp4', gumletId: '6ab245948a8d9ca7fc0441ee', poster: 'images/method-2-390.webp', width: 1080, height: 1920, ariaLabel: 'Extremely comfortable extensions' }, label: 'Extremely comfortable extensions' },
+  { video: { src: 'videos/Popular Method VIDEOS/P2.mp4', gumletId: '6ab245a02394588e66b65569', poster: 'images/method-3-390.webp', width: 1080, height: 1920, ariaLabel: 'Micro-ring hair extensions' }, label: 'Micro-ring hair extensions' },
+  { video: { src: 'videos/Popular Method VIDEOS/E2.mp4', gumletId: '6ab245962394588e66b65528', poster: 'images/method-4-390.webp', width: 1080, height: 1920, ariaLabel: 'Hair extension option' }, label: 'Hair extension option' },
+  { video: { src: 'videos/Popular Method VIDEOS/P3.mp4', gumletId: '6ab245a18a8d9ca7fc044248', poster: 'images/method-5-390.webp', width: 1080, height: 1920, ariaLabel: 'Keratin bond extensions' }, label: 'Keratin bond extensions' },
+  { video: { src: 'videos/Popular Method VIDEOS/E3.mp4', gumletId: '6ab24598d017a04767ab991b', poster: 'images/method-6-390.webp', width: 1080, height: 1920, ariaLabel: 'Reusable extensions' }, label: 'Reusable extensions' },
+  { video: { src: 'videos/Popular Method VIDEOS/Feather.mp4', gumletId: '6ab2459b2394588e66b6554b', poster: 'images/method-7-390.webp', width: 720, height: 1280, ariaLabel: 'Feather-tip extensions' }, label: 'Feather-tip extensions' },
+  { video: { src: 'videos/Popular Method VIDEOS/Ice extension.mp4', gumletId: '6ab2459c2394588e66b65552', poster: 'images/method-8-390.webp', width: 720, height: 1280, ariaLabel: 'Ice-tip extensions' }, label: 'Ice-tip extensions' },
+  { video: { src: 'videos/Popular Method VIDEOS/Vlight.mp4', gumletId: '6ab245a2d017a04767ab9958', poster: 'images/method-9-390.webp', width: 720, height: 1280, ariaLabel: 'V-Light extensions' }, label: 'V-Light extensions' },
 ];
 
 export const EXTENSION_COMPARE: { titlePrefix: string; titleEmphasis: string; otherHead: string; usHead: string; captionOther: string; ctaLabel: string; rows: AlchemaneCompareRow[] } = {
@@ -211,7 +213,7 @@ export const EXTENSION_FOUNDER = {
   background: 'ivory' as const,
   ctaLabel: 'Start Your Hair Journey',
   video: {
-    src: 'videos/Founder video.mp4',
+    src: 'videos/Founder video.mp4', gumletId: '6ab2458b2394588e66b654db',
     poster: 'images/vinitt-dessai-780.webp',
     width: 1080,
     height: 1350,
