@@ -35,7 +35,7 @@ export function AlchemaneWigsLandingPage() {
 
   return (
     <div className="alchemane-scope">
-      <AlchemaneBookingProvider thankYouHref="/alchemane/wigs/thank-you">
+      <AlchemaneBookingProvider thankYouHref="/lp/wigs/thank-you">
         <a className="srOnly" href="#alc-main">Skip to main content</a>
         <AlchemaneIconSprite />
         <AlchemaneHeader mediaBase={MEDIA_BASE} />

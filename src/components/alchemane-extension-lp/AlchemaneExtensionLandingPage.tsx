@@ -32,7 +32,7 @@ export function AlchemaneExtensionLandingPage() {
 
   return (
     <div className="alchemane-scope">
-      <AlchemaneBookingProvider thankYouHref="/alchemane/permanent-extension/thank-you">
+      <AlchemaneBookingProvider thankYouHref="/lp/permanent-extensions/thank-you">
         <a className="srOnly" href="#alc-main">Skip to main content</a>
         <AlchemaneIconSprite />
         <AlchemaneHeader mediaBase={MEDIA_BASE} />
