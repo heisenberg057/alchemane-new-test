@@ -31,7 +31,7 @@ export function AlchemaneToppersLandingPage() {
 
   return (
     <div className="alchemane-scope">
-      <AlchemaneBookingProvider thankYouHref="/lp/toppers/thank-you">
+      <AlchemaneBookingProvider thankYouHref="/toppers/thank-you">
         <a className="srOnly" href="#alc-main">Skip to main content</a>
         <AlchemaneIconSprite />
         <AlchemaneHeader mediaBase={MEDIA_BASE} />

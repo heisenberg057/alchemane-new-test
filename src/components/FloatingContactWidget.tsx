@@ -69,7 +69,15 @@ export function FloatingContactWidget() {
   const pathname = usePathname();
   const { trackConversion } = useTracking();
 
-  if (!pathname || pathname.startsWith('/admin') || pathname.startsWith('/lp') || pathname.startsWith('/alchemane')) {
+  if (
+    !pathname ||
+    pathname.startsWith('/admin') ||
+    pathname.startsWith('/lp') ||
+    pathname.startsWith('/alchemane') ||
+    pathname.startsWith('/permanent-extensions') ||
+    pathname.startsWith('/toppers') ||
+    pathname.startsWith('/wigs')
+  ) {
     return null;
   }
 

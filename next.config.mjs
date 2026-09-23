@@ -50,6 +50,12 @@ const nextConfig = {
   // Standalone output bundles server.js + minimal node_modules for Docker
   output: 'standalone',
 
+  // This build is deployed as an isolated container serving only /lp/* behind
+  // nginx (see AmericanHairline-Unified deployment notes). basePath makes all
+  // of Next's own asset/routing behavior (including /_next/static/*) live
+  // under /lp so it never collides with the main site's asset routing.
+  basePath: '/lp',
+
   // Pin the tracing root to this directory so Next.js does not walk up to the
   // parent workspace and warn about multiple lockfiles.
   outputFileTracingRoot: __dirname,

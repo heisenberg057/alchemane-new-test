@@ -35,7 +35,14 @@ export const LeadOptimizationProvider = ({ children }: { children: ReactNode }) 
   }, [pathname]);
 
   // Don't run lead optimization polling on admin, standalone funnel, or Alchemane routes.
-  if (pathname?.startsWith('/admin') || pathname?.startsWith('/lp') || pathname?.startsWith('/alchemane')) {
+  if (
+    pathname?.startsWith('/admin') ||
+    pathname?.startsWith('/lp') ||
+    pathname?.startsWith('/alchemane') ||
+    pathname?.startsWith('/permanent-extensions') ||
+    pathname?.startsWith('/toppers') ||
+    pathname?.startsWith('/wigs')
+  ) {
     return <>{children}</>;
   }
 
