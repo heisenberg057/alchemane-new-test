@@ -82,7 +82,7 @@ export function AlchemaneToppersHero({
           <figure className={styles.video}>
             <video
               ref={videoRef}
-              src={getMediaUrl(`${mediaBase}/${video.src}`)}
+              src={video.src.startsWith('http') ? video.src : getMediaUrl(`${mediaBase}/${video.src}`)}
               poster={getMediaUrl(`${mediaBase}/${video.poster}`)}
               width={video.width}
               height={video.height}

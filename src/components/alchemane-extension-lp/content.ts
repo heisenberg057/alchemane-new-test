@@ -31,7 +31,7 @@ export const EXTENSION_HERO: {
   ctaLabel: 'Book Your Consultation',
   ctaNote: 'Paid consultation · Fee confirmed at booking · In-person in Mumbai or online',
   video: {
-    src: 'videos/hero.mp4', gumletId: '6ab245b6d017a04767ab99fb',
+    src: 'https://video.gumlet.io/680b63470527a5bd8ddeac39/6ab42ead456e563d43cf6802/main.mp4', gumletId: '6ab42ead456e563d43cf6802',
     poster: 'images/hero-video-poster-390.webp',
     width: 640,
     height: 800,
