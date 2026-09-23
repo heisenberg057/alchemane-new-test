@@ -385,7 +385,11 @@ export const WIGS_FAQ: { lead: string; tabs: AlchemaneFaqTab[] } = {
 };
 
 export const WIGS_LOCATION_PHOTOS: AlchemaneLocationPhoto[] = [
-  { src: 'images/location-1.png', width: 1472, height: 1792, alt: 'Alchemane reception, Khar West Mumbai', wide: true },
-  { src: 'images/location-2.png', width: 1280, height: 1600, alt: 'Alchemane consultation room' },
-  { src: 'images/location-3.png', width: 1280, height: 1600, alt: 'Alchemane styling station' },
+  { src: 'images/location-1.webp', width: 664, height: 1200, alt: 'Alchemane reception, Khar West Mumbai' },
+  { src: 'images/location-2.webp', width: 670, height: 1200, alt: 'Alchemane styling floor with multiple stations' },
+  { src: 'images/location-3.webp', width: 669, height: 1200, alt: 'Alchemane nail and beauty vanity' },
+  { src: 'images/location-4.webp', width: 900, height: 1200, alt: 'Alchemane waiting lounge' },
+  { src: 'images/location-5.webp', width: 669, height: 1200, alt: 'Alchemane private treatment room' },
+  { src: 'images/location-6.webp', width: 666, height: 1200, alt: 'Alchemane styling area with city view' },
+  { src: 'images/location-7.webp', width: 680, height: 1200, alt: 'Alchemane consultation corner' },
 ];

@@ -244,7 +244,11 @@ export const TOPPERS_FAQ: { lead: string; tabs: AlchemaneFaqTab[] } = {
 };
 
 export const TOPPERS_LOCATION_PHOTOS: AlchemaneLocationPhoto[] = [
-  { src: 'images/location-1-780.webp', width: 390, height: 488, alt: 'Alchemane studio treatment room, Khar West Mumbai' },
-  { src: 'images/location-2-780.webp', width: 390, height: 488, alt: 'Alchemane styling station with mirror' },
-  { src: 'images/location-3-780.webp', width: 390, height: 488, alt: 'Alchemane consultation corner' },
+  { src: 'images/location-1.webp', width: 664, height: 1200, alt: 'Alchemane reception, Khar West Mumbai' },
+  { src: 'images/location-2.webp', width: 670, height: 1200, alt: 'Alchemane styling floor with multiple stations' },
+  { src: 'images/location-3.webp', width: 669, height: 1200, alt: 'Alchemane nail and beauty vanity' },
+  { src: 'images/location-4.webp', width: 900, height: 1200, alt: 'Alchemane waiting lounge' },
+  { src: 'images/location-5.webp', width: 669, height: 1200, alt: 'Alchemane private treatment room' },
+  { src: 'images/location-6.webp', width: 666, height: 1200, alt: 'Alchemane styling area with city view' },
+  { src: 'images/location-7.webp', width: 680, height: 1200, alt: 'Alchemane consultation corner' },
 ];
