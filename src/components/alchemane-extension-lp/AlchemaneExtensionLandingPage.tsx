@@ -5,6 +5,7 @@ import { AlchemaneIconSprite } from '@/components/alchemane/AlchemaneIconSprite'
 import { AlchemaneHeader } from '@/components/alchemane/AlchemaneHeader';
 import { AlchemaneFooter } from '@/components/alchemane/AlchemaneFooter';
 import { AlchemaneStickyCta } from '@/components/alchemane/AlchemaneStickyCta';
+import { AlchemaneFloatingContact } from '@/components/alchemane/AlchemaneFloatingContact';
 import { AlchemaneBookingProvider } from '@/components/alchemane/AlchemaneBookingProvider';
 import { useStickyCtaVisibility } from '@/components/alchemane/useStickyCtaVisibility';
 import { AlchemaneExtensionHero } from './AlchemaneExtensionHero';
@@ -59,6 +60,7 @@ export function AlchemaneExtensionLandingPage() {
 
         <AlchemaneFooter mediaBase={MEDIA_BASE} footerRef={footerRef} />
         <AlchemaneStickyCta hidden={hidden} />
+        <AlchemaneFloatingContact />
       </AlchemaneBookingProvider>
     </div>
   );
