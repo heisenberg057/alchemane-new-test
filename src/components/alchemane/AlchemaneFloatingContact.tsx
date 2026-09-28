@@ -30,9 +30,9 @@ function WhatsAppIcon() {
   );
 }
 
-export function AlchemaneFloatingContact() {
+export function AlchemaneFloatingContact({ trayHidden = true }: { trayHidden?: boolean }) {
   return (
-    <div className={styles.root}>
+    <div className={styles.root} data-tray-hidden={trayHidden}>
       <a
         className={`${styles.button} ${styles.phone}`}
         href={`tel:${PHONE_NUMBER}`}

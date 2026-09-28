@@ -66,7 +66,7 @@ export function AlchemaneWigsLandingPage() {
 
         <AlchemaneFooter mediaBase={MEDIA_BASE} footerRef={footerRef} />
         <AlchemaneStickyCta hidden={hidden} />
-        <AlchemaneFloatingContact />
+        <AlchemaneFloatingContact trayHidden={hidden} />
       </AlchemaneBookingProvider>
     </div>
   );
