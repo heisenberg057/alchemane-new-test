@@ -2,11 +2,8 @@
 
 import styles from './AlchemaneFloatingContact.module.css';
 
-// TODO: placeholder numbers — swap for Alchemane's real phone/WhatsApp
-// numbers once available. Left as clearly-inert values so nothing
-// accidentally dials or messages a real person in the meantime.
-const PHONE_NUMBER = '+910000000000';
-const WHATSAPP_NUMBER = '910000000000';
+const PHONE_NUMBER = '+919967123333';
+const WHATSAPP_NUMBER = '919967123333';
 
 function PhoneIcon() {
   return (
